@@ -1,0 +1,49 @@
+# Navigazione del prototipo: unica fonte per menu, sottomenu, breadcrumb e mappa del sito.
+# Ogni voce punta a un file in content/ (percorso senza estensione, "index" per le pagine indice).
+
+menu:
+  - label: Il corso
+    page: il-corso/index
+    children:
+      - { label: Il corso in breve, page: il-corso/in-breve }
+      - { label: Cosa studierai, page: il-corso/cosa-studierai }
+      - { label: Dopo la laurea, page: il-corso/dopo-la-laurea }
+      - { label: Orientamento, page: il-corso/orientamento }
+
+  - label: Iscriversi
+    page: iscriversi/index
+    children:
+      - { label: Iscriversi al primo anno, page: iscriversi/primo-anno }
+      - { label: Iscriversi agli anni successivi, page: iscriversi/anni-successivi }
+
+  - label: Studiare
+    page: studiare/index
+    children:
+      - { label: Piano di studi, page: studiare/piano-di-studi }
+      - { label: "Orari, calendario ed esami", page: studiare/orari-e-esami }
+      - { label: Regolamenti, page: studiare/regolamenti }
+      - { label: Tirocini, page: studiare/tirocini }
+      - { label: Mobilità internazionale, page: studiare/mobilita }
+      - { label: Opportunità, page: studiare/opportunita }
+      - { label: Tutorato, page: studiare/tutorato }
+      - { label: Rappresentanti degli studenti, page: studiare/rappresentanti }
+      - { label: Qualità del corso, page: studiare/qualita }
+
+  - label: Laurearsi
+    page: laurearsi/index
+
+  - label: Bacheca
+    page: bacheca/index
+    children:
+      - { label: Avvisi, page: bacheca/avvisi }
+      - { label: Eventi, page: bacheca/eventi }
+      - { label: Bandi e opportunità, page: bacheca/bandi-e-opportunita }
+      - { label: Archivio, page: bacheca/archivio }
+
+  - label: Contatti
+    page: contatti/index
+
+footer:
+  - { label: Aziende ed enti, page: aziende-ed-enti/index }
+  - { label: Servizi di Ateneo, page: servizi/index }
+  - { label: Mappa del sito, page: mappa-del-sito/index }

@@ -24,7 +24,8 @@ Home
 ├── Il corso
 │   ├── Il corso in breve               ← Cos'è IEA? + Perché a Pisa? + Ma in pratica?
 │   ├── Cosa studierai                  ← Cosa studierò? + sintesi del piano di studi
-│   └── Dopo la laurea                  ← Dopo cosa potrò fare? + Master + Altri enti + Esame di Stato
+│   ├── Dopo la laurea                  ← Dopo cosa potrò fare? + Master + Altri enti + Esame di Stato
+│   └── Orientamento                    (nuova, segnaposto)
 ├── Iscriversi
 │   ├── Iscriversi al primo anno        ← Come si accede? + Accesso al corso (parte stabile)
 │   │     └── blocco "a.a. 2026/27": posti, scadenze, prova, tassa
@@ -34,12 +35,17 @@ Home
 │   ├── Orari, calendario ed esami      ← Orario e calendario + link Calendario esami
 │   ├── Regolamenti                     ← Regolamenti e manifesti (vigente in alto, archivio sotto)
 │   ├── Tirocini                        ← Tirocini formativi (parte studenti)
-│   └── Opportunità                     ← Opportunità per gli studenti + Summer School + Erasmus
+│   ├── Mobilità internazionale         (nuova, segnaposto parziale)
+│   ├── Opportunità                     ← Opportunità per gli studenti + Summer School
+│   ├── Tutorato                        (nuova, segnaposto)
+│   ├── Rappresentanti degli studenti   (nuova, segnaposto)
+│   └── Qualità del corso               (nuova, segnaposto)
 ├── Laurearsi                           ← Esame di laurea (per passaggi)
 ├── Bacheca
 │   ├── Avvisi
 │   ├── Eventi                          ← Seminari e conferenze + Mostre
-│   └── Bandi e opportunità             ← Bandi e concorsi + Iniziative
+│   ├── Bandi e opportunità             ← Bandi e concorsi + Iniziative
+│   └── Archivio                        ← post degli anni precedenti
 └── Contatti                            ← segreteria didattica, sede, orari, figure di riferimento
 
 Footer
@@ -120,6 +126,9 @@ Home → Iscriversi → Iscriversi agli anni successivi → bando (esterno)
 | (manca) | Contatti | Creare |
 | (manca) | Iscriversi agli anni successivi | Creare |
 
-## 7. Da decidere
-1. Aziende ed enti: nel footer (proposta) o nel menu principale?
-2. Contenuti mancanti (Erasmus+, orientamento, tutorato, rappresentanti): segnaposto nel prototipo o esclusi?
+## 7. Decisioni prese
+- Menu approvato.
+- Aziende ed enti nel footer, con link dalla pagina Tirocini.
+- La home presenta il corso in sintesi, gli avvisi, i contenuti in evidenza e le ultime notizie della bacheca. Ogni post compare in un solo blocco.
+- I contenuti mancanti sono pagine segnaposto da completare: Orientamento, Mobilità internazionale, Tutorato, Rappresentanti degli studenti, Qualità del corso.
+- Prototipo generato da Markdown con uno script (opzione A).
