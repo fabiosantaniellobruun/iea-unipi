@@ -1,0 +1,642 @@
+[
+ {
+  "url": "https://iea.ing.unipi.it/it",
+  "status": 200,
+  "title": "Home",
+  "breadcrumb": "Sei qui: > Home >  > ",
+  "sidebar": "calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 74,
+  "files": [],
+  "n_links": 5
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/presentazione",
+  "status": 200,
+  "title": "Cos'è IEA?",
+  "breadcrumb": "Sei qui: > Home > Presentazione >  > ",
+  "sidebar": "Presentazione | Cos'è IEA? | Perchè a Pisa? | Come si accede? | Cosa studierò? | Ma in pratica? | Dopo cosa potrò fare? | Figure di riferimento",
+  "words": 208,
+  "files": [],
+  "n_links": 1
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/didattica",
+  "status": 200,
+  "title": "Accesso al Corso - Modalità di Immatricolazione - Bando 2026-2027",
+  "breadcrumb": "Sei qui: > Home > Didattica >  > ",
+  "sidebar": "Didattica | Come accedere al corso | Regolamenti e Manifesti | Piani di Studio | Orario delle lezioni e calendario accademico | Calendario esami | Tirocini formativi | - Info per le aziende e gli enti | Esame di Laurea | Opportunità per gli studenti | Altre attività formative | Figure di riferimento",
+  "words": 618,
+  "files": [
+   "https://accessoprogrammato.mur.gov.it/compiti/CompitoArchitettura2019.pdf",
+   "https://alboufficiale.unipi.it/wp-content/uploads/2026/07/DR-Ingegneria-edile-architettura-2026_2027.pdf"
+  ],
+  "n_links": 10
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/link-utili",
+  "status": 200,
+  "title": "Scuola di Ingegneria",
+  "breadcrumb": "Sei qui: > Home > Link utili >  > ",
+  "sidebar": "Link Utili | Scuola di Ingegneria | Biblioteca di Ingegneria | Università di Pisa | D.S.U. | Altri Enti",
+  "words": 26,
+  "files": [],
+  "n_links": 7
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/didattica/orario-delle-lezioni-calendario-accademico",
+  "status": 200,
+  "title": "orario delle lezioni e calendario accademico",
+  "breadcrumb": "Sei qui: > Home > Didattica > Orario delle lezioni e calendario accademico >  > ",
+  "sidebar": "Didattica | Come accedere al corso | Regolamenti e Manifesti | Piani di Studio | Orario delle lezioni e calendario accademico | Calendario esami | Tirocini formativi | - Info per le aziende e gli enti | Esame di Laurea | Opportunità per gli studenti | Altre attività formative | Figure di riferimento",
+  "words": 260,
+  "files": [],
+  "n_links": 8
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/presentazione/cos-e-iea",
+  "status": 200,
+  "title": "Cos'è IEA?",
+  "breadcrumb": "Sei qui: > Home > Presentazione > Cos'è IEA? >  > ",
+  "sidebar": "Presentazione | Cos'è IEA? | Perchè a Pisa? | Come si accede? | Cosa studierò? | Ma in pratica? | Dopo cosa potrò fare? | Figure di riferimento",
+  "words": 208,
+  "files": [],
+  "n_links": 1
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/presentazione/perche-a-pisa",
+  "status": 200,
+  "title": "Perché IEA a Pisa?",
+  "breadcrumb": "Sei qui: > Home > Presentazione > Perchè a Pisa? >  > ",
+  "sidebar": "Presentazione | Cos'è IEA? | Perchè a Pisa? | Come si accede? | Cosa studierò? | Ma in pratica? | Dopo cosa potrò fare? | Figure di riferimento",
+  "words": 114,
+  "files": [],
+  "n_links": 0
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/presentazione/come-si-accede",
+  "status": 200,
+  "title": "Come si accede?",
+  "breadcrumb": "Sei qui: > Home > Presentazione > Come si accede? >  > ",
+  "sidebar": "Presentazione | Cos'è IEA? | Perchè a Pisa? | Come si accede? | Cosa studierò? | Ma in pratica? | Dopo cosa potrò fare? | Figure di riferimento",
+  "words": 117,
+  "files": [],
+  "n_links": 1
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/presentazione/cosa-studiero",
+  "status": 200,
+  "title": "Cosa studierò?",
+  "breadcrumb": "Sei qui: > Home > Presentazione > Cosa studierò? >  > ",
+  "sidebar": "Presentazione | Cos'è IEA? | Perchè a Pisa? | Come si accede? | Cosa studierò? | Ma in pratica? | Dopo cosa potrò fare? | Figure di riferimento",
+  "words": 127,
+  "files": [],
+  "n_links": 1
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/presentazione/ma-in-pratica",
+  "status": 200,
+  "title": "Ma in pratica?",
+  "breadcrumb": "Sei qui: > Home > Presentazione > Ma in pratica? >  > ",
+  "sidebar": "Presentazione | Cos'è IEA? | Perchè a Pisa? | Come si accede? | Cosa studierò? | Ma in pratica? | Dopo cosa potrò fare? | Figure di riferimento",
+  "words": 143,
+  "files": [],
+  "n_links": 0
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/presentazione/cosa-potro-fare",
+  "status": 200,
+  "title": "Dopo cosa potrò fare?",
+  "breadcrumb": "Sei qui: > Home > Presentazione > Dopo cosa potrò fare? >  > ",
+  "sidebar": "Presentazione | Cos'è IEA? | Perchè a Pisa? | Come si accede? | Cosa studierò? | Ma in pratica? | Dopo cosa potrò fare? | Figure di riferimento",
+  "words": 145,
+  "files": [],
+  "n_links": 0
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/presentazione/figure-di-riferimento",
+  "status": 200,
+  "title": "Figure di riferimento",
+  "breadcrumb": "Sei qui: > Home > Presentazione > Figure di riferimento >  > ",
+  "sidebar": "Presentazione | Cos'è IEA? | Perchè a Pisa? | Come si accede? | Cosa studierò? | Ma in pratica? | Dopo cosa potrò fare? | Figure di riferimento",
+  "words": 167,
+  "files": [],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/didattica/accesso-al-corso",
+  "status": 200,
+  "title": "Accesso al Corso - Modalità di Immatricolazione - Bando 2026-2027",
+  "breadcrumb": "Sei qui: > Home > Didattica > Come accedere al corso >  > ",
+  "sidebar": "Didattica | Come accedere al corso | Regolamenti e Manifesti | Piani di Studio | Orario delle lezioni e calendario accademico | Calendario esami | Tirocini formativi | - Info per le aziende e gli enti | Esame di Laurea | Opportunità per gli studenti | Altre attività formative | Figure di riferimento",
+  "words": 618,
+  "files": [
+   "https://accessoprogrammato.mur.gov.it/compiti/CompitoArchitettura2019.pdf",
+   "https://alboufficiale.unipi.it/wp-content/uploads/2026/07/DR-Ingegneria-edile-architettura-2026_2027.pdf"
+  ],
+  "n_links": 10
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/didattica/regolamenti-e-manifesti",
+  "status": 200,
+  "title": "Regolamenti e Manifesti del Corso di Laurea",
+  "breadcrumb": "Sei qui: > Home > Didattica > Regolamenti e Manifesti >  > ",
+  "sidebar": "Didattica | Come accedere al corso | Regolamenti e Manifesti | Piani di Studio | Orario delle lezioni e calendario accademico | Calendario esami | Tirocini formativi | - Info per le aziende e gli enti | Esame di Laurea | Opportunità per gli studenti | Altre attività formative | Figure di riferimento",
+  "words": 229,
+  "files": [
+   "https://iea.ing.unipi.it/images/manifesti/2008-09_DM_270_04_immatricolati_DA_AA2008-09.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/2008-09_DM_509_99_immatricolati_FINO_AA2007-08.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/2009-10_DM_270-04_immatricolati_AA2008-09.doc",
+   "https://iea.ing.unipi.it/images/manifesti/2009-10_DM_270-04_immatricolati_DA_AA2009-10.doc",
+   "https://iea.ing.unipi.it/images/manifesti/2009-10_DM_509-99_immatricolati_FINO_AA2007-08.doc",
+   "https://iea.ing.unipi.it/images/manifesti/Edile-Architettura1516.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/Edile-architettura1011.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/Edile-architettura1112.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/Edile-architettura1314.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/Edile_architettura_2014-15.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/IEA_Regolamento_2016-17.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/Regolamento_IEA_2017-18.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/insegnamenti_Edile-architettura0607.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/insegnamenti_Edile-architettura0708.pdf"
+  ],
+  "n_links": 15
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/didattica/piani-di-studio",
+  "status": 200,
+  "title": "Piano di Studi - A.A. 2026-2027",
+  "breadcrumb": "Sei qui: > Home > Didattica > Piani di Studio >  > ",
+  "sidebar": "Didattica | Come accedere al corso | Regolamenti e Manifesti | Piani di Studio | Orario delle lezioni e calendario accademico | Calendario esami | Tirocini formativi | - Info per le aziende e gli enti | Esame di Laurea | Opportunità per gli studenti | Altre attività formative | Figure di riferimento",
+  "words": 448,
+  "files": [
+   "https://iea.ing.unipi.it/images/manifesti/report_listaInsegnamenti-2021-2022.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/report_listaInsegnamenti-2022-2023.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/report_listaInsegnamenti-2023-2024.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/report_listaInsegnamenti-2024-2025.pdf",
+   "https://iea.ing.unipi.it/images/manifesti/report_listaInsegnamenti-2025-2026.pdf"
+  ],
+  "n_links": 53
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/didattica/tirocini-formativi",
+  "status": 200,
+  "title": "che cosa è un tirocinio formativo",
+  "breadcrumb": "Sei qui: > Home > Didattica > Tirocini formativi >  > ",
+  "sidebar": "Didattica | Come accedere al corso | Regolamenti e Manifesti | Piani di Studio | Orario delle lezioni e calendario accademico | Calendario esami | Tirocini formativi | - Info per le aziende e gli enti | Esame di Laurea | Opportunità per gli studenti | Altre attività formative | Figure di riferimento",
+  "words": 187,
+  "files": [],
+  "n_links": 0
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/didattica/tirocini-formativi/info-per-le-aziende-e-gli-enti",
+  "status": 200,
+  "title": "Modalità di attivazione dei tirocini",
+  "breadcrumb": "Sei qui: > Home > Didattica > Tirocini formativi > - Info per le aziende e gli enti >  > ",
+  "sidebar": "Didattica | Come accedere al corso | Regolamenti e Manifesti | Piani di Studio | Orario delle lezioni e calendario accademico | Calendario esami | Tirocini formativi | - Info per le aziende e gli enti | Esame di Laurea | Opportunità per gli studenti | Altre attività formative | Figure di riferimento",
+  "words": 252,
+  "files": [],
+  "n_links": 1
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/didattica/esame-di-laurea",
+  "status": 200,
+  "title": "Esame di Laurea",
+  "breadcrumb": "Sei qui: > Home > Didattica > Esame di Laurea >  > ",
+  "sidebar": "Didattica | Come accedere al corso | Regolamenti e Manifesti | Piani di Studio | Orario delle lezioni e calendario accademico | Calendario esami | Tirocini formativi | - Info per le aziende e gli enti | Esame di Laurea | Opportunità per gli studenti | Altre attività formative | Figure di riferimento",
+  "words": 409,
+  "files": [
+   "http://www.iea.ing.unipi.it/images/docs/IEA_verbale_del_CCLM_20160722_Allegato-Tesi-laurea.pdf",
+   "https://www.destec.unipi.it/sites/default/files/attachments/Modulo%20richiesta%20preliminare%20tesi.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/didattica/opportunita-per-gli-studenti",
+  "status": 200,
+  "title": "Bando di mobilità tra atenei italiani (\"Erasmus italiano\") per il secondo semestre dell'a.a. 2025/2026",
+  "breadcrumb": "Sei qui: > Home > Didattica > Opportunità per gli studenti >  > ",
+  "sidebar": "Didattica | Come accedere al corso | Regolamenti e Manifesti | Piani di Studio | Orario delle lezioni e calendario accademico | Calendario esami | Tirocini formativi | - Info per le aziende e gli enti | Esame di Laurea | Opportunità per gli studenti | Altre attività formative | Figure di riferimento",
+  "words": 111,
+  "files": [],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/didattica/attivita-formative",
+  "status": 200,
+  "title": "altre attività formative",
+  "breadcrumb": "Sei qui: > Home > Didattica > Altre attività formative >  > ",
+  "sidebar": "Didattica | Come accedere al corso | Regolamenti e Manifesti | Piani di Studio | Orario delle lezioni e calendario accademico | Calendario esami | Tirocini formativi | - Info per le aziende e gli enti | Esame di Laurea | Opportunità per gli studenti | Altre attività formative | Figure di riferimento",
+  "words": 165,
+  "files": [],
+  "n_links": 2
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/link-utili/scuola-di-ingegneria",
+  "status": 200,
+  "title": "Scuola di Ingegneria",
+  "breadcrumb": "Sei qui: > Home > Link utili > Scuola di Ingegneria >  > ",
+  "sidebar": "Link Utili | Scuola di Ingegneria | Biblioteca di Ingegneria | Università di Pisa | D.S.U. | Altri Enti",
+  "words": 26,
+  "files": [],
+  "n_links": 7
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/link-utili/universita-di-pisa",
+  "status": 200,
+  "title": "Università di Pisa",
+  "breadcrumb": "Sei qui: > Home > Link utili > Università di Pisa >  > ",
+  "sidebar": "Link Utili | Scuola di Ingegneria | Biblioteca di Ingegneria | Università di Pisa | D.S.U. | Altri Enti",
+  "words": 12,
+  "files": [],
+  "n_links": 4
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/link-utili/altri-enti",
+  "status": 200,
+  "title": "Altri enti",
+  "breadcrumb": "Sei qui: > Home > Link utili > Altri Enti >  > ",
+  "sidebar": "Link Utili | Scuola di Ingegneria | Biblioteca di Ingegneria | Università di Pisa | D.S.U. | Altri Enti",
+  "words": 23,
+  "files": [],
+  "n_links": 4
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca",
+  "status": 200,
+  "title": "BRIGHT-NIGHT",
+  "breadcrumb": "Sei qui: > Home > Bacheca >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 165,
+  "files": [],
+  "n_links": 21
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/seminari-e-conferenze",
+  "status": 200,
+  "title": "Seminari e conferenze",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Seminari e conferenze >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 133,
+  "files": [],
+  "n_links": 19
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/bandi-e-concorsi",
+  "status": 200,
+  "title": "Bandi e Concorsi",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Bandi e Concorsi >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 105,
+  "files": [],
+  "n_links": 8
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/mostre-lista",
+  "status": 200,
+  "title": "Mostre",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Mostre >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 24,
+  "files": [],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/iniziative",
+  "status": 200,
+  "title": "Iniziative",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Iniziative >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 47,
+  "files": [],
+  "n_links": 4
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/avvisi",
+  "status": 200,
+  "title": "Avvisi",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Avvisi >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi",
+  "words": 14,
+  "files": [],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/avvisi/164-inizio-lezioni-a-a-2026-27/2026-09-21-08-30",
+  "status": 200,
+  "title": "Inizio lezioni a.a. 2026-27",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Avvisi > Inizio lezioni a.a. 2026-27 >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi",
+  "words": 16,
+  "files": [],
+  "n_links": 1
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/seminari-e-conferenze/163-conferenza-in-occasione-dell-inaugurazione-anno-accademico-2026-2027/2026-09-22-14-30",
+  "status": 200,
+  "title": "COSTRUZIONE",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Seminari e conferenze > COSTRUZIONE >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 87,
+  "files": [
+   "https://iea.ing.unipi.it/images/Convegno_Seminari/grazzini_tonazzini.pdf"
+  ],
+  "n_links": 2
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/seminari-e-conferenze/165-bright-night/2026-09-25-11-26",
+  "status": 200,
+  "title": "BRIGHT-NIGHT",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Seminari e conferenze > BRIGHT-NIGHT >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 127,
+  "files": [],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/bandi-e-concorsi/514-premio-di-architettura-elite-bathroom-greentech-2026",
+  "status": 200,
+  "title": "Premio di Architettura Elite Bathroom Greentech 2026",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Bandi e Concorsi > Premio di Architettura Elite Bathroom Greentech 2026 >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 170,
+  "files": [
+   "https://iea.ing.unipi.it/images/bandi/Bando_Elite_Bathroom_Greentech_2026.pdf",
+   "https://iea.ing.unipi.it/images/bandi/Premio_di_architettura_Elite_Bathroom_Greentech.pdf",
+   "https://iea.ing.unipi.it/images/bandi/Presentazione_Elite_Bathroom_Greentech_.pdf"
+  ],
+  "n_links": 4
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/bandi-e-concorsi/513-posti-vacanti-aa2026-27",
+  "status": 200,
+  "title": "Pubblicazione del Bando di ammissione agli anni successivi al primo per la riassegnazione dei posti vacanti per l’a.a. 2026/2027",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Bandi e Concorsi > Pubblicazione del Bando di ammissione agli anni successivi al primo per la riassegnazione dei posti vacanti per l’a.a. 2026/2027 >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 297,
+  "files": [
+   "https://alboufficiale.unipi.it/wp-content/uploads/2026/06/DR-e-bando-anni-successivi-al-primo-IEA-2026-2027.pdf"
+  ],
+  "n_links": 4
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/bandi-e-concorsi/512-premio-aidia-edizione-2026",
+  "status": 200,
+  "title": "Premio AIDIA “Idee per un mondo che cambia” - 2a edizione 2026",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Bandi e Concorsi > Premio AIDIA “Idee per un mondo che cambia” - 2a edizione 2026 >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 287,
+  "files": [
+   "https://iea.ing.unipi.it/images/bandi/ALLEGATO_A_istanza_partecipazione_AIDIA.pdf",
+   "https://iea.ing.unipi.it/images/bandi/BANDO_PREMIO-AIDIA-2026.pdf"
+  ],
+  "n_links": 6
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/iniziative/511-progetto-speciale-per-la-didattica-materiali-compositi-e-tecnologie-digitali-per-la-conservazione-dei-beni-artistici-marmorei",
+  "status": 200,
+  "title": "Progetto speciale per la didattica: Materiali compositi e tecnologie digitali per la conservazione dei beni artistici marmorei",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Iniziative > Progetto speciale per la didattica: Materiali compositi e tecnologie digitali per la conservazione dei beni artistici marmorei >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 239,
+  "files": [
+   "https://iea.ing.unipi.it/images/Download/Locandina_V1.pdf"
+  ],
+  "n_links": 2
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/165-bright-night/2026-09-25-11-26",
+  "status": 200,
+  "title": "BRIGHT-NIGHT",
+  "breadcrumb": "Sei qui: > Home > Bacheca > BRIGHT-NIGHT >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 127,
+  "files": [],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/163-conferenza-in-occasione-dell-inaugurazione-anno-accademico-2026-2027/2026-09-22-14-30",
+  "status": 200,
+  "title": "COSTRUZIONE",
+  "breadcrumb": "Sei qui: > Home > Bacheca > COSTRUZIONE >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 87,
+  "files": [
+   "https://iea.ing.unipi.it/images/Convegno_Seminari/grazzini_tonazzini.pdf"
+  ],
+  "n_links": 2
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/150-questa-e-architettura/2026-05-26-11-00",
+  "status": 200,
+  "title": "QUESTA È ARCHITETTURA",
+  "breadcrumb": "Sei qui: > Home > Bacheca > QUESTA È ARCHITETTURA >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 71,
+  "files": [
+   "https://iea.ing.unipi.it/images/icagenda/files/biraghi-05-2026.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/149-architettura-dell-habitat-sociale-laboratorio-didattico-per-le-costruzioni-leggere/2026-05-15-09-00",
+  "status": 200,
+  "title": "HUMAN-CENTERED SUSTAINABILITY IN CONTEMPORARY ARCHITECTURE",
+  "breadcrumb": "Sei qui: > Home > Bacheca > HUMAN-CENTERED SUSTAINABILITY IN CONTEMPORARY ARCHITECTURE >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 199,
+  "files": [
+   "https://iea.ing.unipi.it/images/icagenda/files/volantino-prachi.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/147-progettare-con-mies-e-klee/2026-04-29-11-35",
+  "status": 200,
+  "title": "Progettare con Mies e Klee",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Progettare con Mies e Klee >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 63,
+  "files": [
+   "https://iea.ing.unipi.it/images/icagenda/files/costi-2.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/148-pure-relazioni/2026-04-29-11-00",
+  "status": 200,
+  "title": "Pure relazioni",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Pure relazioni >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 58,
+  "files": [
+   "https://iea.ing.unipi.it/images/icagenda/files/costi.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/146-l-architettura-come-disciplina-storica/2026-04-22-12-21",
+  "status": 200,
+  "title": "L’architettura come disciplina storica",
+  "breadcrumb": "Sei qui: > Home > Bacheca > L’architettura come disciplina storica >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 60,
+  "files": [
+   "https://iea.ing.unipi.it/images/icagenda/files/pizzigoni-slim.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/143-verso-un-atlante-dell-architettura-pievana-della-lunigiana/2026-03-06-00-00",
+  "status": 200,
+  "title": "Verso un atlante dell'architettura pievana della Lunigiana",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Verso un atlante dell'architettura pievana della Lunigiana >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 486,
+  "files": [
+   "https://iea.ing.unipi.it/images/icagenda/files/2026-03-06-pisa-verso-un-atlante-locandina.pdf"
+  ],
+  "n_links": 2
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/145-presentazione-del-laboratorio-integrato-di-progettazione-architettonica-1-a-a-2025-2026/2025-09-25-00-00",
+  "status": 200,
+  "title": "Presentazione del Laboratorio integrato di Progettazione Architettonica 1 - A.A. 2025/2026",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Presentazione del Laboratorio integrato di Progettazione Architettonica 1 - A.A. 2025/2026 >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 54,
+  "files": [],
+  "n_links": 1
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/144-inaugurazione-dell-anno-accademico-2025-2026-del-corso/2025-09-17-11-00",
+  "status": 200,
+  "title": "Inaugurazione dell'Anno Accademico 2025/2026 del Corso",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Inaugurazione dell'Anno Accademico 2025/2026 del Corso >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 196,
+  "files": [
+   "https://iea.ing.unipi.it/images/Convegno_Seminari/Inaugurazione-aa2025-26.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/seminari-e-conferenze/150-questa-e-architettura/2026-05-26-11-00",
+  "status": 200,
+  "title": "QUESTA È ARCHITETTURA",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Seminari e conferenze > QUESTA È ARCHITETTURA >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 71,
+  "files": [
+   "https://iea.ing.unipi.it/images/icagenda/files/biraghi-05-2026.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/seminari-e-conferenze/149-architettura-dell-habitat-sociale-laboratorio-didattico-per-le-costruzioni-leggere/2026-05-15-09-00",
+  "status": 200,
+  "title": "HUMAN-CENTERED SUSTAINABILITY IN CONTEMPORARY ARCHITECTURE",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Seminari e conferenze > HUMAN-CENTERED SUSTAINABILITY IN CONTEMPORARY ARCHITECTURE >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 199,
+  "files": [
+   "https://iea.ing.unipi.it/images/icagenda/files/volantino-prachi.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/seminari-e-conferenze/147-progettare-con-mies-e-klee/2026-04-29-11-35",
+  "status": 200,
+  "title": "Progettare con Mies e Klee",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Seminari e conferenze > Progettare con Mies e Klee >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 63,
+  "files": [
+   "https://iea.ing.unipi.it/images/icagenda/files/costi-2.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/seminari-e-conferenze/148-pure-relazioni/2026-04-29-11-00",
+  "status": 200,
+  "title": "Pure relazioni",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Seminari e conferenze > Pure relazioni >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 58,
+  "files": [
+   "https://iea.ing.unipi.it/images/icagenda/files/costi.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/seminari-e-conferenze/146-l-architettura-come-disciplina-storica/2026-04-22-12-21",
+  "status": 200,
+  "title": "L’architettura come disciplina storica",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Seminari e conferenze > L’architettura come disciplina storica >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 60,
+  "files": [
+   "https://iea.ing.unipi.it/images/icagenda/files/pizzigoni-slim.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/seminari-e-conferenze/143-verso-un-atlante-dell-architettura-pievana-della-lunigiana/2026-03-06-00-00",
+  "status": 200,
+  "title": "Verso un atlante dell'architettura pievana della Lunigiana",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Seminari e conferenze > Verso un atlante dell'architettura pievana della Lunigiana >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 486,
+  "files": [
+   "https://iea.ing.unipi.it/images/icagenda/files/2026-03-06-pisa-verso-un-atlante-locandina.pdf"
+  ],
+  "n_links": 2
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/bandi-e-concorsi/509-concorso-di-idee-et-contest-beyond-underground",
+  "status": 200,
+  "title": "Concorso di idee ET CONTEST- Beyond Underground",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Bandi e Concorsi > Concorso di idee ET CONTEST- Beyond Underground >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 474,
+  "files": [
+   "https://iea.ing.unipi.it/images/Download/ET%20CONTEST%20-%20Poster%20A3%20ENG-B.pdf",
+   "https://iea.ing.unipi.it/images/Download/ET%20CONTEST%20-%20Poster%20A3%20ITA-B.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/bandi-e-concorsi/504-opportunita-all-estero-pubblicazione-concorsi-fulbright-per-studio-ricerca-e-insegnamento-negli-usa-a-a-26-27",
+  "status": 200,
+  "title": "Opportunità all'estero: pubblicazione Concorsi Fulbright per studio, ricerca e insegnamento negli USA a.a. 26/27",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Bandi e Concorsi > Opportunità all'estero: pubblicazione Concorsi Fulbright per studio, ricerca e insegnamento negli USA a.a. 26/27 >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 235,
+  "files": [
+   "https://iea.ing.unipi.it/images/bandi/Opportunità_Fulbright_26_27.pdf"
+  ],
+  "n_links": 2
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/mostre-lista/506-miacd-florence-25",
+  "status": 200,
+  "title": "XV edizione Florence Biennale Arte contemporanea e design -18/25 ottobre 2025",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Mostre > XV edizione Florence Biennale Arte contemporanea e design -18/25 ottobre 2025 >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 586,
+  "files": [
+   "https://iea.ing.unipi.it/images/images/Locandina_Design_DAYS_FB_light.pdf"
+  ],
+  "n_links": 3
+ },
+ {
+  "url": "https://iea.ing.unipi.it/it/bacheca/iniziative/510-13a-edizione-del-galileo-festival-della-scienza-e-innovazione-8-10-maggio-2026-padova",
+  "status": 200,
+  "title": "13^ edizione del Galileo Festival della Scienza e Innovazione - 8/10 maggio 2026, Padova",
+  "breadcrumb": "Sei qui: > Home > Bacheca > Iniziative > 13^ edizione del Galileo Festival della Scienza e Innovazione - 8/10 maggio 2026, Padova >  > ",
+  "sidebar": "Bacheca | Seminari e conferenze | Bandi e Concorsi | Mostre | Iniziative | Avvisi | calendario eventi | Anno Precedente | Mese Precedente | Anno successivo | Mese successivo | Settembre 2026 | Lun | Mar | Mer | Gio | Ven | Sab | Dom | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | Didattica e Formazione | Inizio lezioni a.a. 2026-27 | Data : | Lunedì 21 Settembre 2026 | 22 | Seminari e Conferenze | COSTRUZIONE | Data : | Martedì 22 Settembre 2026 | 23 | 24 | 25 | Seminari e Conferenze | BRIGHT-NIGHT | Data : | Venerdì 25 Settembre 2026 | 26 | 27 | 28 | 29 | 30",
+  "words": 381,
+  "files": [
+   "https://iea.ing.unipi.it/images/Download/Infokit_GALILEO_FESTIVAL_ACADEMY.pdf"
+  ],
+  "n_links": 3
+ }
+]
