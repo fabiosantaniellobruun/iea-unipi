@@ -68,16 +68,16 @@ Articoli ancora pubblicati ma non raggiungibili dai menu.
 
 | Contenuto | Articoli | Proposta |
 |---|---|---|
-| Schede degli insegnamenti (obiettivi e programmi), ripetute per più coorti dal 2016 in poi | circa 170 (ID 99-490) | **Non migrare.** Duplicano il catalogo ufficiale degli insegnamenti CINECA, già collegato dal piano di studi. |
+| Schede degli insegnamenti (obiettivi e programmi), ripetute per più coorti dal 2016 in poi | circa 170 (ID 99-490) | **Non migrare**, e nessun intervento sul sito attuale. Duplicano il catalogo ufficiale degli insegnamenti CINECA, già collegato dal piano di studi. |
 | "Corsi attivati" per anno accademico (2016/17, 2017/18, 2018/19, 2019/20, 2021/22, 2022/23) | 44, 49, 98, 256, 364, 495 | Non migrare. Sostituiti dai PDF dei piani degli anni precedenti. |
 | Programmazione didattica 2016/17 | 8 | Non migrare. |
-| Summer School "The city and the water", edizioni 2014-2017 (in inglese) | 15, 30, 31, 32, 33 | Valutare una pagina archivio della Summer School. La pagina attuale è sul portale di Ateneo. |
+| Summer School "The city and the water", edizioni 2014-2017 (in inglese) | 15, 30, 31, 32, 33 | Riportate nella nuova pagina [Summer School](../content/studiare/summer-school.md), insieme all'edizione 2026. |
 | Regolamento degli esami di laurea (pagina "in aggiornamento", con i mesi degli appelli) | 43 | Mesi degli appelli riportati in [Laurearsi](../content/laurearsi/index.md) con `[DA VERIFICARE]`. |
 | Tesi di laurea per domande fino al 31 ottobre 2016 | 9 | Non migrare. |
 | Regole per consegne dei laboratori e prove in itinere (2018) | 358 | Riportate in [Regolamenti](../content/studiare/regolamenti.md) con `[DA VERIFICARE]`. |
 | "Benvenuti nel sito", "Pagina in allestimento" | 2, 34 | Non migrare. |
 | Workshop e bandi 2016-2021 | 14, 23, 54, 83, 86, 94, 250, 251, 347, 362, 419 | In archivio, vedi tabella sopra. |
 
-### Da decidere
-1. Pubblicare una pagina "Summer School" con l'archivio delle edizioni 2014-2017?
-2. Chiedere la rimozione dal sito attuale delle schede degli insegnamenti obsolete, che restano raggiungibili dai motori di ricerca?
+### Decisioni prese
+1. Summer School: nuova pagina sotto Studiare, da popolare con le edizioni dall'ultima alla prossima.
+2. Schede degli insegnamenti obsolete: restano come sono nel sito attuale.

@@ -18,4 +18,4 @@ Accanto alle lezioni teoriche il corso organizza laboratori, workshop e seminari
 Puoi svolgere parte del percorso all'estero: con il programma Erasmus, con stage in studi professionali o preparando la tesi in un'altra università. Scopri come nella pagina [Mobilità internazionale](/studiare/mobilita/).
 
 ## Oltre le lezioni
-Ogni anno il corso propone conferenze e incontri con architetti e architette, docenti di altre università e professionisti. Dal 2014 organizza anche la Summer School internazionale "The city and the water". Trovi il calendario nella [bacheca](/bacheca/eventi/) e le altre iniziative in [Opportunità](/studiare/opportunita/).
+Ogni anno il corso propone conferenze e incontri con architetti e architette, docenti di altre università e professionisti. Dal 2014 organizza anche la [Summer School internazionale "The city and the water"](/studiare/summer-school/). Trovi il calendario nella [bacheca](/bacheca/eventi/) e le altre iniziative in [Opportunità](/studiare/opportunita/).

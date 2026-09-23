@@ -24,6 +24,7 @@ menu:
       - { label: Regolamenti, page: studiare/regolamenti }
       - { label: Tirocini, page: studiare/tirocini }
       - { label: Mobilità internazionale, page: studiare/mobilita }
+      - { label: Summer School, page: studiare/summer-school }
       - { label: Opportunità, page: studiare/opportunita }
       - { label: Tutorato, page: studiare/tutorato }
       - { label: Rappresentanti degli studenti, page: studiare/rappresentanti }

@@ -36,7 +36,8 @@ Home
 │   ├── Regolamenti                     ← Regolamenti e manifesti (vigente in alto, archivio sotto)
 │   ├── Tirocini                        ← Tirocini formativi (parte studenti)
 │   ├── Mobilità internazionale         (nuova, segnaposto parziale)
-│   ├── Opportunità                     ← Opportunità per gli studenti + Summer School
+│   ├── Summer School                   ← Altre attività formative + edizioni 2014-2017 nascoste + pagine di Ateneo e DESTEC
+│   ├── Opportunità                     ← Opportunità per gli studenti
 │   ├── Tutorato                        (nuova, segnaposto)
 │   ├── Rappresentanti degli studenti   (nuova, segnaposto)
 │   └── Qualità del corso               (nuova, segnaposto)
@@ -113,7 +114,7 @@ Home → Iscriversi → Iscriversi agli anni successivi → bando (esterno)
 | Info per aziende ed enti | Aziende ed enti | Spostare nel footer |
 | Esame di laurea | Laurearsi | Riscrivere per passaggi |
 | Opportunità per gli studenti | Opportunità | Ricostruire; il bando scaduto va in archivio bacheca |
-| Altre attività formative | Opportunità (Summer School) + Dopo la laurea (Master) | Dividere |
+| Altre attività formative | Summer School + Dopo la laurea (Master) | Dividere |
 | Link utili (indice e sottopagine) | Pagine pertinenti + footer | Eliminare |
 | Altri enti | Dopo la laurea | Spostare |
 | Biblioteca, DSU (esterni) | Footer "Servizi di Ateneo" | Spostare |
@@ -132,3 +133,5 @@ Home → Iscriversi → Iscriversi agli anni successivi → bando (esterno)
 - La home presenta il corso in sintesi, gli avvisi, i contenuti in evidenza e le ultime notizie della bacheca. Ogni post compare in un solo blocco.
 - I contenuti mancanti sono pagine segnaposto da completare: Orientamento, Mobilità internazionale, Tutorato, Rappresentanti degli studenti, Qualità del corso.
 - Prototipo generato da Markdown con uno script (opzione A).
+- Summer School: pagina propria sotto Studiare, con l'edizione più recente, la prossima e l'archivio delle precedenti.
+- Schede degli insegnamenti obsolete nel sito attuale: nessun intervento.

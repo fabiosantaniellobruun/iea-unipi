@@ -32,8 +32,12 @@ Come fare un'esperienza in uno studio, un'azienda o un ente.
 Erasmus e altri programmi per studiare all'estero.
 </div>
 <div markdown="1">
+**[Summer School](/studiare/summer-school/)**
+"The city and the water", workshop internazionale di progettazione.
+</div>
+<div markdown="1">
 **[Opportunità](/studiare/opportunita/)**
-Summer School, progetti speciali, concorsi e premi.
+Progetti speciali, concorsi e premi.
 </div>
 <div markdown="1">
 **[Tutorato](/studiare/tutorato/)**
