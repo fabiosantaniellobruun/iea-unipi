@@ -224,6 +224,8 @@ def build():
         shutil.rmtree(OUT)
     os.makedirs(os.path.join(OUT, "assets"))
     shutil.copy(os.path.join(ROOT, "templates", "style.css"), os.path.join(OUT, "assets", "style.css"))
+    # prototipo: fuori dai motori di ricerca
+    shutil.copy(os.path.join(ROOT, "templates", "robots.txt"), os.path.join(OUT, "robots.txt"))
 
     posts = load_posts()
     recenti = [p for p in posts if p.get("sezione") != "archivio"]

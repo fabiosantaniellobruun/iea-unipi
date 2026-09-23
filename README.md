@@ -19,6 +19,11 @@ pip install -r requirements.txt
 python3 build.py
 ```
 
+## Pubblicazione
+Il workflow `.github/workflows/pages.yml` rigenera il sito e lo pubblica su GitHub Pages a ogni push su `main`. Si può avviare anche a mano dalla scheda *Actions*.
+
+Il prototipo è escluso dai motori di ricerca (`noindex` in ogni pagina e `robots.txt`).
+
 ## Documenti di progetto
 | File | Contenuto |
 |---|---|
