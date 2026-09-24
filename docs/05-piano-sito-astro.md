@@ -11,7 +11,7 @@ Piano per sviluppare il sito definitivo a partire dal prototipo (`https://fabios
 | Tecnologia | Astro con output statico; Decap CMS per news e post; le modifiche strutturali restano nel codice |
 | Repository | GitHub |
 | Login a Decap | Account GitHub per chi pubblica, con autenticazione OAuth tramite un Cloudflare Worker |
-| Pubblicazione | GitHub Action: build di Astro e caricamento via FTP sicuro a ogni modifica. Prima su `dev.iea.ing.unipi.it`, poi in produzione |
+| Pubblicazione | Build con GitHub Action a ogni modifica. Il caricamento sul server va adattato al vincolo della VPN (vedi Fase 4). Prima su `dev.iea.ing.unipi.it`, poi in produzione |
 | Allegati e immagini | Scaricati dal sito attuale e ospitati nel nuovo |
 | Lingue | Italiano e inglese |
 | Pagine senza contenuto | Online come pagine vuote |
@@ -34,15 +34,15 @@ Il Worker è separato da Cloudflare Pages e dall'hosting: il sito resta sull'hos
 ## Fase 0: preparazione e accessi
 **Obiettivo:** avere tutto il necessario per lavorare e pubblicare su `dev`.
 - Nuovo repository per il sito Astro. Questo repository resta come riferimento del prototipo.
-- Verificare l'hosting:
-  - protocollo FTPS o SFTP e porta;
-  - percorso della cartella pubblica per `dev` e per la produzione;
-  - supporto di `.htaccess`;
-  - spazio disponibile.
+- Hosting (Apache, cartella `/var/www/clients/client5/web20/web`, FTP solo con VPN dall'esterno). Da verificare con l'IT:
+  - quale delle opzioni di caricamento della Fase 4 è ammessa;
+  - cartella separata per `dev.iea.ing.unipi.it`;
+  - supporto di `.htaccess` (`AllowOverride`) e di `mod_rewrite`;
+  - protocollo esatto (FTP con TLS o SFTP) e spazio disponibile.
 - Configurare il DNS di `dev.iea.ing.unipi.it`, probabilmente con una richiesta all'IT di Ateneo.
 - Creare l'account GitHub del cliente e aggiungerlo come collaboratore.
 - Creare l'app OAuth su GitHub e l'account Cloudflare per il Worker.
-- Salvare le credenziali FTP come secrets del repository, mai nel codice.
+- Salvare le eventuali credenziali come secrets del repository, mai nel codice.
 
 **Risultato:** checklist degli accessi completa.
 
@@ -76,16 +76,31 @@ Il Worker è separato da Cloudflare Pages e dall'hosting: il sito resta sull'hos
 **Risultato:** sito vuoto ma navigabile, con i controlli attivi.
 
 ## Fase 4: pubblicazione automatica su dev
-- **GitHub Action:** build di Astro, poi caricamento via FTP sicuro su `dev.iea.ing.unipi.it`.
-  - carica solo i file cambiati;
-  - un solo caricamento alla volta, per non sovrapporli;
-  - si può lanciare anche a mano.
-- **Quando scatta:**
+### Vincolo dell'hosting
+Informazioni dall'IT di Ateneo:
+- webserver Apache;
+- cartella del sito: `/var/www/clients/client5/web20/web` (struttura tipica di un pannello ISPConfig);
+- **l'accesso FTP dall'esterno della rete di Ateneo richiede la VPN.**
+
+I server di GitHub Actions sono fuori dalla rete di Ateneo: senza VPN non possono caricare i file. La build resta su GitHub; cambia il modo in cui i file arrivano sul server.
+
+### Opzioni per il caricamento
+| Opzione | Come funziona | Cosa serve dall'IT | Valutazione |
+|---|---|---|---|
+| **A. Il server scarica il sito (consigliata)** | La GitHub Action esegue la build e pubblica il risultato su un branch dedicato (`deploy-dev`, poi `deploy-prod`). Sul server un'operazione pianificata (cron) ogni 5 minuti controlla se c'è una versione nuova, la scarica da GitHub via HTTPS e la copia nella cartella del sito. | Cron abilitato per il sito; accesso in uscita del server verso `github.com` e `codeload.github.com` sulla porta 443; `git` o `curl` e `rsync` disponibili sul server. | Nessuna VPN e nessuna credenziale di Ateneo su GitHub. Ritardo massimo di qualche minuto. |
+| **B. Runner dentro la rete di Ateneo** | Un "self-hosted runner" di GitHub installato su una macchina della rete di Ateneo esegue la pubblicazione e carica i file via FTP senza VPN. Il runner si collega a GitHub in uscita, non servono porte aperte in entrata. | Una macchina o VM sempre accesa nella rete di Ateneo, con accesso in uscita verso GitHub. | Robusta, ma richiede una macchina da mantenere. |
+| **C. VPN dentro la GitHub Action** | La Action si collega alla VPN di Ateneo prima del caricamento FTP. | Credenziali VPN di servizio, non personali, e senza autenticazione a due fattori. | Da usare solo se l'IT la autorizza: le credenziali personali non vanno mai salvate su GitHub. |
+| **D. Pubblicazione manuale** | La build la esegui tu e carichi i file con la VPN attiva. | Nulla. | Il cliente perde l'autonomia sulle news: solo come ripiego. |
+
+### Funzionamento previsto con l'opzione A
+- **Quando si aggiorna:**
   - a ogni modifica al codice sul branch di sviluppo;
   - a ogni salvataggio del cliente in Decap;
   - una volta al giorno, per aggiornare calendario ed eventi passati.
-- **Ripristino:** ogni build pubblicata resta salvata come artifact, così si può ricaricare una versione precedente.
-- **Branch:** durante lo sviluppo `dev` pubblica su `dev.iea.ing.unipi.it`; dopo la messa online `main` pubblica in produzione.
+- **Sul server:** lo script aggiorna una cartella di appoggio e poi la copia nella cartella pubblica, così il sito non resta mai a metà di un aggiornamento. Tiene un registro dell'ultima versione pubblicata.
+- **Repository privato:** se il repository del sito è privato, il server usa un token GitHub di sola lettura, limitato a quel repository e salvato solo sul server.
+- **Ripristino:** ogni versione pubblicata resta nella storia del branch di deploy; per tornare indietro basta ripubblicare una versione precedente.
+- **Branch:** durante lo sviluppo si pubblica su `dev.iea.ing.unipi.it`; dopo la messa online `main` pubblica in produzione.
 
 **Risultato:** ogni modifica è online su `dev` in pochi minuti.
 
@@ -151,7 +166,7 @@ Il Worker è separato da Cloudflare Pages e dall'hosting: il sito resta sull'hos
 ## Ordine e dipendenze
 - **Fasi 0 e 1:** partono subito, in parallelo.
 - **Fase 2:** si chiude dopo il secondo giro di istruzioni sulla bacheca.
-- **Fasi 3 e 4:** dopo la 0. La 4 dipende dagli accessi FTP e dal DNS di `dev`.
+- **Fasi 3 e 4:** dopo la 0. La 4 dipende dalla risposta dell'IT sul metodo di caricamento e dal DNS di `dev`.
 - **Fase 5:** dopo l'approvazione della pagina di prova della Fase 1.
 - **Fasi 6, 7 e 8:** dopo la 2 e la 5. La 8 dipende dal Worker della Fase 0.
 - **Fasi 9 e 10:** in sequenza, alla fine.
@@ -163,7 +178,7 @@ Rilasci intermedi da mostrare al cliente:
 4. messa online.
 
 ## Punti ancora aperti
-1. Dettagli dell'hosting: FTPS o SFTP, supporto di `.htaccess`, cartelle, DNS di `dev`.
+1. Metodo di caricamento sul server (Fase 4, opzioni A-D), cartella e DNS di `dev`, supporto di `.htaccess`.
 2. Struttura della bacheca e del calendario: secondo giro di istruzioni.
 3. Chi scrive o traduce i testi inglesi che non esistono nel sito attuale.
 4. Cosa fare del sito attuale dopo la messa online.
