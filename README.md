@@ -33,4 +33,5 @@ Il prototipo è escluso dai motori di ricerca (`noindex` in ogni pagina e `robot
 | [docs/03-pagine-campione.md](docs/03-pagine-campione.md) | Prime pagine campione con note di revisione |
 | [docs/04-bacheca.md](docs/04-bacheca.md) | Mappa di tutti i post della bacheca e dei contenuti nascosti |
 | [docs/revisione-contenuti.xlsx](docs/revisione-contenuti.xlsx) | Foglio per le segnalazioni del cliente, una riga per pagina |
+| [docs/05-piano-sito-astro.md](docs/05-piano-sito-astro.md) | Piano d'azione per il sito definitivo in Astro con Decap CMS |
 | [docs/fonte/](docs/fonte/) | Testi estratti dal sito attuale e script di estrazione |
