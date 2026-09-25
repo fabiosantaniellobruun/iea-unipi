@@ -3,6 +3,7 @@
 $colors = [
   ['Primary, blu reale', '--color-primary', '#225DD7', 'Link, pulsanti, contenuti in evidenza', '5,81:1'],
   ['Secondary, blu notte', '--color-secondary', '#1A315D', 'Titoli, menu, intestazioni', '12,79:1'],
+  ['Accent, viola IEA', '--color-accent', '#742EFF', 'Colore del corso: voce attiva dei menu, card al passaggio del mouse', '5,87:1'],
   ['Support', '--color-support', '#F0F0F0', 'Fondi di sezione', ''],
   ['Testo', '--color-text', '#000000', 'Testo corrente', '21:1'],
   ['Testo secondario', '--color-text-muted', '#666666', 'Sottotitoli, breadcrumb, date', '5,74:1'],
@@ -13,7 +14,7 @@ $colors = [
 
   <section aria-labelledby="sg-colori">
     <h2 id="sg-colori">Colori</h2>
-    <p>Manuale, p. 17. Il contrasto indicato è quello del colore come testo su fondo bianco.</p>
+    <p>Manuale, p. 17, più il viola del marchio IEA come colore del corso. Il contrasto indicato è quello del colore come testo su fondo bianco.</p>
     <ul class="swatches">
       <?php foreach ($colors as [$name, $var, $hex, $use, $ratio]): ?>
       <li>

@@ -36,42 +36,27 @@
 .quickbar a { text-decoration: none; }
 .quickbar a:hover { text-decoration: underline; }
 
-/* Header */
+/* Header: marchi e strumenti sulla prima riga, menu principale sulla seconda;
+   da 1280px c'è spazio per tenere tutto su una riga */
 .site-header { border-bottom: 1px solid var(--color-rule); background: var(--color-bg); }
 .site-header__inner {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: var(--space-4);
-  min-height: 5rem;
+  gap: var(--space-3) var(--space-4);
+  padding-top: var(--space-4);
 }
 
+/* Marchio di Ateneo e marchio del corso, separati da un filetto (come su unipi.it) */
 .brand {
   display: flex;
   align-items: center;
   gap: var(--space-3);
-  color: var(--color-secondary);
-  text-decoration: none;
   margin-right: auto;
 }
-.brand__logo {
-  /* Segnaposto: va sostituito con il file SVG ufficiale del marchio fornito dall'Ateneo */
-  display: grid;
-  place-items: center;
-  width: 7.5rem;
-  height: 3rem;
-  border: 1px dashed var(--color-secondary);
-  font-size: 0.6875rem;
-  line-height: 1.1;
-  text-align: center;
-}
-.brand__rule { width: 1px; align-self: stretch; margin-block: var(--space-3); background: var(--color-secondary); }
-.brand__name {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 1.2;
-  max-width: 13rem;
-}
+.brand img { flex: none; width: auto; height: 3rem; }
+.brand__course img { height: 2.5rem; } /* un po' più basso: il marchio di Ateneo resta il riferimento */
+.brand__rule { width: 1px; align-self: stretch; background: var(--color-secondary); transform: rotate(8deg); } /* inclinato come il filetto del marchio di Ateneo */
 
 .main-nav ul {
   display: flex;
@@ -93,10 +78,10 @@
   border-bottom: 3px solid transparent;
 }
 .main-nav a:hover { border-bottom-color: var(--color-rule); }
-.main-nav a[aria-current] { border-bottom-color: var(--color-primary); }
+.main-nav a[aria-current] { border-bottom-color: var(--color-accent); }
 
-.header-tools { display: flex; align-items: center; gap: var(--space-3); order: 3; }
-.main-nav { order: 2; }
+.header-tools { display: flex; align-items: center; gap: var(--space-3); order: 2; }
+.main-nav { order: 3; width: 100%; }
 .header-tools a { color: var(--color-primary); text-decoration: none; font-weight: 600; }
 .header-tools .lang-switch { display: flex; gap: var(--space-2); margin: 0; padding: 0; list-style: none; }
 .header-tools .lang-switch li + li { margin-top: 0; }
@@ -118,16 +103,22 @@
 
 /* Sotto i 1025px il menu si apre con il pulsante (solo se JavaScript è attivo) */
 @media (max-width: 1024px) {
-  .site-header__inner { flex-wrap: wrap; }
+  .site-header__inner { padding-block: var(--space-3); }
   .js .menu-toggle { display: inline-flex; }
-  .header-tools { order: 2; }
-  .main-nav { order: 4; width: 100%; }
   .js .main-nav:not(.is-open) { display: none; }
-  .main-nav ul { flex-direction: column; gap: 0; padding-bottom: var(--space-3); }
+  .main-nav ul { flex-direction: column; gap: 0; }
   .main-nav a { padding: var(--space-3) 0; border-bottom: 1px solid var(--color-rule); }
-  .main-nav a[aria-current] { border-bottom: 1px solid var(--color-rule); box-shadow: inset 4px 0 0 var(--color-primary); padding-left: var(--space-3); }
-  .brand__name { font-size: 0.875rem; }
-  .brand__logo { width: 5.5rem; height: 2.5rem; }
+  .main-nav a[aria-current] { border-bottom: 1px solid var(--color-rule); box-shadow: inset 4px 0 0 var(--color-accent); padding-left: var(--space-3); }
+  .brand img { height: 2.5rem; }
+  .brand__course img { height: 2.125rem; }
+}
+
+/* Da 1280px il menu sta sulla stessa riga dei marchi; se non ci sta, le voci vanno a capo al suo interno */
+@media (min-width: 1280px) {
+  .site-header__inner { flex-wrap: nowrap; min-height: 5rem; padding-top: 0; }
+  .main-nav { order: 2; width: auto; }
+  .main-nav ul { column-gap: var(--space-4); }
+  .header-tools { order: 3; }
 }
 
 /* Intestazione di pagina: titolo, poi breadcrumb (come su unipi.it) */
@@ -165,6 +156,7 @@
   margin: 0 0 var(--space-3);
   font-size: 1rem;
 }
+.site-footer__logo img { width: 16rem; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer a { color: var(--color-text); }
 .site-footer__bottom {

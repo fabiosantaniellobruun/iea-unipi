@@ -24,7 +24,8 @@ php -S localhost:8000 kirby/router.php
 | `site/config/` | Configurazione comune e per ambiente (`localhost`, `dev.iea.ing.unipi.it`, `iea.ing.unipi.it`) |
 | `site/languages/` | Italiano e inglese, con le etichette fisse dell'interfaccia |
 | `site/plugins/iea/` | Funzioni di supporto |
-| `assets/css/` | `tokens.css` (colori, font, spaziature dal manuale di Ateneo), `fonts.css`, `base.css`, `layout.css`, `components.css`. Nessuna build |
+| `assets/css/` | `tokens.css` (colori, font, spaziature dal manuale di Ateneo, più il viola del corso), `fonts.css`, `base.css`, `layout.css`, `components.css`. Nessuna build |
+| `assets/IEA Brand/` | Marchi del corso (IEA, orizzontale e verticale) e marchio di Ateneo |
 | `assets/fonts/` | Inter e Titillium Web (SIL Open Font License) |
 | `content/` | Contenuti: una cartella per pagina, un file per lingua |
 
@@ -37,5 +38,4 @@ Durante lo sviluppo `content/` è nel repository, con contenuti di prova e poi c
 Si caricano via FTPS (con VPN di Ateneo) le cartelle `kirby/`, `vendor/`, `site/`, `assets/` e i file `index.php` e `.htaccess`. `content/` si carica solo la prima volta e al passaggio in produzione: poi è gestita dal pannello.
 
 ## Da completare
-- Marchio di Ateneo: nell'header c'è un segnaposto, da sostituire con il file SVG ufficiale.
 - Licenza di Kirby: da acquistare prima della messa online (`site/license.txt`).

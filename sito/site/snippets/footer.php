@@ -2,7 +2,7 @@
   <div class="container">
     <div class="site-footer__cols">
       <div>
-        <h2><?= t('course.full') ?></h2>
+        <h2 class="site-footer__logo"><img src="<?= brandUrl('iea-logo-stacked-left.svg') ?>" width="439" height="203" alt="<?= t('course.full') ?>"></h2>
         <p><?= t('university') ?><br><?= t('department') ?></p>
       </div>
       <div>

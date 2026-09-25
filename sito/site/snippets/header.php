@@ -17,10 +17,12 @@ $active   = $page->parents()->last() ?? $page; // sezione di primo livello della
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="brand" href="<?= $site->url() ?>">
-      <span class="brand__logo" aria-hidden="true">Marchio<br>UNIPI</span>
-      <span class="visually-hidden"><?= t('university') ?>:</span>
+      <img class="brand__unipi" src="<?= brandUrl('marchio_unipi_orizz_pant541.svg') ?>" width="297" height="100" alt="<?= t('university') ?>">
       <span class="brand__rule" aria-hidden="true"></span>
-      <span class="brand__name"><?= t('course') ?></span>
+      <picture class="brand__course">
+        <source media="(min-width: 30em)" srcset="<?= brandUrl('iea-logo-horizontal.svg') ?>" width="683" height="109">
+        <img src="<?= brandUrl('iea-logo-only.svg') ?>" width="221" height="101" alt="<?= t('course') ?>">
+      </picture>
     </a>
 
     <div class="header-tools">

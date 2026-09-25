@@ -10,6 +10,9 @@
   --color-secondary: #1a315d;    /* blu notte: titoli, menu, intestazioni, filetti */
   --color-support: #f0f0f0;      /* fondi di sezione */
 
+  /* Colore del corso (marchio IEA): segnala dove ci si trova; link e pulsanti restano nel blu reale */
+  --color-accent: #742eff;       /* 5,87:1 su bianco */
+
   /* Colori di servizio (tema di unipi.it) */
   --color-text: #000;
   --color-text-muted: #666;      /* 5,74:1 su bianco */
