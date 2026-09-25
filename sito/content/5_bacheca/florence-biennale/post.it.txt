@@ -1,0 +1,33 @@
+Title: Florence Biennale 2025, Design Days
+
+----
+
+Summary: Due giornate su design e architettura alla XV Mostra internazionale d'arte contemporanea e design. Biglietto scontato per chi studia.
+
+----
+
+Place: Firenze, Fortezza da Basso
+
+----
+
+Text: [{"content":{"text":"<p>Dal 18 al 26 ottobre 2025 la Fortezza da Basso di Firenze ospita la XV edizione della Florence Biennale. Il <strong>23 e 24 ottobre</strong> si tengono i Design Days, con studi di architettura e design e, il 23, l'incontro con Patricia Urquiola, che riceve il Premio internazionale \"Leonardo da Vinci\" alla carriera.</p><p>Le due mattine sono curate dal Prof. Arch. Gabriele Goretti (DESTEC), direttore del corso di Design industriale dell'Università di Pisa.</p><p>Studenti e studentesse possono entrare con un biglietto scontato. Informazioni: Prof. Goretti.</p><p><a href=\"/it/bacheca/florence-biennale/locandina_design_days_fb_light.pdf\">Programma completo</a> (PDF) · <a href=\"https://www.florencebiennale.org/\">Florence Biennale</a></p><p>[DA FORNIRE: email del Prof. Goretti, nascosta nel post originale.]</p>"},"id":"04a0ca15-4683-4683-a287-d07f9db2aad4","isHidden":false,"type":"text"}]
+
+----
+
+Category: eventi
+
+----
+
+Date: 2025-10-21
+
+----
+
+Start: 2025-10-23
+
+----
+
+End: 2025-10-24
+
+----
+
+Uuid: infnace2kwdrcwn3

@@ -1,0 +1,5 @@
+Title: Guida di stile
+
+----
+
+Lead: Pagina di prova con i colori, la tipografia e i componenti del sito, secondo il manuale di immagine coordinata dell'Università di Pisa.

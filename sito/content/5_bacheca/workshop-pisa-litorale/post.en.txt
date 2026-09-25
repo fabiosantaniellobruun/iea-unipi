@@ -1,0 +1,13 @@
+Title: Workshop "Pisa and the coast", 31 October - 6 November 2016
+
+----
+
+Slug: workshop-pisa-and-the-coast
+
+----
+
+Summary: Architectural and urban design workshop at the Bastione Sangallo, for the LabQ 2017 Architecture Biennale. It was worth 3 elective CFU in the 5th year.
+
+----
+
+Text: [{"content":{"text":"<p>Architectural and urban design workshop at the Bastione Sangallo, for the LabQ 2017 Architecture Biennale. It was worth 3 elective CFU in the 5th year.</p>"},"id":"485f573f-0900-4ba1-a99d-8301c7f062c2","isHidden":false,"type":"text"}]

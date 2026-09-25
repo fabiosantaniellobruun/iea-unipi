@@ -1,0 +1,50 @@
+Title: Ingegneria Edile-Architettura
+
+----
+
+Quicklinks: 
+
+- text: "Orari ed esami"
+  link: "page://0ytngybvvvdtoifp"
+- text: "Portale Alice"
+  link: "https://www.studenti.unipi.it/"
+- text: "Prenotazione esami"
+  link: "https://esami.unipi.it/esami2/"
+- text: "Contatti"
+  link: "page://6gziutxqbxe5kxoz"
+
+----
+
+Footercontacts: Unità didattica del DESTEC
+Via Carlo Francesco Gabba 22, 56122 Pisa
+(email: didatticadestec@ing.unipi.it)
+
+----
+
+Footerlinks: 
+
+- aziende-ed-enti
+- servizi-di-ateneo
+- mappa-del-sito
+
+----
+
+Legallinks: 
+
+- text: "Accessibilità"
+  link: "https://www.unipi.it/accessibilita/"
+- text: "Privacy"
+  link: "https://www.unipi.it/privacy-policy/"
+- text: "Università di Pisa"
+  link: "https://www.unipi.it/"
+
+----
+
+Social: 
+
+- text: "Facebook"
+  link: "https://www.facebook.com/ieapisa/"
+- text: "Instagram"
+  link: "https://www.instagram.com/ieapisa/"
+- text: "LinkedIn"
+  link: "https://www.linkedin.com/in/iea-pisa-70b98a143/"

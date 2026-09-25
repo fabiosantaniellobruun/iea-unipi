@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Locandina del premio AIDIA "Idee per un mondo che cambia", 2ª edizione: 5 premi per professioniste laureate in ingegneria e architettura, candidature entro il 21 settembre 2026.
+
+----
+
+Uuid: cwmftqcvahbxvokk

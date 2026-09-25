@@ -1,0 +1,13 @@
+# Mappa del sito: l'elenco delle pagine si genera da solo
+title: Mappa del sito
+icon: sitemap
+options:
+  create:
+    admin: true
+    "*": false
+  changeStatus: false
+  delete: false
+fields:
+  info:
+    type: info
+    text: L'elenco delle pagine si genera da solo dal menu e dai link del footer.

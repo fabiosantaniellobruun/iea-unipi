@@ -1,0 +1,20 @@
+title: Pagina
+icon: page
+
+options:
+  create:
+    admin: true
+    "*": false
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      lead: fields/lead
+      description: fields/descrizione
+      text: fields/contenuto
+  sidebar:
+    width: 1/3
+    sections:
+      images: sections/immagini
+      files: sections/allegati

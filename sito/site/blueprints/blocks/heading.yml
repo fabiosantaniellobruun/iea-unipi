@@ -1,0 +1,24 @@
+# Sostituisce il blocco di Kirby: solo H2 e H3, perché H1 è il titolo della pagina
+name: Titolo
+icon: title
+wysiwyg: true
+preview: heading
+fields:
+  level:
+    label: Livello
+    type: toggles
+    empty: false
+    default: h2
+    labels: false
+    options:
+      - value: h2
+        icon: h2
+        text: Titolo di sezione
+      - value: h3
+        icon: h3
+        text: Sottotitolo
+  text:
+    label: Testo
+    type: writer
+    inline: true
+    marks: false

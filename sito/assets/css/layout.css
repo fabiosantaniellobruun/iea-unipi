@@ -1,0 +1,242 @@
+/* Layout: contenitore, header, menu, intestazione di pagina, colonne, footer */
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+/* Salto al contenuto */
+.skip-link {
+  position: absolute;
+  left: var(--space-3);
+  top: -10rem;
+  z-index: 100;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-secondary);
+  color: #fff;
+  font-weight: 600;
+}
+.skip-link:focus { top: var(--space-3); }
+
+/* Barra dei link rapidi */
+.quickbar { border-bottom: 1px solid var(--color-rule); }
+.quickbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: var(--space-1) var(--space-4);
+  margin: 0;
+  padding: var(--space-2) 0;
+  list-style: none;
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+.quickbar li + li { margin-top: 0; }
+.quickbar a { text-decoration: none; }
+.quickbar a:hover { text-decoration: underline; }
+
+/* Header: marchi e strumenti sulla prima riga, menu principale sulla seconda;
+   da 1280px c'è spazio per tenere tutto su una riga */
+.site-header { border-bottom: 1px solid var(--color-rule); background: var(--color-bg); }
+.site-header__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-4);
+  padding-top: var(--space-4);
+}
+
+/* Marchio di Ateneo e marchio del corso, separati da un filetto (come su unipi.it) */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-right: auto;
+}
+.brand img { flex: none; width: auto; height: 3rem; }
+.brand__course img { height: 2.5rem; } /* un po' più basso: il marchio di Ateneo resta il riferimento */
+.brand__rule { width: 1px; align-self: stretch; background: var(--color-secondary); transform: rotate(8deg); } /* inclinato come il filetto del marchio di Ateneo */
+
+.main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-5);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-nav li + li { margin-top: 0; }
+.main-nav a {
+  display: block;
+  padding: var(--space-2) 0;
+  color: var(--color-secondary);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+.main-nav a:hover { border-bottom-color: var(--color-rule); }
+.main-nav a[aria-current] { border-bottom-color: var(--color-accent); }
+
+.header-tools { display: flex; align-items: center; gap: var(--space-3); order: 2; }
+.main-nav { order: 3; width: 100%; }
+.header-tools a { color: var(--color-primary); text-decoration: none; font-weight: 600; }
+.header-tools .lang-switch { display: flex; gap: var(--space-2); margin: 0; padding: 0; list-style: none; }
+.header-tools .lang-switch li + li { margin-top: 0; }
+.header-tools .lang-switch a[aria-current] { color: var(--color-secondary); text-decoration: underline; }
+.icon { width: 1.25rem; height: 1.25rem; fill: none; stroke: currentColor; stroke-width: 2; vertical-align: middle; }
+
+/* Ricerca nell'header (come su fabiosbruun.com): con JavaScript la lente sostituisce tutta la riga con il campo
+   di ricerca e mostra i risultati mentre si scrive; senza JavaScript la lente porta alla pagina di ricerca */
+.site-header { position: relative; z-index: 20; }
+.search-toggle { display: none; align-items: center; padding: 0; border: 0; background: none; color: var(--color-primary); cursor: pointer; }
+.js .search-toggle { display: inline-flex; }
+.js .search-link { display: none; }
+.site-header.is-searching .site-header__inner { padding-block: 0; }
+.site-header.is-searching .site-header__inner > :not(.header-search) { display: none; }
+.header-search { display: flex; align-items: center; gap: var(--space-3); width: 100%; }
+.header-search[hidden] { display: none; }
+.header-search input {
+  flex: 1;
+  min-width: 0;
+  padding: var(--space-2) 0;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  font: inherit;
+  font-size: 1.25rem;
+}
+.header-search input:focus-visible { outline: none; border-bottom-color: var(--color-accent); }
+.header-search input::-webkit-search-cancel-button { display: none; }
+.header-search__submit,
+.header-search__close {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+.header-search__close { border: 1px solid var(--color-secondary); color: var(--color-secondary); }
+
+/* Risultati mentre si scrive, sotto l'header */
+.search-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 70vh;
+  overflow-y: auto;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-rule);
+  box-shadow: 0 8px 16px rgb(0 0 0 / 0.08);
+}
+.search-panel[hidden] { display: none; }
+.search-panel__count { margin: var(--space-3) 0 var(--space-2); color: var(--color-text-muted); font-size: var(--fs-small); font-weight: 600; }
+.search-panel__results { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--color-secondary); }
+.search-panel__results li { margin: 0; border-bottom: 1px solid var(--color-rule); }
+.search-panel__results a { display: block; padding: var(--space-3) 0; color: var(--color-text); text-decoration: none; }
+.search-panel__results a:hover .search-panel__title { text-decoration: underline; }
+.search-panel__title { display: block; color: var(--color-primary); font-family: var(--font-display); font-weight: 600; }
+.search-panel__path { display: block; color: var(--color-text-muted); font-size: var(--fs-label); font-weight: 600; }
+.search-panel__excerpt { display: block; margin-top: var(--space-1); font-size: var(--fs-small); }
+.search-panel__all { margin: var(--space-3) 0; }
+
+.menu-toggle {
+  display: none;
+  align-items: center;
+  padding: var(--space-2);
+  border: 1px solid var(--color-secondary);
+  background: var(--color-bg);
+  color: var(--color-secondary);
+  cursor: pointer;
+}
+
+/* Sotto i 1025px il menu si apre con il pulsante (solo se JavaScript è attivo) */
+@media (max-width: 1024px) {
+  .site-header__inner { padding-block: var(--space-3); }
+  .js .menu-toggle { display: inline-flex; }
+  .js .main-nav:not(.is-open) { display: none; }
+  .main-nav ul { flex-direction: column; gap: 0; }
+  .main-nav a { padding: var(--space-3) 0; border-bottom: 1px solid var(--color-rule); }
+  .main-nav a[aria-current] { border-bottom: 1px solid var(--color-rule); box-shadow: inset 4px 0 0 var(--color-accent); padding-left: var(--space-3); }
+  .brand img { height: 2.5rem; }
+  .brand__course img { height: 2.125rem; }
+}
+
+/* Da 1280px il menu sta sulla stessa riga dei marchi; se non ci sta, le voci vanno a capo al suo interno */
+@media (min-width: 1280px) {
+  .site-header__inner { flex-wrap: nowrap; min-height: 5rem; padding-top: 0; }
+  .main-nav { order: 2; width: auto; }
+  .main-nav ul { column-gap: var(--space-4); }
+  .header-tools { order: 3; }
+}
+
+/* Intestazione di pagina: titolo, poi breadcrumb (come su unipi.it) */
+.page-header { padding-block: var(--space-6) var(--space-5); }
+.page-header h1 { margin-bottom: var(--space-3); }
+.page-header .lead {
+  max-width: var(--measure);
+  margin-top: var(--space-4);
+  color: var(--color-text-muted);
+  font-size: 1.25em;
+  line-height: 1.4;
+}
+
+/* Colonne: menu di sezione e contenuto */
+.page-body { padding-bottom: var(--space-8); }
+.with-sidebar { display: grid; gap: var(--space-5); }
+@media (min-width: 1025px) {
+  .with-sidebar { grid-template-columns: 16rem minmax(0, 1fr); gap: var(--space-7); }
+}
+.content { max-width: var(--measure); }
+.content > :first-child { margin-top: 0; }
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--color-secondary);
+  padding-block: var(--space-6) var(--space-5);
+  font-size: var(--fs-small);
+}
+.site-footer__cols {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
+.site-footer h2 {
+  margin: 0 0 var(--space-3);
+  font-size: 1rem;
+}
+.site-footer__logo img { width: 16rem; }
+.site-footer ul { list-style: none; padding: 0; margin: 0; }
+.site-footer a { color: var(--color-text); }
+.site-footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-rule);
+}
+.social { display: flex; gap: var(--space-4); list-style: none; margin: 0; padding: 0; }
+.social li + li { margin-top: 0; }
+.social a { color: var(--color-secondary); }
+
+/* Home */
+.home-intro { padding-block: var(--space-7) var(--space-6); }
+.display-m { font-size: var(--fs-display-m); font-weight: 500; line-height: 1.05; letter-spacing: -0.02em; }
+.home-intro .lead { max-width: var(--measure); font-size: 1.25em; color: var(--color-text-muted); }
+.home-section { padding-block: var(--space-6); }
+.home-section > h2 { margin-top: 0; }
+.home-section + .home-section { padding-top: 0; }
+
+/* Pagina di manutenzione */
+.maintenance { padding-block: var(--space-7); }
+.maintenance .brand { margin-bottom: var(--space-7); }

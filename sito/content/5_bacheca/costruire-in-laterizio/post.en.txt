@@ -1,0 +1,13 @@
+Title: "Building in brick", 24 May 2019
+
+----
+
+Slug: building-in-brick
+
+----
+
+Summary: Hands-on masonry construction workshop at the IIS Da Vinci-Fascetti, for the Technical Architecture 1 course.
+
+----
+
+Text: [{"content":{"text":"<p>Hands-on masonry construction workshop at the IIS Da Vinci-Fascetti, for the Technical Architecture 1 course.</p>"},"id":"fde05429-ce1a-4940-a017-447becf75a43","isHidden":false,"type":"text"}]

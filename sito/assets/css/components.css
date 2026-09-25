@@ -1,0 +1,655 @@
+/* Componenti: ogni blocco corrisponde a uno snippet in site/snippets/ */
+
+/* Breadcrumb (maiuscolo piccolo, come su unipi.it) */
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--fs-label);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--color-text-muted);
+}
+.breadcrumb li + li {
+  margin-top: 0;
+}
+.breadcrumb a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  color: var(--color-secondary);
+  text-decoration: underline;
+}
+.breadcrumb [aria-current] {
+  color: var(--color-secondary);
+}
+
+/* Menu di sezione */
+.section-nav h2 {
+  margin: 0 0 var(--space-3);
+  font-size: var(--fs-label);
+  font-family: var(--font-text);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--color-text-muted);
+}
+.section-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--color-secondary);
+}
+.section-nav li {
+  margin: 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.section-nav a {
+  display: block;
+  padding: var(--space-2) var(--space-3);
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: 600;
+}
+.section-nav a:hover {
+  background: var(--color-support);
+}
+.section-nav a[aria-current] {
+  box-shadow: inset 4px 0 0 var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* Pulsanti (manuale: maiuscolo, 14px) */
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0.75rem 1.5rem;
+  border: 2px solid var(--color-primary);
+  background: var(--color-primary);
+  color: #fff;
+  font: 600 var(--fs-small)/1.5 var(--font-text);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {
+  background: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+.button--outline {
+  background: transparent;
+  color: var(--color-primary);
+}
+.button--outline:hover {
+  background: var(--color-support);
+  color: var(--color-secondary);
+}
+
+/* Link esterni */
+a[rel~="external"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.7em;
+  height: 0.7em;
+  margin-left: 0.2em;
+  background: currentColor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5'%3E%3Cpath d='M7 17 17 7M9 7h8v8'/%3E%3C/svg%3E")
+    center / contain no-repeat;
+}
+
+/* Avviso "Ricorda:" */
+.notice {
+  margin: 0 0 var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-support);
+  border-left: 4px solid var(--color-primary);
+}
+.notice > :last-child {
+  margin-bottom: 0;
+}
+.notice__label {
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+
+/* Scheda informativa (tabella a due colonne) */
+.infocard {
+  display: grid;
+  grid-template-columns: minmax(8rem, 12rem) 1fr;
+  margin: 0 0 var(--space-5);
+  border-top: 2px solid var(--color-secondary);
+}
+.infocard dt,
+.infocard dd {
+  margin: 0;
+  padding: var(--space-2) var(--space-3) var(--space-2) 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.infocard dt {
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+@media (max-width: 480px) {
+  .infocard {
+    grid-template-columns: 1fr;
+  }
+  .infocard dt {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+/* Sezione espandibile (fisarmonica, come su unipi.it) */
+.accordion {
+  margin: 0 0 var(--space-5);
+  border-top: 1px solid var(--color-secondary);
+}
+.accordion details {
+  border-bottom: 1px solid var(--color-secondary);
+}
+.accordion summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) 0;
+  color: var(--color-secondary);
+  font: 600 var(--fs-h4)/1.3 var(--font-display);
+  cursor: pointer;
+  list-style: none;
+}
+.accordion summary::-webkit-details-marker {
+  display: none;
+}
+.accordion summary::after {
+  content: "";
+  flex: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  background:
+    linear-gradient(currentColor, currentColor) center / 100% 2px no-repeat,
+    linear-gradient(currentColor, currentColor) center / 2px 100% no-repeat;
+}
+.accordion details[open] summary::after {
+  background: linear-gradient(currentColor, currentColor) center / 100% 2px
+    no-repeat;
+}
+.accordion .accordion__body {
+  padding-bottom: var(--space-4);
+}
+
+/* Allegati */
+.attachments {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-5);
+}
+.attachments li {
+  display: flex;
+  gap: var(--space-3);
+  align-items: baseline;
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--color-rule);
+  margin: 0;
+}
+.attachments a {
+  font-weight: 600;
+}
+.attachments .meta {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+  white-space: nowrap;
+}
+
+/* Card (notizie, eventi, sottopagine) */
+.cards {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-5);
+}
+.cards > li {
+  margin: 0;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  height: 100%;
+  padding: var(--space-4);
+  border-top: 4px solid var(--color-secondary);
+  background: var(--color-support);
+}
+.card:hover {
+  border-top-color: var(--color-accent);
+}
+/* Immagine di copertina, da bordo a bordo sotto il filetto; le verticali restano intere */
+.card__image {
+  width: calc(100% + 2 * var(--space-4));
+  max-width: none;
+  margin: calc(-1 * var(--space-4)) calc(-1 * var(--space-4)) var(--space-2);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+/* Immagini verticali: fondo bianco per staccarle dal testo della card, bordi grigi ai lati per non confonderle con la pagina */
+.card__image--contain {
+  object-fit: contain;
+  background: var(--color-bg);
+  border-inline: var(--space-1) solid var(--color-support);
+}
+.card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-1) var(--space-2);
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+  font-weight: 600;
+}
+.card__title {
+  margin: 0;
+  font-size: var(--fs-h4);
+}
+.card__title a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+.card__title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+} /* tutta la card è cliccabile */
+.card__title a:hover {
+  text-decoration: underline;
+}
+.card:focus-within {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+.card__title a:focus-visible {
+  outline: none;
+}
+.card p {
+  margin: 0;
+}
+
+/* Etichetta di categoria */
+.tag {
+  display: inline-block;
+  padding: 0 var(--space-2);
+  border: 1px solid currentColor;
+  color: var(--color-secondary);
+  font-size: var(--fs-label);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+/* Paginazione */
+.pagination ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  list-style: none;
+  padding: 0;
+  margin: var(--space-5) 0;
+}
+.pagination li {
+  margin: 0;
+}
+.pagination a,
+.pagination span {
+  display: grid;
+  place-items: center;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0 var(--space-2);
+  border: 1px solid var(--color-secondary);
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: 600;
+}
+.pagination [aria-current] {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+/* Campo di ricerca (bordo blu notte e lente, come su unipi.it) */
+.search-form {
+  display: flex;
+  max-width: 40rem;
+  border: 1px solid var(--color-secondary);
+}
+.search-form input {
+  flex: 1;
+  min-width: 0;
+  padding: var(--space-3);
+  border: 0;
+  font: inherit;
+}
+.search-form button {
+  padding: 0 var(--space-3);
+  border: 0;
+  background: transparent;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+/* Fascia di sezione su fondo di supporto */
+.band {
+  background: var(--color-support);
+  padding-block: var(--space-6);
+}
+
+/* Guida di stile (solo pagina di prova) */
+.styleguide > section {
+  margin-bottom: var(--space-7);
+}
+.swatches {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  list-style: none;
+  padding: 0;
+}
+.swatches li {
+  margin: 0;
+}
+.swatch {
+  display: block;
+  height: 5rem;
+  margin-bottom: var(--space-2);
+  border: 1px solid var(--color-rule);
+}
+.h1-sample,
+.h2-sample,
+.h3-sample,
+.h4-sample {
+  margin: 0 0 var(--space-3);
+  color: var(--color-secondary);
+  font-family: var(--font-display);
+  line-height: 1.15;
+}
+.h1-sample {
+  font-size: var(--fs-h1);
+  font-weight: 600;
+}
+.h2-sample {
+  font-size: var(--fs-h2);
+  font-weight: 600;
+}
+.h3-sample {
+  font-size: var(--fs-h3);
+  font-weight: 600;
+}
+.h4-sample {
+  font-size: var(--fs-h4);
+  font-weight: 600;
+}
+.styleguide .display-m {
+  color: var(--color-secondary);
+  font-family: var(--font-display);
+  margin: 0 0 var(--space-3);
+}
+
+/* Segnalazioni redazionali [DA VERIFICARE] e [DA FORNIRE]: restano visibili finché il corso non le risolve */
+.segnalazione {
+  padding: 0 0.2em;
+  background: #fff1a8;
+  color: var(--color-text);
+}
+.segnalazione--fornire {
+  background: #ffd9a8;
+}
+
+/* Card con un elenco di link (accessi della home) */
+.card__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 600;
+}
+.card__links li + li {
+  margin-top: var(--space-1);
+}
+
+/* Link "Leggi di più", "Tutta la bacheca" */
+.more {
+  font-weight: 600;
+}
+.more::after {
+  content: "→" / "";
+  margin-left: 0.3em;
+}
+
+/* Immagini nel testo e copertina dei post: mai più grandi della loro misura (--natural, da figure.php);
+   le verticali (locandine) restano strette */
+.figure {
+  margin: 0 0 var(--space-5);
+  max-width: var(--natural, 100%);
+}
+.figure img {
+  width: 100%;
+}
+.figure--portrait {
+  max-width: min(22rem, var(--natural, 22rem));
+}
+.figure figcaption {
+  margin-top: var(--space-2);
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+}
+
+/* Dati principali di un post */
+.post-facts {
+  margin-bottom: var(--space-5);
+}
+
+/* Mappa del sito e link della pagina d'errore */
+.sitemap {
+  padding-left: 0;
+  list-style: none;
+}
+.sitemap > li {
+  padding-block: var(--space-2);
+  border-bottom: 1px solid var(--color-rule);
+  margin: 0;
+}
+.sitemap > li > a {
+  font-weight: 600;
+}
+.sitemap ul {
+  margin: var(--space-2) 0 0;
+  padding-left: var(--space-4);
+}
+
+/* Calendario: la griglia del mese su schermi larghi, l'elenco dei giorni con eventi su mobile */
+.content:has(> .calendar-view) {
+  max-width: none;
+}
+.calendar-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-4);
+  margin-bottom: var(--space-4);
+}
+.calendar-head h2 {
+  margin: 0;
+}
+.calendar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 600;
+}
+.calendar-nav li + li {
+  margin-top: 0;
+}
+.calendar {
+  table-layout: fixed;
+  margin-bottom: var(--space-6);
+}
+.calendar th {
+  padding: var(--space-2);
+  font-size: var(--fs-small);
+  text-transform: capitalize;
+}
+.calendar abbr {
+  text-decoration: none;
+}
+.calendar__day {
+  height: 6.5rem;
+  padding: var(--space-2);
+  border: 1px solid var(--color-rule);
+  font-size: var(--fs-label);
+  line-height: 1.3;
+}
+.calendar__day ul {
+  margin: var(--space-1) 0 0;
+  padding: 0;
+  list-style: none;
+}
+.calendar__day li + li {
+  margin-top: var(--space-1);
+}
+.calendar__date {
+  display: block;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+.calendar__day.is-outside {
+  background: var(--color-support);
+}
+.calendar__day.is-outside .calendar__date {
+  color: var(--color-text-muted);
+}
+.calendar__day.is-today {
+  box-shadow: inset 0 3px 0 var(--color-accent);
+}
+.calendar__day.is-today .calendar__date {
+  color: var(--color-accent);
+}
+.calendar-entry {
+  display: block;
+  overflow-wrap: anywhere;
+}
+.calendar-entry__time {
+  font-weight: 700;
+}
+.calendar-entry--deadline {
+  color: var(--color-secondary);
+}
+.calendar-agenda {
+  display: none;
+}
+@media (max-width: 767px) {
+  .calendar {
+    display: none;
+  }
+  .calendar-agenda {
+    display: block;
+    margin-bottom: var(--space-6);
+  }
+  .calendar-agenda h3 {
+    margin: var(--space-4) 0 var(--space-2);
+    font-size: 1rem;
+  }
+  .calendar-agenda ul {
+    padding-left: 1.25em;
+  }
+}
+
+/* Prossimi appuntamenti */
+.upcoming {
+  margin: 0 0 var(--space-6);
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--color-secondary);
+}
+.upcoming li {
+  margin: 0;
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.upcoming__date {
+  display: block;
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+  font-weight: 600;
+}
+
+/* Iscrizione al calendario */
+.feed-url {
+  overflow-wrap: anywhere;
+}
+
+/* Ricerca */
+.search-form {
+  margin-bottom: var(--space-5);
+}
+.search-count {
+  font-weight: 600;
+}
+.search-results {
+  margin: 0 0 var(--space-5);
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--color-secondary);
+}
+.search-results > li {
+  margin: 0;
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.search-results h2 {
+  margin: 0 0 var(--space-1);
+  font-size: var(--fs-h4);
+}
+.search-results p {
+  margin: 0;
+}
+.search-results__path {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+  font-weight: 600;
+}
+.search-hit {
+  background: none;
+  color: inherit;
+  font-weight: 700;
+}
+
+/* Guida per la redazione: indice delle sezioni */
+.guide-toc {
+  margin-bottom: var(--space-6);
+  padding: var(--space-4);
+  background: var(--color-support);
+}
+.guide-toc h2 {
+  margin: 0 0 var(--space-2);
+  font-size: var(--fs-h4);
+}
+.guide-toc ol {
+  margin: 0;
+}
+/* le schermate del pannello restano alla loro misura, con un bordo che le separa dalla pagina */
+.guide .figure--portrait {
+  max-width: var(--natural, 100%);
+}
+.guide .figure img {
+  border: 1px solid var(--color-rule);
+}

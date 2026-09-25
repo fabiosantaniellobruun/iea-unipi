@@ -1,0 +1,14 @@
+title: Immagine
+accept:
+  extension: jpg, jpeg, png, webp
+  maxsize: 5000000
+image:
+  ratio: 16/9
+  cover: true
+fields:
+  alt:
+    label: Testo alternativo
+    type: text
+    required: true
+    maxlength: 200
+    help: Descrive cosa mostra l'immagine a chi non la vede, in una frase. Se è una locandina, riporta le informazioni principali.

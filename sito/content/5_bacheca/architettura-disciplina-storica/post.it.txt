@@ -1,0 +1,29 @@
+Title: "L'architettura come disciplina storica", conferenza di Vittorio Pizzigoni
+
+----
+
+Summary: Il Prof. Arch. Vittorio Pizzigoni dell'Università di Genova ospite del corso di Teoria e tecnica della progettazione architettonica.
+
+----
+
+Place: Polo Etruria, aula F9
+
+----
+
+Text: [{"content":{"text":"<p>Conferenza del Prof. Arch. <strong>Vittorio Pizzigoni</strong>, Università di Genova, nell'ambito dell'insegnamento di Teoria e tecnica della progettazione architettonica 2025/26. Si può seguire anche online su Microsoft Teams.</p><p><a href=\"/it/bacheca/architettura-disciplina-storica/pizzigoni-slim.pdf\">Locandina</a> (PDF)</p>"},"id":"c0ce0f81-bc2a-467b-ad72-1c76cb765b65","isHidden":false,"type":"text"}]
+
+----
+
+Category: eventi
+
+----
+
+Date: 2026-04-22
+
+----
+
+Start: 2026-04-22 14:30:00
+
+----
+
+Uuid: hyinizobrooodod8

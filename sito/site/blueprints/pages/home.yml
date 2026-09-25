@@ -1,0 +1,54 @@
+title: Home
+icon: home
+
+options:
+  create:
+    admin: true
+    "*": false
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      lead:
+        label: Presentazione del corso
+        type: textarea
+        buttons: false
+        maxlength: 300
+      audiences:
+        label: Accessi per chi visita il sito
+        type: structure
+        max: 4
+        help: Una domanda per ogni tipo di visitatore e le pagine a cui porta.
+        fields:
+          question:
+            label: Domanda
+            type: text
+            required: true
+            placeholder: Vuoi iscriverti?
+          links:
+            label: Pagine
+            type: pages
+            max: 3
+            required: true
+      facts:
+        label: Il corso in sintesi
+        type: structure
+        fields:
+          label:
+            label: Voce
+            type: text
+            required: true
+          value:
+            label: Valore
+            type: writer
+            inline: true
+            marks: [bold, link]
+  sidebar:
+    width: 1/3
+    fields:
+      featured:
+        label: In evidenza
+        type: pages
+        max: 3
+        help: Post o pagine da mostrare in home, nell'ordine della lista. Gli avvisi e le ultime notizie della bacheca si aggiornano da soli.

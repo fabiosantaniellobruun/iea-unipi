@@ -1,0 +1,14 @@
+# Blocchi ammessi nelle pagine e nei post: la redazione scrive e riordina, ma non inserisce HTML libero
+label: Contenuto
+type: blocks
+help: Dividi il testo con titoli brevi e usa gli elenchi per i passaggi. Per i documenti usa il blocco Allegati, per le coppie voce/valore la Scheda informativa.
+fieldsets:
+  - heading
+  - text
+  - list
+  - table
+  - image
+  - notice
+  - infocard
+  - accordion
+  - attachments

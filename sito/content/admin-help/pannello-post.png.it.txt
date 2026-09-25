@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Modulo di un post in bozza: a sinistra Categoria, Data di pubblicazione, Sommario e Contenuto; a destra Data dell'evento, Fine, Luogo e Immagine. In alto le icone Apri, Anteprima e Impostazioni, la lingua e lo stato Bozza.
+
+----
+
+Uuid: ewy9gqx2xvcf9jfv

@@ -1,0 +1,17 @@
+Title: Internships
+
+----
+
+Slug: internships
+
+----
+
+Lead: A curricular internship is a training period in a practice, a company or a public body that is part of your programme of study.
+
+----
+
+Text: [{"content":{"level":"h2","text":"What it is"},"id":"381b6f94-f8ed-4745-a2bb-864f0042a3cb","isHidden":false,"type":"heading"},{"content":{"text":"<p>An internship gives you direct experience of the world of work while you study. It is <strong>curricular</strong> because it takes place during the programme and is part of the study plan: in the 5th year it is worth 3 or 6 CFU, among the <a href=\"/en/studying/study-plan#5th-year\">elective activities</a>. An internship carried out to prepare your thesis is also curricular.</p>"},"id":"db85a4b7-39a1-4dea-a3d5-74c828f556f8","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Main rules"},"id":"11e09b3e-c14a-41d8-a3b2-37bce86a465e","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>It can last up to 12 months, including any extensions. Specific rules apply to students with disabilities.</p></li><li><p>It is based on an <strong>agreement</strong> between the company or body and the DESTEC Department.</p></li><li><p>Before you start, the company fills in an online <strong>training project</strong> with objectives, location, duration and insurance cover.</p></li><li><p>The project is signed by you, by a company tutor who supports you at work and by an academic tutor, a teacher of your choice who follows the educational aspects.</p></li><li><p>At the end, the company writes a report on the skills you have acquired.</p></li><li><p>The company is not required to pay you an allowance.</p></li></ul>"},"id":"12579a89-67e4-44b2-a411-c1fd1b6e9c08","isHidden":false,"type":"list"},{"content":{"text":"<p>The rules follow the University of Pisa regulations and national legislation (Interministerial Decree no. 142 of 25 March 1998).</p>"},"id":"31d86646-a6fc-4ba5-ac9a-192db5608111","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"How to start"},"id":"9f7dddca-5e46-4e21-a1a9-367e8d531f03","isHidden":false,"type":"heading"},{"content":{"text":"<p>[DA FORNIRE: passi per chi studia. Come trovare un'azienda o uno studio, come verificare se ha già una convenzione, come scegliere il tutor accademico, cosa fare sul portale tirocini.]</p><p>University portal: <a href=\"http://tirocini.adm.unipi.it/\">tirocini.adm.unipi.it</a> (in Italian)</p>"},"id":"c39e8bf2-a29c-4326-a475-66e19a3291b3","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Contacts"},"id":"e3dc3223-e0f5-4176-a64d-bfc3c2ade010","isHidden":false,"type":"heading"},{"content":{"text":"<p>DESTEC Teaching Office, Cristina Cerbone Phone +39 050 2217040 · <a href=\"mailto:didatticadestec@ing.unipi.it\">didatticadestec@ing.unipi.it</a></p><p><strong>Are you a company or a practice?</strong> Read <a href=\"/en/companies-and-organisations\">Companies and organisations</a>.</p>"},"id":"2249ab70-ec5e-491d-a139-a1a7891d9b05","isHidden":false,"type":"text"}]
+
+----
+
+Description: How to gain experience in a practice, a company or a public body.

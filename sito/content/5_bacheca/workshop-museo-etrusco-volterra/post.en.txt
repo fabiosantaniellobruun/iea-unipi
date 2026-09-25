@@ -1,0 +1,13 @@
+Title: Workshop "A new Etruscan museum for Volterra", 10-14 July 2016
+
+----
+
+Slug: workshop-etruscan-museum-volterra
+
+----
+
+Summary: Architectural design workshop at the Laboratorio Universitario Volterrano, with the University of Detroit Mercy. It was worth 3 CFU of free-choice activities.
+
+----
+
+Text: [{"content":{"text":"<p>Architectural design workshop at the Laboratorio Universitario Volterrano, with the University of Detroit Mercy. It was worth 3 CFU of free-choice activities.</p>"},"id":"8895e0ee-0871-4ae4-ab12-f9824b85d2e1","isHidden":false,"type":"text"}]

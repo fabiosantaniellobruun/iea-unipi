@@ -1,0 +1,9 @@
+Template: allegato
+
+----
+
+Title: Locandina
+
+----
+
+Uuid: f9gupkxjq7bu77fy

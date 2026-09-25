@@ -1,0 +1,47 @@
+# Caricato da site/plugins/iea/index.php: per chi non amministra le sezioni di pagine diverse dai post non mostrano "Aggiungi".
+title: Bacheca
+icon: megaphone
+
+options:
+  create:
+    admin: true
+    "*": false
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      intro:
+        type: fields
+        fields:
+          lead: fields/lead
+      posts:
+        type: pages
+        label: Post
+        template: post
+        sortBy: date desc
+        layout: table
+        search: true
+        limit: 25
+        empty: Nessun post
+        help: Con "Aggiungi" scrivi un nuovo avviso, evento o bando. Resta in bozza finché non lo pubblichi; dopo un anno, o passati l'evento o la scadenza, va da solo in Archivio.
+        columns:
+          category:
+            label: Categoria
+            value: "{{ page.categoryPage.title }}"
+            width: 1/4
+          date:
+            label: Data
+            type: date
+            display: DD/MM/YYYY
+            width: 1/6
+  sidebar:
+    width: 1/3
+    sections:
+      categories:
+        type: pages
+        label: Elenchi
+        templates:
+          - calendario
+          - bacheca-categoria
+          - bacheca-archivio

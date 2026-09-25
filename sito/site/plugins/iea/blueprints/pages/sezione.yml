@@ -1,0 +1,30 @@
+# Caricato da site/plugins/iea/index.php: per chi non amministra le sezioni di pagine diverse dai post non mostrano "Aggiungi".
+# Indice di sezione (Il corso, Iscriversi, Studiare): introduzione e card delle pagine, generate in automatico
+title: Sezione
+icon: folder
+
+options:
+  create:
+    admin: true
+    "*": false
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      lead:
+        extends: fields/lead
+        label: Introduzione
+      description: fields/descrizione
+      text:
+        extends: fields/contenuto
+        help: Facoltativo. Compare prima delle card con le pagine della sezione.
+  sidebar:
+    width: 1/3
+    sections:
+      pages:
+        type: pages
+        label: Pagine della sezione
+        template: default
+      images: sections/immagini
+      files: sections/allegati

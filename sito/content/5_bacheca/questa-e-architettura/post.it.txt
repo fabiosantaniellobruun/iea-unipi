@@ -1,0 +1,29 @@
+Title: "Questa è architettura", conferenza di Marco Biraghi
+
+----
+
+Summary: Il Prof. Arch. Marco Biraghi del Politecnico di Milano ospite del corso di Teoria e tecnica della progettazione architettonica.
+
+----
+
+Place: Polo Porta Nuova, aula PN10
+
+----
+
+Text: [{"content":{"text":"<p>Conferenza del Prof. Arch. <strong>Marco Biraghi</strong>, Politecnico di Milano, nell'ambito dell'insegnamento di Teoria e tecnica della progettazione architettonica 2025/26.</p><p>Si può seguire anche online su Microsoft Teams.</p><p><a href=\"/it/bacheca/questa-e-architettura/biraghi-05-2026.pdf\">Locandina</a> (PDF)</p>"},"id":"dd33ef6e-8b30-4301-adab-a0439bbc690d","isHidden":false,"type":"text"}]
+
+----
+
+Category: eventi
+
+----
+
+Date: 2026-05-26
+
+----
+
+Start: 2026-05-26 11:30:00
+
+----
+
+Uuid: f9gupkxjq7bu77fy

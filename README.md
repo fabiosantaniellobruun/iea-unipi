@@ -32,4 +32,6 @@ Il prototipo è escluso dai motori di ricerca (`noindex` in ogni pagina e `robot
 | [docs/linee-guida-redazionali.md](docs/linee-guida-redazionali.md) | Regole di scrittura dal manuale di immagine coordinata |
 | [docs/03-pagine-campione.md](docs/03-pagine-campione.md) | Prime pagine campione con note di revisione |
 | [docs/04-bacheca.md](docs/04-bacheca.md) | Mappa di tutti i post della bacheca e dei contenuti nascosti |
+| [docs/revisione-contenuti.xlsx](docs/revisione-contenuti.xlsx) | Foglio per le segnalazioni del cliente, una riga per pagina |
+| [docs/05-piano-sito-kirby.md](docs/05-piano-sito-kirby.md) | Piano d'azione per il sito definitivo con Kirby |
 | [docs/fonte/](docs/fonte/) | Testi estratti dal sito attuale e script di estrazione |

@@ -1,0 +1,21 @@
+Title: Progetto speciale: materiali compositi e tecnologie digitali per il restauro del marmo
+
+----
+
+Summary: Un laboratorio pratico su casi dell'Opera del Duomo di Pisa, tra modellazione 3D, stampa 3D e materiali compositi. Massimo 15 posti.
+
+----
+
+Text: [{"content":{"text":"<p>Il Dipartimento di Ingegneria Civile e Industriale attiva un progetto speciale per la didattica sulla conservazione dei beni artistici in marmo. Lavorerai in gruppo su casi ispirati a quelli reali dell'Opera del Duomo di Pisa, per progettare e realizzare prototipi di restauro con:</p>"},"id":"ab75eebc-d634-43dd-aa22-6730d95a02ad","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><p>modellazione 3D;</p></li><li><p>manifattura additiva (stampa 3D);</p></li><li><p>materiali compositi per la conservazione del marmo.</p></li></ul>"},"id":"10a8d1f6-2d9d-4545-af50-a3bc2978f812","isHidden":false,"type":"list"},{"content":{"rows":[{"label":"Quando","value":"da aprile a giugno 2026, circa 3 giorni al mese"},{"label":"Per chi","value":"massimo 15 studenti e studentesse di Materials and Nanotechnology, Ingegneria Edile-Architettura, Ingegneria Civile"},{"label":"Al termine","value":"attestato di partecipazione"},{"label":"Iscrizione","value":"<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdnMFyHYhY6S6F8ys522LOQPe5h-96EXEw46OpFeptmbGVt-Q/viewform\">modulo online</a> o QR code sul <a href=\"/it/bacheca/progetto-speciale-marmo/locandina_v1.pdf\">volantino</a> (PDF)"}]},"id":"a9b8dca0-4fe8-429a-a302-bc7984321f16","isHidden":false,"type":"infocard"},{"content":{"text":"<p><strong>Referenti:</strong> Prof. Mario Milazzo e Prof.ssa Anna De Falco (Dipartimento di Ingegneria Civile e Industriale), Prof.ssa Claudia Aveta (DESTEC).</p><p>[DA VERIFICARE: la scadenza per iscriversi non è indicata.]</p>"},"id":"e1fe373a-8be5-46d5-a5b6-c01bf65b58e0","isHidden":false,"type":"text"}]
+
+----
+
+Category: bandi-e-opportunita
+
+----
+
+Date: 2026-03-18
+
+----
+
+Uuid: dw4lu2jshlpqrcua

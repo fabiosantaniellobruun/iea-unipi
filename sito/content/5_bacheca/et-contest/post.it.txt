@@ -1,0 +1,25 @@
+Title: ET CONTEST, Beyond Underground: concorso di idee
+
+----
+
+Summary: Concorso internazionale per il progetto di superficie dell'Einstein Telescope nell'ex miniera di Sos Enattos, in Sardegna. Premi fino a 8.000 €.
+
+----
+
+Text: [{"content":{"text":"<p>Il concorso chiede idee per trasformare l'ex sito minerario di Sos Enattos (Lula, Sardegna), candidato a ospitare l'Einstein Telescope, il futuro rivelatore europeo di onde gravitazionali. Le proposte riguardano il progetto di superficie, con un masterplan a grande scala e alcune indicazioni grafiche, in dialogo con il paesaggio e la storia del territorio.</p><p>È promosso dall'Università di Cagliari (DICAAR) con la Regione Sardegna.</p><p><strong>Per chi:</strong> studenti e studentesse di Architettura, Ingegneria, Design e affini; giovani laureati, ricercatori e professionisti sotto i 41 anni, anche in gruppo.</p>"},"id":"f0711abb-3dbb-43c6-ac6c-273e338cc1cd","isHidden":false,"type":"text"},{"content":{"rows":[{"label":"Premi","value":"8.000 €, 3.000 €, 1.000 € e menzioni speciali"},{"label":"Iscrizione anticipata","value":"entro il 28 febbraio 2026"},{"label":"Sopralluogo","value":"19 febbraio 2026, su prenotazione"},{"label":"Consegna","value":"entro il 31 marzo 2026"}]},"id":"199abe45-5f4f-47e5-a097-8c3d307562e6","isHidden":false,"type":"infocard"},{"content":{"text":"<p><a href=\"http://www.etcontest.it/\">Sito del concorso</a> · <a href=\"/it/bacheca/et-contest/et-contest-poster-a3-ita-b.pdf\">Locandina</a> (PDF) · <a href=\"/it/bacheca/et-contest/et-contest-poster-a3-eng-b.pdf\">Poster in inglese</a> (PDF)</p>"},"id":"bc94c36a-16e2-4614-a676-f2c4894ed02d","isHidden":false,"type":"text"}]
+
+----
+
+Category: bandi-e-opportunita
+
+----
+
+Date: 2026-02-13
+
+----
+
+Deadline: 2026-03-31
+
+----
+
+Uuid: 3idshzwfxtfh4ghs

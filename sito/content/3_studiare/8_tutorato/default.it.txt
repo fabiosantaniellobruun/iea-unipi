@@ -1,0 +1,17 @@
+Title: Tutorato
+
+----
+
+Lead: Supporto durante il percorso di studi.
+
+----
+
+Text: [{"content":{"text":"<p>[DA FORNIRE: chi sono i tutor, come contattarli, orari di ricevimento, eventuali corsi di recupero per gli OFA.]</p>"},"id":"ce88225f-0ac0-47f1-a6ce-0cc127fd245e","isHidden":false,"type":"text"}]
+
+----
+
+Description: Supporto durante il percorso.
+
+----
+
+Uuid: wyffrg50ovujtz2k

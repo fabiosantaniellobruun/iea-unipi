@@ -1,0 +1,82 @@
+# Dashboard del pannello. Lo carica site/plugins/iea/index.php (roleBlueprint), che la adatta al ruolo.
+title: Sito
+
+tabs:
+  pages:
+    label: Pagine
+    icon: page
+    sections:
+      posts:
+        type: pages
+        label: Bacheca, ultimi post
+        parent: site.find('bacheca')
+        template: post
+        sortBy: date desc
+        limit: 6
+        layout: table
+        empty: Nessun post
+        help: Con "Aggiungi" scrivi un nuovo avviso, evento o bando. Tutti i post sono nella pagina Bacheca.
+        columns:
+          category:
+            label: Categoria
+            value: "{{ page.categoryPage.title }}"
+            width: 1/4
+          date:
+            label: Data
+            type: date
+            display: DD/MM/YYYY
+            width: 1/6
+      pages:
+        type: pages
+        label: Pagine del sito
+        templates:
+          - home
+          - sezione
+          - default
+          - bacheca
+          - mappa
+          - cerca
+
+  settings:
+    label: Impostazioni
+    icon: cog
+    fields:
+      quicklinks:
+        label: Link rapidi (barra in alto)
+        type: structure
+        fields:
+          text:
+            label: Testo
+            type: text
+            required: true
+          link:
+            label: Destinazione
+            type: link
+            required: true
+      footerContacts:
+        label: Contatti nel footer
+        type: textarea
+        buttons: [bold, link, email]
+      footerLinks:
+        label: Link del sito nel footer
+        type: pages
+      legalLinks:
+        label: Link istituzionali nel footer
+        type: structure
+        fields:
+          text:
+            label: Testo
+            type: text
+          link:
+            label: Destinazione
+            type: link
+      social:
+        label: Profili social
+        type: structure
+        fields:
+          text:
+            label: Nome
+            type: text
+          link:
+            label: Indirizzo
+            type: url

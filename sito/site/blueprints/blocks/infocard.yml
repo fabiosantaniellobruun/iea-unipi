@@ -1,0 +1,18 @@
+name: Scheda informativa
+icon: list-bullet
+preview: fields
+fields:
+  rows:
+    label: Righe
+    type: structure
+    help: Coppie voce/valore, per esempio "Durata" e "5 anni". Per tabelle con più colonne usa il blocco Tabella.
+    fields:
+      label:
+        label: Voce
+        type: text
+        required: true
+      value:
+        label: Valore
+        type: writer
+        inline: true
+        marks: [bold, link]

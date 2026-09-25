@@ -1,0 +1,9 @@
+Title: ET CONTEST, Beyond Underground: ideas competition
+
+----
+
+Summary: International competition for the surface design of the Einstein Telescope at the former Sos Enattos mine, in Sardinia. Prizes of up to €8,000.
+
+----
+
+Text: [{"content":{"text":"<p>The competition asks for ideas to transform the former Sos Enattos mining site (Lula, Sardinia), a candidate to host the Einstein Telescope, the future European gravitational-wave detector. Proposals concern the surface design, with a large-scale masterplan and some graphic guidelines, in dialogue with the landscape and history of the area.</p><p>It is promoted by the University of Cagliari (DICAAR) with the Region of Sardinia.</p><p><strong>Who it is for:</strong> students of Architecture, Engineering, Design and related subjects; young graduates, researchers and professionals under 41, also in teams.</p>"},"id":"00a76788-8f83-4077-a230-219820388a4d","isHidden":false,"type":"text"},{"content":{"rows":[{"label":"Prizes","value":"€8,000, €3,000, €1,000 and special mentions"},{"label":"Early registration","value":"by 28 February 2026"},{"label":"Site visit","value":"19 February 2026, by booking"},{"label":"Submission","value":"by 31 March 2026"}]},"id":"d784d1ff-adc6-4e73-a127-c7ad8f972bdf","isHidden":false,"type":"infocard"},{"content":{"text":"<p><a href=\"http://www.etcontest.it/\">Competition website</a> · <a href=\"/en/noticeboard/et-contest/et-contest-poster-a3-ita-b.pdf\">Poster in Italian</a> (PDF) · <a href=\"/en/noticeboard/et-contest/et-contest-poster-a3-eng-b.pdf\">Poster in English</a> (PDF)</p>"},"id":"2379b32b-dc08-4172-ac76-b5cb7bffa5c0","isHidden":false,"type":"text"}]

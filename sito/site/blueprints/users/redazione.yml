@@ -1,0 +1,29 @@
+title: Redazione
+description: Pubblica i post della bacheca e modifica i testi delle pagine.
+
+# Di default la redazione non cambia la struttura del sito: niente pagine spostate, rinominate, cancellate
+# o tolte dai menu. Può creare solo post: ogni altro tipo di pagina limita "create" a chi amministra,
+# e le sezioni di quelle pagine non le mostrano il pulsante "Aggiungi" (site/plugins/iea/index.php).
+# "create" resta attivo qui perché il pannello mostra "Aggiungi" solo se il ruolo lo permette.
+permissions:
+  access:
+    languages: false
+    system: false
+    users: false
+  languages: false
+  pages:
+    changeSlug: false
+    changeStatus: false
+    changeTemplate: false
+    changeTitle: false
+    delete: false
+    duplicate: false
+    move: false
+    sort: false
+  site:
+    changeTitle: false
+    update: false
+  user:
+    changeRole: false
+    delete: false
+  users: false

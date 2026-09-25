@@ -1,0 +1,24 @@
+# Guida per la redazione (/admin-help): non collegata dal sito, esclusa da motori di ricerca e ricerca interna.
+# La modifica solo chi amministra.
+title: Guida per la redazione
+icon: book
+options:
+  create:
+    admin: true
+    "*": false
+  changeSlug: false
+  changeStatus: false
+  delete: false
+  update:
+    admin: true
+    "*": false
+columns:
+  main:
+    width: 2/3
+    fields:
+      lead: fields/lead
+      text: fields/contenuto
+  sidebar:
+    width: 1/3
+    sections:
+      images: sections/immagini

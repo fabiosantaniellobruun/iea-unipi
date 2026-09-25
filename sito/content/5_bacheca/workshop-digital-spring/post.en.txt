@@ -1,0 +1,9 @@
+Title: Workshop "Digital Spring", 8-12 June 2018
+
+----
+
+Summary: Parametric design and digital fabrication with form-finding techniques.
+
+----
+
+Text: [{"content":{"text":"<p>Parametric design and digital fabrication with form-finding techniques.</p>"},"id":"c78d4be6-8c44-40a0-a0fe-9ee5616aef7f","isHidden":false,"type":"text"}]
