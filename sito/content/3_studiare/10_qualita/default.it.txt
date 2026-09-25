@@ -1,0 +1,17 @@
+Title: Qualità del corso
+
+----
+
+Lead: Come il corso raccoglie opinioni e migliora la didattica.
+
+----
+
+Text: [{"content":{"text":"<p>[DA FORNIRE: rapporti di riesame, risultati dei questionari sulla didattica, relazione della Commissione paritetica, dati sulla carriera e sull'occupazione dei laureati.]</p>"},"id":"eb5c242e-f9db-4133-ad7f-0d8b2da1e6d2","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Commissione didattica paritetica"},"id":"144dd343-6cfd-4310-a3df-5ef6e2206839","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>Prof. Roberto Benedetto Castiglia</p></li><li><p>Prof. Luca Lanini</p></li><li><p>Prof.ssa Luisa Santini</p></li></ul>"},"id":"e3fbbb7e-c07f-493e-aae3-899021bd7d7a","isHidden":false,"type":"list"},{"content":{"text":"<p>[DA FORNIRE: componenti studenti della Commissione.]</p>"},"id":"3185f549-af14-4e85-acb0-404f91ea1b72","isHidden":false,"type":"text"}]
+
+----
+
+Description: Come il corso valuta e migliora la didattica.
+
+----
+
+Uuid: uv3yptcuthbb08bc

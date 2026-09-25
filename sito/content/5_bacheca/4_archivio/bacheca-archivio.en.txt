@@ -1,1 +1,13 @@
 Title: Archive
+
+----
+
+Slug: archive
+
+----
+
+Lead: Noticeboard posts from previous years.
+
+----
+
+Text: [{"content":{"text":"<p>The original posts do not include a publication date: each entry shows its deadline or the date of the event.</p>"},"id":"d08e33bf-8d74-4102-a1ff-5dede4f440db","isHidden":false,"type":"text"}]

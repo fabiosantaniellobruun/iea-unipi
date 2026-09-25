@@ -6,4 +6,8 @@ Lead: I post della bacheca degli anni precedenti.
 
 ----
 
+Text: [{"content":{"text":"<p>I post originali non riportano la data di pubblicazione: per ogni voce è indicata la scadenza o la data dell'evento.</p>"},"id":"740a26da-775d-40b1-a61b-ab39deeedffe","isHidden":false,"type":"text"}]
+
+----
+
 Uuid: 3lwhvdlfuozckezq

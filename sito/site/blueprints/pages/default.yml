@@ -6,6 +6,7 @@ columns:
     width: 2/3
     fields:
       lead: fields/lead
+      description: fields/descrizione
       text: fields/contenuto
   sidebar:
     width: 1/3

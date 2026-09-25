@@ -1,0 +1,17 @@
+Title: Programme quality
+
+----
+
+Slug: quality
+
+----
+
+Lead: How the programme gathers feedback and improves its teaching.
+
+----
+
+Text: [{"content":{"text":"<p>[DA FORNIRE: rapporti di riesame, risultati dei questionari sulla didattica, relazione della Commissione paritetica, dati sulla carriera e sull'occupazione dei laureati.]</p>"},"id":"d65d4c94-9006-498c-a277-86d2b0da3426","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Joint Teaching Committee"},"id":"369424f5-c8d0-476f-aaf6-338bb808a94e","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>Prof. Roberto Benedetto Castiglia</p></li><li><p>Prof. Luca Lanini</p></li><li><p>Prof. Luisa Santini</p></li></ul>"},"id":"a40ffd3a-eb61-4d56-a772-f52d8dcd02a5","isHidden":false,"type":"list"},{"content":{"text":"<p>[DA FORNIRE: componenti studenti della Commissione.]</p>"},"id":"9483e8de-66c6-4dec-ae07-b06b93c301f3","isHidden":false,"type":"text"}]
+
+----
+
+Description: How the programme evaluates and improves its teaching.

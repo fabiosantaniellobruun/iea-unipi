@@ -2,7 +2,11 @@ Title: Studiare
 
 ----
 
-Lead: [DA FORNIRE: introduzione della sezione, dal prototipo]
+Lead: Tutto quello che ti serve durante il percorso: piano di studi, orari, esami, regolamenti, tirocini e opportunità.
+
+----
+
+Text: [{"content":{"level":"h2","text":"Accessi rapidi"},"id":"ae955a16-1330-4e8d-a091-8847c3c6e14d","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p><a href=\"/it/studiare/orari-e-esami#orario-delle-lezioni\">Orario delle lezioni</a></p></li><li><p><a href=\"https://www.ing.unipi.it/it/studenti/calendario-esami\">Calendario degli esami</a> (Scuola di Ingegneria)</p></li><li><p><a href=\"https://esami.unipi.it/esami2/\">Prenotazione esami</a></p></li><li><p><a href=\"http://www.studenti.unipi.it/\">Portale Alice</a>, servizi di segreteria online</p></li><li><p><a href=\"https://unipi.coursecatalogue.cineca.it/corsi/2026/10302/insegnamenti?codicione=0500107311900002\">Catalogo degli insegnamenti</a>, programmi e docenti</p></li></ul>"},"id":"2670a422-9018-4e34-a70d-a02ab0136862","isHidden":false,"type":"list"},{"content":{"text":"<p>Ti stai per laureare? Vai a <a href=\"/it/laurearsi\">Laurearsi</a>.</p>"},"id":"49f23b39-a356-44d9-a889-cfd0c349974d","isHidden":false,"type":"text"}]
 
 ----
 

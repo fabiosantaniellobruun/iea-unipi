@@ -1,1 +1,13 @@
 Title: Studying
+
+----
+
+Slug: studying
+
+----
+
+Lead: Everything you need during your studies: study plan, timetables, exams, regulations, internships and opportunities.
+
+----
+
+Text: [{"content":{"level":"h2","text":"Quick links"},"id":"2554c982-ed5e-479c-a210-18afb3f0b725","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p><a href=\"/en/studying/timetables-and-exams#lecture-timetable\">Lecture timetable</a></p></li><li><p><a href=\"https://www.ing.unipi.it/it/studenti/calendario-esami\">Exam calendar</a> (School of Engineering, in Italian)</p></li><li><p><a href=\"https://esami.unipi.it/esami2/\">Exam booking</a></p></li><li><p><a href=\"http://www.studenti.unipi.it/\">Alice portal</a>, online student services</p></li><li><p><a href=\"https://unipi.coursecatalogue.cineca.it/corsi/2026/10302/insegnamenti?codicione=0500107311900002\">Course catalogue</a>, syllabuses and teachers</p></li></ul>"},"id":"e3876572-5f51-44e2-ac1d-ed0e728d3603","isHidden":false,"type":"list"},{"content":{"text":"<p>About to graduate? Go to <a href=\"/en/graduating\">Graduating</a>.</p>"},"id":"1cfb3683-e1b8-4eca-abeb-9845fa3e4d6e","isHidden":false,"type":"text"}]

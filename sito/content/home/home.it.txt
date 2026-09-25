@@ -6,42 +6,52 @@ Lead: Corso di Laurea Magistrale a ciclo unico dell'Università di Pisa. Cinque 
 
 ----
 
-Facts:
-
-- label: "Durata"
-  value: "5 anni, ciclo unico, 300 CFU"
-- label: "Classe"
-  value: "LM-4 c.u., Architettura e ingegneria edile-architettura"
-- label: "Accesso"
-  value: "Programmato, con prova di ammissione nazionale"
-- label: "Titolo"
-  value: "Abilita, dopo l'esame di Stato, sia alla professione di ingegnere sia a quella di architetto. Riconosciuto nell'Unione europea"
-
-----
-
 Audiences:
 
 - 
   question: Vuoi iscriverti?
   links:
-    - il-corso/in-breve
-    - iscriversi/primo-anno
+    - page://lbcqwk4cbrdqygko
+    - page://s5usu5nwa7csmulq
 - 
   question: Studi già qui?
   links:
-    - studiare/orari-e-esami
-    - studiare/piano-di-studi
+    - page://0ytngybvvvdtoifp
+    - page://rxmamn3v3yxbjhlq
 - 
   question: Ti stai laureando?
   links:
-    - laurearsi
+    - page://bvmdvgb1safc0vqm
+
+----
+
+Facts:
+
+- 
+  label: Durata
+  value: 5 anni, ciclo unico, 300 CFU
+- 
+  label: Classe
+  value: >
+    LM-4 c.u., Architettura e ingegneria
+    edile-architettura
+- 
+  label: Accesso
+  value: 'Programmato, con prova nazionale. <a href="/it/iscriversi/primo-anno#anno-accademico-2026-27">Posti e scadenze 2026/27</a>'
+- 
+  label: Titolo
+  value: "Abilita, dopo l'esame di Stato, sia alla professione di ingegnere sia a quella di architetto. Riconosciuto nell'Unione europea"
+- 
+  label: Attivo dal
+  value: "2003"
 
 ----
 
 Featured:
 
-- bacheca/costruzione-apertura-2026-27
-- bacheca/inizio-lezioni-2026-27
+- page://65abdvhkabxv62l6
+- page://nmtwigrisyuukcqk
+- page://7d6ucu7df2klyrle
 
 ----
 

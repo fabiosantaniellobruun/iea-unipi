@@ -20,6 +20,15 @@ Piano per sviluppare il sito definitivo con **Kirby**, a partire dal prototipo (
 | Accessibilità | WCAG 2.1 AA |
 | Funzioni | Calendario e ricerca; niente analytics, banner cookie né modulo contatti |
 | Utenti del pannello | Un solo ruolo per il cliente; lo sviluppatore ha il ruolo di amministratore |
+| Bacheca | Un solo tipo di post, con tre categorie: Avvisi, Eventi, Bandi e opportunità |
+| Calendario | Calendario navigabile per mese, a cui ci si iscrive da un'app di calendario. Contiene solo i post con una data a cui partecipare o una scadenza |
+| Contatti | Pagina a blocchi (schede informative), non a campi fissi |
+| Contenuti in evidenza | Scelti a mano dalla home |
+| Testi inglesi | Tradotti con AI dallo sviluppatore durante la migrazione; poi la redazione li aggiorna dal pannello |
+| Segnalazioni `[DA VERIFICARE]` e `[DA FORNIRE]` | Restano nei testi, evidenziate, sul sito dev: il cliente le risolve lì |
+| Licenza di Kirby | La acquista lo sviluppatore |
+| Sito attuale | L'Ateneo lo sposta in un archivio |
+| Dichiarazione di accessibilità | A cura dell'Ateneo |
 | Scadenza | Nessuna |
 
 ### Dipendenze dopo la consegna
@@ -109,7 +118,7 @@ Ogni pagina ha un file per lingua (`.it.txt`, `.en.txt`). Il pannello mostra un 
 - Chiedere all'IT il sito `dev.iea.ing.unipi.it` con la sua cartella, PHP 8.4 e il DNS.
 - Chiedere all'IT le estensioni PHP richieste da Kirby (`gd` o `imagick`, `mbstring`, `ctype`, `curl`, `filter`, `hash`, `iconv`, `json`, `openssl`, `session`, `SimpleXML`, `zip`) e il limite di caricamento dei file (`upload_max_filesize`), da portare ad almeno 20 MB per i PDF.
 - Chiedere all'IT se la cartella del sito è inclusa nei backup e con che frequenza.
-- Verificare quale licenza di Kirby si applica al corso e acquistarla prima della messa online.
+- Licenza di Kirby: la acquista lo sviluppatore prima della messa online.
 - Ambiente di sviluppo locale: PHP 8.4 con il server integrato (`php -S localhost:8000 kirby/router.php`).
 - Git solo come strumento dello sviluppatore per il codice (`site/`, `assets/`). La cartella `content/` resta sul server e non va nel repository.
 
@@ -124,7 +133,7 @@ Ogni pagina ha un file per lingua (`.it.txt`, `.en.txt`). Il pannello mostra un 
 
 ## Fase 2: modello dei contenuti
 - Blueprint delle pagine istituzionali e dei blocchi ammessi.
-- Blueprint della bacheca: struttura minima di partenza (titolo, testo, immagine, data); la struttura definitiva si decide nel secondo giro di istruzioni.
+- Blueprint della bacheca: un solo tipo di post con categoria, data di pubblicazione, sommario, data e luogo dell'evento, scadenza, immagine, testo e allegati.
 - Ruolo "redazione" per il cliente: può creare, modificare e pubblicare notizie ed eventi e modificare i testi delle pagine; non può cambiare struttura, menu, impostazioni e utenti.
 - Organizzazione degli allegati: ogni file sta nella cartella della pagina che lo usa.
 
@@ -143,14 +152,15 @@ Ogni pagina ha un file per lingua (`.it.txt`, `.en.txt`). Il pannello mostra un 
 - **Allegati e immagini:** uno script li scarica dal sito attuale (oltre 50 tra PDF e DOC, più le locandine) e li mette nelle cartelle delle pagine, con nomi coerenti e senza duplicati.
 - **Bacheca:** 31 post, 20 recenti e 11 d'archivio ([mappa](04-bacheca.md)).
 - **Pagine vuote:** Orientamento, Tutorato, Rappresentanti degli studenti, Qualità del corso.
-- **Segnalazioni:** risolvere `[DA VERIFICARE]` e `[DA FORNIRE]` con il [foglio di revisione](revisione-contenuti.xlsx).
-- **Inglese:** recuperare i testi di `/en/` dal sito attuale e confrontarli con la nuova struttura.
+- **Segnalazioni:** `[DA VERIFICARE]` e `[DA FORNIRE]` restano nei testi e su dev sono evidenziate; il cliente le risolve sul sito, con l'aiuto del [foglio di revisione](revisione-contenuti.xlsx).
+- **Inglese:** traduzione con AI dei testi italiani, fatta dallo sviluppatore; i testi di `/en/` del sito attuale servono come riferimento per la terminologia.
 
 **Risultato:** sito completo di contenuti su dev.
 
 ## Fase 5: ricerca e calendario
 - Pagina di ricerca con risultati per lingua.
-- Calendario mensile, lista dei prossimi eventi, file `.ics` per evento e per l'intero calendario.
+- Calendario mensile navigabile e lista dei prossimi eventi. Un post compare se ha una data dell'evento (nel giorno o nei giorni dell'evento) o una scadenza (nel giorno della scadenza); i post senza date restano solo in bacheca.
+- Iscrizione al calendario da Google Calendar, Apple Calendario e Outlook (indirizzo `webcal://`), più file `.ics` per il singolo evento.
 
 **Risultato:** ricerca e calendario funzionanti e accessibili.
 
@@ -166,7 +176,7 @@ Ogni pagina ha un file per lingua (`.it.txt`, `.en.txt`). Il pannello mostra un 
 - **Accessibilità WCAG 2.1 AA:** controlli automatici (axe o pa11y); controlli manuali con tastiera e lettore di schermo (NVDA, VoiceOver); contrasti; ingrandimento al 200%.
 - **Compatibilità e velocità:** browser principali, Lighthouse.
 - **Revisione dei contenuti** con il cliente.
-- **Dichiarazione di accessibilità** sul form AgID, da verificare se la gestisce l'Ateneo.
+- **Dichiarazione di accessibilità** sul form AgID: a cura dell'Ateneo.
 - **Privacy:** pagina dedicata o rimando a quella di Ateneo.
 
 **Risultato:** verbale di verifica e via libera del cliente.
@@ -175,7 +185,7 @@ Ogni pagina ha un file per lingua (`.it.txt`, `.en.txt`). Il pannello mostra un 
 - **Copia da dev a produzione:** l'intera cartella del sito, contenuti compresi, una sola volta. Da quel momento il cliente lavora solo su `iea.ing.unipi.it`.
 - **Configurazione di produzione:** cache attiva, errori nascosti, rimozione del `noindex`, sitemap.
 - **Redirect dai vecchi indirizzi** con `.htaccess`, dalla tabella in [02-architettura.md](02-architettura.md).
-- **Sito attuale:** decidere se tenerne una copia statica in archivio o spegnerlo.
+- **Sito attuale:** l'Ateneo lo sposta in un archivio.
 - **Dopo il lancio:** dev resta per le modifiche future allo sviluppo, con contenuti di prova.
 
 ## Fase 9: consegna
@@ -187,7 +197,7 @@ Ogni pagina ha un file per lingua (`.it.txt`, `.en.txt`). Il pannello mostra un 
 
 ## Ordine e dipendenze
 - **Fasi 0 e 1:** partono subito, in parallelo.
-- **Fase 2:** si chiude dopo il secondo giro di istruzioni sulla bacheca.
+- **Fase 2:** chiusa; la bacheca ha la struttura definitiva, con il calendario nella Fase 5.
 - **Fase 3:** dopo l'approvazione della pagina di prova della Fase 1.
 - **Fasi 4, 5 e 6:** dopo la 2 e la 3.
 - **Fasi 7, 8 e 9:** in sequenza, alla fine.
@@ -199,8 +209,5 @@ Rilasci intermedi da mostrare al cliente su `dev.iea.ing.unipi.it`:
 4. messa online.
 
 ## Punti ancora aperti
-1. Estensioni PHP, limite di caricamento dei file e backup: da confermare con l'IT.
-2. Licenza di Kirby: quale si applica e chi la acquista.
-3. Struttura della bacheca e del calendario: secondo giro di istruzioni.
-4. Chi scrive o traduce i testi inglesi che non esistono nel sito attuale.
-5. Cosa fare del sito attuale dopo la messa online.
+1. Sito dev, estensioni PHP, limite di caricamento dei file e backup: da confermare con l'IT.
+2. Approvazione della pagina di prova della grafica, prima della Fase 3.

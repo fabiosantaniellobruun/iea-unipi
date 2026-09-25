@@ -1,0 +1,25 @@
+Title: Workshop "Digital Spring", 8-12 giugno 2018
+
+----
+
+Summary: Progettazione parametrica e fabbricazione digitale con tecniche di form finding.
+
+----
+
+Text: [{"content":{"text":"<p>Progettazione parametrica e fabbricazione digitale con tecniche di form finding.</p>"},"id":"22ffa8c0-e349-4f1b-aebf-6eed7e0d1e32","isHidden":false,"type":"text"}]
+
+----
+
+Category: bandi-e-opportunita
+
+----
+
+Date: 2018-05-18
+
+----
+
+Deadline: 2018-05-18
+
+----
+
+Uuid: m3ctogkvlpvpqkgw

@@ -2,4 +2,12 @@ Title: Aziende ed enti
 
 ----
 
+Lead: Il tuo studio, la tua azienda o il tuo ente può ospitare studenti e studentesse di Ingegneria Edile-Architettura per un tirocinio curriculare.
+
+----
+
+Text: [{"content":{"level":"h2","text":"Come ospitare un tirocinio"},"id":"c098f227-8048-44e2-afce-54716ff3ce72","isHidden":false,"type":"heading"},{"content":{"text":"<ol><li><p><strong>Stipula una convenzione con il Dipartimento DESTEC.</strong> Il Dipartimento gestisce la parte amministrativa dei tirocini per il corso. Segui la procedura sul <a href=\"http://tirocini.adm.unipi.it/\">portale tirocini dell'Università di Pisa</a>, nella sezione riservata ad aziende ed enti.</p></li><li><p><strong>Attendi l'attivazione.</strong> La convenzione è attiva quando è firmata da entrambe le parti e registrata sul portale.</p></li><li><p><strong>Compila il progetto formativo online.</strong> Accedi al portale con le tue credenziali e indica obiettivi, sede, durata e coperture assicurative del tirocinio.</p></li><li><p><strong>Segui il tirocinio.</strong> Un tutor aziendale affianca chi fa il tirocinio; un tutor accademico ne segue gli aspetti didattici. Il progetto è firmato dai due tutor e da chi svolge il tirocinio.</p></li><li><p><strong>Scrivi la relazione finale</strong> sulle competenze acquisite.</p></li></ol>"},"id":"b11e1793-b505-41c0-a479-85931daa82e0","isHidden":false,"type":"list"},{"content":{"text":"<p>Non è obbligatorio corrispondere un'indennità mensile.</p>"},"id":"a761256e-fe85-466a-a26c-1f021e999470","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Contatti"},"id":"34bbd444-5234-4d44-a18e-378a8196c19e","isHidden":false,"type":"heading"},{"content":{"text":"<p>Unità didattica del DESTEC, Cristina Cerbone Telefono 050 2217040 · <a href=\"mailto:didatticadestec@ing.unipi.it\">didatticadestec@ing.unipi.it</a></p><p>[DA FORNIRE: altre forme di collaborazione (tesi in azienda, seminari, concorsi, premi).]</p>"},"id":"afbd27e5-5a30-4c70-a117-4d07ed95264d","isHidden":false,"type":"text"}]
+
+----
+
 Uuid: yu1vonssbcazihbs

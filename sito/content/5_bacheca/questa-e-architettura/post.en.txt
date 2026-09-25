@@ -1,0 +1,17 @@
+Title: "This is architecture", lecture by Marco Biraghi
+
+----
+
+Slug: this-is-architecture
+
+----
+
+Summary: Prof. Marco Biraghi of the Politecnico di Milano is a guest of the Theory and Techniques of Architectural Design course.
+
+----
+
+Place: Polo Porta Nuova, room PN10
+
+----
+
+Text: [{"content":{"text":"<p>Lecture by <strong>Prof. Marco Biraghi</strong>, architect, Politecnico di Milano, as part of the Theory and Techniques of Architectural Design course 2025/26.</p><p>It can also be followed online on Microsoft Teams.</p><p><a href=\"/en/noticeboard/this-is-architecture/biraghi-05-2026.pdf\">Poster</a> (PDF)</p>"},"id":"136b315c-2c0b-4bfa-a4f5-d68477e3d345","isHidden":false,"type":"text"}]

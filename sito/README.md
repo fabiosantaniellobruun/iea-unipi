@@ -45,10 +45,20 @@ php -S localhost:8000 kirby/router.php
 Il ruolo `redazione` modifica i testi di tutte le pagine e gestisce i post; non crea, sposta, rinomina o cancella pagine, e non tocca impostazioni e utenti.
 
 ## Contenuti
+I contenuti vengono dal prototipo (`../content`, Markdown) con lo script di migrazione:
+```
+php tools/migra-prototipo.php
+```
+- Riscrive in `content/` la home, le pagine del menu e del footer e i post della bacheca; non tocca le impostazioni del sito, la pagina d'errore e la guida di stile.
+- La traduzione inglese è in `tools/prototipo-en/`, con la stessa struttura del prototipo; nei link si possono lasciare le ancore italiane.
+- Gli allegati del sito attuale si scaricano una volta sola in `tools/.cache/` (esclusa da Git) e vanno nella cartella della prima pagina che li usa. Il loro indirizzo stabile è `/it/pagina/nome-file.pdf` (opzione `content.fileRedirects`).
+- Le segnalazioni `[DA VERIFICARE]` e `[DA FORNIRE]` restano nei testi e sul sito sono evidenziate in giallo e arancione, finché la redazione non le risolve dal pannello.
+- Lo script conserva gli Uuid di pagine e file: si può rilanciare. Dopo che la redazione ha iniziato a lavorare nel pannello, però, rilanciarlo sovrascriverebbe le sue modifiche.
+
 Durante lo sviluppo `content/` è nel repository, con contenuti di prova e poi con quelli migrati dal prototipo. Dopo la messa online i contenuti vivono solo sul server e vengono esclusi dal repository.
 
 ## Pubblicazione
-Si caricano via FTPS (con VPN di Ateneo) le cartelle `kirby/`, `vendor/`, `site/`, `assets/` e i file `index.php` e `.htaccess`. `content/` si carica solo la prima volta e al passaggio in produzione: poi è gestita dal pannello.
+Si caricano via FTPS (con VPN di Ateneo) le cartelle `kirby/`, `vendor/`, `site/`, `assets/` e i file `index.php` e `.htaccess`. `tools/` resta sul computer dello sviluppatore. `content/` si carica solo la prima volta e al passaggio in produzione: poi è gestita dal pannello.
 
 ## Da completare
 - Licenza di Kirby: da acquistare prima della messa online (`site/license.txt`).

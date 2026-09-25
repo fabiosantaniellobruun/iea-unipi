@@ -214,3 +214,7 @@ a[rel~="external"]::after {
 .h3-sample { font-size: var(--fs-h3); font-weight: 600; }
 .h4-sample { font-size: var(--fs-h4); font-weight: 600; }
 .styleguide .display-m { color: var(--color-secondary); font-family: var(--font-display); margin: 0 0 var(--space-3); }
+
+/* Segnalazioni redazionali [DA VERIFICARE] e [DA FORNIRE]: restano visibili finché il corso non le risolve */
+.segnalazione { padding: 0 0.2em; background: #fff1a8; color: var(--color-text); }
+.segnalazione--fornire { background: #ffd9a8; }

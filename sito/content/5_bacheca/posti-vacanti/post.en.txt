@@ -1,0 +1,13 @@
+Title: Vacant places from the 2nd to the 5th year, call 2026/27
+
+----
+
+Slug: vacant-places-2026-27
+
+----
+
+Summary: 71 places for transfers, changes of programme and second degrees. Applications from 15 June to 19 July 2026.
+
+----
+
+Text: [{"content":{"text":"<p>The call for entry into the years after the first in 2026/27 has been published.</p>"},"id":"e1f11ff0-0be5-4498-a7a9-440df4593b29","isHidden":false,"type":"text"},{"content":{"caption":"","rows":[{"c1":"Year","c2":"Places"},{"c1":"2nd","c2":"6"},{"c1":"3rd","c2":"21"},{"c1":"4th","c2":"27"},{"c1":"5th","c2":"17"}]},"id":"7d0db690-1b90-4076-a45b-21c85de239b3","isHidden":false,"type":"table"},{"content":{"text":"<p>Applications on the Alice portal from 15 June to 19 July 2026, participation fee €60.</p><p>Who can apply, requirements and procedure: <a href=\"/en/admission/later-years\">Admission to later years</a>.</p>"},"id":"d9007ce6-4080-4694-abd6-2dd16b7102fe","isHidden":false,"type":"text"}]

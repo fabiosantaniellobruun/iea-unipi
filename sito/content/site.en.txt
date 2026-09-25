@@ -1,1 +1,31 @@
 Title: Architecture and Building Engineering
+
+----
+
+Quicklinks: 
+
+- text: "Timetables and exams"
+  link: "page://0ytngybvvvdtoifp"
+- text: "Alice portal"
+  link: "https://www.studenti.unipi.it/"
+- text: "Exam booking"
+  link: "https://esami.unipi.it/esami2/"
+- text: "Contacts"
+  link: "page://6gziutxqbxe5kxoz"
+
+----
+
+Footercontacts: DESTEC Teaching Office
+Via Carlo Francesco Gabba 22, 56122 Pisa
+(email: didatticadestec@ing.unipi.it)
+
+----
+
+Legallinks: 
+
+- text: "Accessibility"
+  link: "https://www.unipi.it/accessibilita/"
+- text: "Privacy"
+  link: "https://www.unipi.it/privacy-policy/"
+- text: "University of Pisa"
+  link: "https://www.unipi.it/"

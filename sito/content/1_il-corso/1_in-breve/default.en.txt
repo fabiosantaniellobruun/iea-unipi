@@ -1,0 +1,17 @@
+Title: The course in brief
+
+----
+
+Slug: in-brief
+
+----
+
+Lead: Five years to become a building engineer and an architect, in a single programme.
+
+----
+
+Text: [{"content":{"text":"<p>The single-cycle Master's degree programme in Architecture and Building Engineering (IEA) combines the technical skills of building engineering with the cultural and design training of architecture. You will study architectural history, urban planning, design and structural engineering, and learn to design, transform and restore buildings, cities and landscapes.</p>"},"id":"010d125e-2d35-47a5-a11b-5c2a1cc00e8f","isHidden":false,"type":"text"},{"content":{"rows":[{"label":"Duration","value":"5 years, single cycle"},{"label":"Credits","value":"300 CFU (Italian university credits, equivalent to ECTS)"},{"label":"Degree class","value":"LM-4 c.u., Architecture and Building Engineering-Architecture"},{"label":"Admission","value":"Limited places, with a national admission test"},{"label":"Department","value":"<a href=\"https://www.destec.unipi.it/\">DESTEC</a>, Department of Energy, Systems, Territory and Construction Engineering"},{"label":"Qualification","value":"Recognised in the European Union (Directive 85/384/EEC)"}]},"id":"d498488a-e565-43ac-a76e-169efa71d86d","isHidden":false,"type":"infocard"},{"content":{"level":"h2","text":"How you study"},"id":"053b0296-bbec-47e1-a30e-620fc0ca0c27","isHidden":false,"type":"heading"},{"content":{"text":"<p>The programme combines lectures, practical exercises and design studios. Attendance at the design studios is compulsory.</p>"},"id":"a7d7d43f-8342-4e32-a471-cd754260b578","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Why Pisa"},"id":"c48b6573-92c6-477b-ac6f-3d9aca8e6160","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p><strong>A solid tradition.</strong> The Pisa School of Engineering has more than a hundred years of history; the Architecture and Building Engineering programme has been running since 2003, one of the first in Italy.</p></li><li><p><strong>A continuous path.</strong> Thanks to the five-year single cycle, courses are planned consistently from enrolment to graduation.</p></li><li><p><strong>Classes of the right size.</strong> Limited places ensure a good balance between students, classrooms, teachers and studios.</p></li><li><p><strong>Dedicated resources.</strong> A library with historical and modern texts, journals and up-to-date regulations; well-equipped laboratories.</p></li></ul>"},"id":"00cb3957-3f38-471e-a857-43430e7e07a2","isHidden":false,"type":"list"},{"content":{"level":"h2","text":"Who the building engineer-architect is"},"id":"b931fd05-2030-4f2a-ae94-befc57501924","isHidden":false,"type":"heading"},{"content":{"text":"<p>A professional who combines the technical rigour of engineering with the architect's sensitivity to the quality of space and to its physical and social context. They can read historical and environmental heritage critically, design buildings and settlements, and recover and restore existing buildings. This makes them well suited to coordinating teams of different specialists.</p><p><strong>Read on:</strong> <a href=\"/en/course/what-you-will-study\">What you will study</a> · <a href=\"/en/course/after-graduation\">After graduation</a> · <a href=\"/en/admission/first-year\">First-year admission</a></p>"},"id":"d2ea4ffe-2eb4-4545-a12a-5e82777def0e","isHidden":false,"type":"text"}]
+
+----
+
+Description: What the programme is, why choose Pisa and who the building engineer-architect is.

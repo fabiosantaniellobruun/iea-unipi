@@ -2,4 +2,51 @@ Title: Home
 
 ----
 
-Lead: [DA FORNIRE: English introduction]
+Lead: Single-cycle Master's degree programme at the University of Pisa. Five years to train professionals who design, build and restore buildings and cities, combining architecture and engineering.
+
+----
+
+Audiences:
+
+- 
+  question: Thinking of enrolling?
+  links:
+    - page://lbcqwk4cbrdqygko
+    - page://s5usu5nwa7csmulq
+- 
+  question: Already studying here?
+  links:
+    - page://0ytngybvvvdtoifp
+    - page://rxmamn3v3yxbjhlq
+- 
+  question: About to graduate?
+  links:
+    - page://bvmdvgb1safc0vqm
+
+----
+
+Facts:
+
+- 
+  label: Duration
+  value: >
+    5 years, single cycle, 300 ECTS credits
+    (CFU)
+- 
+  label: Degree class
+  value: >
+    LM-4 c.u., Architecture and Building
+    Engineering-Architecture
+- 
+  label: Admission
+  value: 'Limited places, with a national admission test. <a href="/en/admission/first-year#academic-year-2026-27">Places and deadlines 2026/27</a>'
+- 
+  label: Qualification
+  value: >
+    After the State Examination, it
+    qualifies you to practise both as an
+    engineer and as an architect. Recognised
+    in the European Union
+- 
+  label: Running since
+  value: "2003"

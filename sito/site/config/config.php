@@ -7,6 +7,10 @@
 return [
     'debug'     => false,
     'languages' => true,
+    // gli allegati hanno un indirizzo stabile accanto alla pagina: /it/pagina/file.pdf
+    'content'   => [
+        'fileRedirects' => true,
+    ],
     'panel' => [
         'language' => 'it',
     ],

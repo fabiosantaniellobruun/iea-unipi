@@ -1,0 +1,17 @@
+Title: Student representatives
+
+----
+
+Slug: student-representatives
+
+----
+
+Lead: Who represents students in the bodies of the programme and of the Department.
+
+----
+
+Text: [{"content":{"text":"<p>[DA FORNIRE: nomi e contatti dei rappresentanti nel Consiglio di corso di studio e nella Commissione didattica paritetica, come e quando si vota.]</p>"},"id":"3de536f0-17cd-4ccd-a935-3ade4b4239ec","isHidden":false,"type":"text"}]
+
+----
+
+Description: Who represents you in the programme's bodies.

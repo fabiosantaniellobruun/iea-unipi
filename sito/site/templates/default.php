@@ -16,7 +16,7 @@ $hasSection = $section->children()->listed()->isNotEmpty();
         <li>
           <article class="card">
             <h2 class="card__title"><a href="<?= $child->url() ?>"><?= $child->title()->esc() ?></a></h2>
-            <?php if ($child->lead()->isNotEmpty()): ?><p><?= $child->lead()->esc() ?></p><?php endif ?>
+            <?php if (($summary = $child->description()->or($child->lead()))->isNotEmpty()): ?><p><?= $summary->esc() ?></p><?php endif ?>
           </article>
         </li>
         <?php endforeach ?>

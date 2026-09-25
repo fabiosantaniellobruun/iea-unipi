@@ -1,1 +1,13 @@
 Title: The course
+
+----
+
+Slug: course
+
+----
+
+Lead: Architecture and Building Engineering is a five-year single-cycle Master's degree programme that trains professionals able to combine architectural design with engineering skills.
+
+----
+
+Text: [{"content":{"text":"<p><strong>Thinking of enrolling?</strong> Find out <a href=\"/en/admission/first-year\">how to get into the first year</a>.</p>"},"id":"4eac0252-c8dd-4e73-a566-9ce209f488b8","isHidden":false,"type":"text"}]

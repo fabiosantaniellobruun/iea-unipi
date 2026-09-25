@@ -1,0 +1,13 @@
+Title: AIDIA Award "Ideas for a changing world", 2nd edition
+
+----
+
+Slug: aidia-award
+
+----
+
+Summary: National award for projects by women professionals, researchers, PhD candidates and graduates in engineering and architecture. €1,500 for each category.
+
+----
+
+Text: [{"content":{"text":"<p>The Italian Association of Women Engineers and Architects (AIDIA) rewards projects and professional experiences with a positive, concrete impact on the environment, society, technology and organisation, in the spirit of sustainability, innovation and equal opportunities. The award is linked to Goal 5 of the UN 2030 Agenda, Gender Equality.</p><p><strong>Who it is for:</strong> women researchers, professionals, PhD candidates, graduates and local organisations.</p>"},"id":"792dcdf4-d643-4eb6-af34-bd771288d6fd","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Categories"},"id":"a494e410-cf08-4332-afea-a4c870994e57","isHidden":false,"type":"heading"},{"content":{"text":"<ol><li><p>Regeneration and redevelopment</p></li><li><p>Environmental improvement</p></li><li><p>Digital systems</p></li><li><p>Women's managerial leadership</p></li><li><p>Fondazione Inarcassa special award for women freelance professionals</p></li></ol>"},"id":"f135807f-a9ee-4d68-a29e-d4d2b330c4ac","isHidden":false,"type":"list"},{"content":{"text":"<p>The winner of each category receives €1,500.</p><p><strong>Deadline:</strong> 21 September 2026.</p><p><a href=\"/en/noticeboard/aidia-award/bando_premio-aidia-2026.pdf\">Call</a> (PDF, in Italian) · <a href=\"/en/noticeboard/aidia-award/allegato_a_istanza_partecipazione_aidia.pdf\">Application form</a> (PDF, in Italian) · <a href=\"/en/noticeboard/aidia-award/locandina_premio_aidia_2026.png\">Poster</a> · <a href=\"https://aidia-italia.it/premio-aidia-2026/\">Award page</a> · <a href=\"https://aidia-italia.it/pisa/\">AIDIA Pisa</a>, via Antonio Rosmini 9, Pisa</p>"},"id":"50580408-573d-4ffa-aacf-5c7fb02b4c8c","isHidden":false,"type":"text"}]

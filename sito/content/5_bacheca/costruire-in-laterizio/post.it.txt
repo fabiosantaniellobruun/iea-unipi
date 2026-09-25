@@ -1,0 +1,21 @@
+Title: "Costruire in laterizio", 24 maggio 2019
+
+----
+
+Summary: Laboratorio pratico di costruzione di murature all'IIS Da Vinci-Fascetti, per il corso di Architettura tecnica 1.
+
+----
+
+Text: [{"content":{"text":"<p>Laboratorio pratico di costruzione di murature all'IIS Da Vinci-Fascetti, per il corso di Architettura tecnica 1.</p>"},"id":"9d8c660d-c091-494d-ac82-b6f2835be332","isHidden":false,"type":"text"}]
+
+----
+
+Category: eventi
+
+----
+
+Date: 2019-05-24
+
+----
+
+Uuid: gumlbfmjdb5m0omx

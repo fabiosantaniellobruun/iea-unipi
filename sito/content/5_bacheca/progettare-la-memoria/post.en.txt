@@ -1,0 +1,13 @@
+Title: Designing memory, 28 July - 1 August 2026
+
+----
+
+Slug: designing-memory
+
+----
+
+Summary: Special summer teaching activity.
+
+----
+
+Text: [{"content":{"text":"<p>[DA FORNIRE: descrizione dell'iniziativa. Il post originale contiene solo il titolo e un link al programma.]</p><p><a href=\"/en/noticeboard/designing-memory/linee_e_programmi_edizione_2026.pdf\">Guidelines and programme of the 2026 edition</a> (PDF, in Italian)</p>"},"id":"c3c2cda8-7f34-4f02-a236-49803dbc0be2","isHidden":false,"type":"text"}]

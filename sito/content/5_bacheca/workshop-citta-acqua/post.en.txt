@@ -1,0 +1,13 @@
+Title: Workshop "The city and the water", 3-9 November 2017
+
+----
+
+Slug: workshop-city-and-water
+
+----
+
+Summary: Architectural and urban design workshop at the University Pavilion, for the LabQ 2017 Architecture Biennale. Open to Architecture and Architecture and Building Engineering students from all over Italy.
+
+----
+
+Text: [{"content":{"text":"<p>Architectural and urban design workshop at the University Pavilion, for the LabQ 2017 Architecture Biennale. Open to Architecture and Architecture and Building Engineering students from all over Italy.</p>"},"id":"08199abd-4747-4952-a45a-988e7fbb8460","isHidden":false,"type":"text"}]

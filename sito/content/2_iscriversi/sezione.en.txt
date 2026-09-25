@@ -1,1 +1,13 @@
 Title: Admission
+
+----
+
+Slug: admission
+
+----
+
+Lead: The programme has limited places. You can enter the first year through the national admission test, or a later year if you come from another programme or another university.
+
+----
+
+Text: [{"content":{"text":"<p>Before you choose, read <a href=\"/en/course/in-brief\">the course in brief</a> and <a href=\"/en/course/what-you-will-study\">what you will study</a>.</p>"},"id":"1d315e1d-da92-4483-a7a6-f4e3bb5ca647","isHidden":false,"type":"text"}]

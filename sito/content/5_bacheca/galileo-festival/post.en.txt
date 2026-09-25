@@ -1,0 +1,9 @@
+Title: Galileo Festival of Science and Innovation, 200 grants for the Academy
+
+----
+
+Summary: Padua, 8-10 May 2026. Grants to meet scientists, Nobel laureates and managers.
+
+----
+
+Text: [{"content":{"text":"<p>The 13th Galileo Festival takes place in Padua from 8 to 10 May 2026, with experts in the space economy, artificial intelligence, robotics, health technologies and innovative companies.</p><p>The Festival <strong>Academy</strong> offers 200 grants for university and ITS students. They include reserved access to events, accommodation, meals and transfers, a certificate of attendance and a €60 book voucher.</p>"},"id":"5f2b9210-4d88-4419-aea7-b2847e412e89","isHidden":false,"type":"text"},{"content":{"caption":"","rows":[{"c1":"Option","c2":"Duration","c3":"Fee"},{"c1":"Guided company visits + Festival","c2":"7-10 May, 3 nights","c3":"€360"},{"c1":"Festival only","c2":"8-10 May, 2 nights","c3":"€260"}]},"id":"615818cd-1cbf-4b6f-a71d-59b6b87bb13f","isHidden":false,"type":"table"},{"content":{"text":"<p><strong>First application deadline:</strong> 29 March 2026.</p><p><a href=\"https://forms.zohopublic.com/goodnetsrl/form/GalileoFestivalAcademy/formperma/PFXDGpEfcWbyvA7FLvmkJSKU3SyCW0XBIr4ftlnBS78\">Apply</a> · <a href=\"/en/noticeboard/galileo-festival/infokit_galileo_festival_academy.pdf\">Brochure</a> (PDF) · <a href=\"https://www.galileofestival.it/\">Festival website</a></p>"},"id":"a9bd2e3d-1719-4624-a88c-9845b1e79a01","isHidden":false,"type":"text"}]

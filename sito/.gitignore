@@ -9,3 +9,6 @@
 /site/sessions
 /site/license.txt
 .lock
+
+# Cache degli allegati scaricati dallo script di migrazione
+/tools/.cache

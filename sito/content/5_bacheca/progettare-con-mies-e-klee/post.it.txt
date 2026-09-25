@@ -1,0 +1,29 @@
+Title: "Progettare con Mies e Klee" e "Pure relazioni", due incontri con Dario Costi
+
+----
+
+Summary: Una giornata con l'architetto Dario Costi, Università di Parma e Studio MC2AA.
+
+----
+
+Place: Polo Etruria, aula F9, ore 11:00 e 14:30
+
+----
+
+Text: [{"content":{"text":"<p>Due incontri con l'architetto <strong>Dario Costi</strong>, nell'ambito dell'insegnamento di Teoria e tecnica della progettazione architettonica 2025/26. Si possono seguire anche online su Microsoft Teams.</p>"},"id":"1d1d116d-767d-4032-a12c-9bf099d69529","isHidden":false,"type":"text"},{"content":{"caption":"","rows":[{"c1":"Ora","c2":"Incontro"},{"c1":"11:00","c2":"<em>Pure relazioni</em>, i progetti dello Studio MC2AA. <a href=\"/it/bacheca/progettare-con-mies-e-klee/costi.pdf\">Locandina</a> (PDF)"},{"c1":"14:30","c2":"<em>Progettare con Mies e Klee</em>, conferenza del Prof. Arch. Dario Costi, Università di Parma. <a href=\"/it/bacheca/progettare-con-mies-e-klee/costi-2.pdf\">Locandina</a> (PDF)"}]},"id":"95079b8c-8503-4fad-a45a-147106e44e61","isHidden":false,"type":"table"}]
+
+----
+
+Category: eventi
+
+----
+
+Date: 2026-04-29
+
+----
+
+Start: 2026-04-29 11:00:00
+
+----
+
+Uuid: rikju5el3e7iq2xi

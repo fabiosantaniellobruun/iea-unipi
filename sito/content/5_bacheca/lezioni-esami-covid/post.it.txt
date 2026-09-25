@@ -1,0 +1,21 @@
+Title: Lezioni ed esami durante l'emergenza Covid-19, 2020/21
+
+----
+
+Summary: Modalità d'esame a distanza per ogni insegnamento nella sessione estiva.
+
+----
+
+Text: [{"content":{"text":"<p>Modalità d'esame a distanza per ogni insegnamento nella sessione estiva.</p>"},"id":"ef1d5aad-5ee9-4cf6-a501-dd14dec58eeb","isHidden":false,"type":"text"}]
+
+----
+
+Category: avvisi
+
+----
+
+Date: 2021-06-01
+
+----
+
+Uuid: ulakrvsnoyhoqnme

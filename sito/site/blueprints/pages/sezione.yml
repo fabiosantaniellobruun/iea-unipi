@@ -9,6 +9,7 @@ columns:
       lead:
         extends: fields/lead
         label: Introduzione
+      description: fields/descrizione
       text:
         extends: fields/contenuto
         help: Facoltativo. Compare prima delle card con le pagine della sezione.

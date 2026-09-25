@@ -1,0 +1,13 @@
+Title: Admission to years after the first, 2019/20
+
+----
+
+Slug: admission-later-years-2019
+
+----
+
+Summary: 100 places in total for transfers, changes of programme and credit recognition, assigned in order of application.
+
+----
+
+Text: [{"content":{"text":"<p>100 places in total for transfers, changes of programme and credit recognition, assigned in order of application.</p>"},"id":"df0cf23d-6cb6-4f93-a2ee-be4ee40f400a","isHidden":false,"type":"text"}]

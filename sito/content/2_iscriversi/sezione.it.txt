@@ -2,7 +2,11 @@ Title: Iscriversi
 
 ----
 
-Lead: [DA FORNIRE: introduzione della sezione, dal prototipo]
+Lead: Il corso è ad accesso programmato. Puoi entrare al primo anno con la prova di ammissione nazionale, oppure in un anno successivo se provieni da un altro corso o da un'altra università.
+
+----
+
+Text: [{"content":{"text":"<p>Prima di scegliere, scopri <a href=\"/it/il-corso/in-breve\">il corso in breve</a> e <a href=\"/it/il-corso/cosa-studierai\">cosa studierai</a>.</p>"},"id":"35cee8e8-1b9e-493e-aafb-1ca2c5a7cfad","isHidden":false,"type":"text"}]
 
 ----
 

@@ -2,7 +2,15 @@ Title: Iscriversi agli anni successivi
 
 ----
 
-Lead: [DA FORNIRE: testo dal prototipo]
+Lead: Se provieni da un altro corso o da un'altra università, puoi entrare direttamente in un anno successivo al primo, nei posti rimasti liberi.
+
+----
+
+Text: [{"content":{"text":"<p>Ogni anno l'Università pubblica un bando per assegnare i posti vacanti dal 2° al 5° anno.</p>"},"id":"cd587c9a-8680-4cab-a36e-01a43d6cdafd","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Chi può fare domanda"},"id":"4398fde5-254a-48a2-a4ef-f22565b9a262","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>Chi è iscritto allo stesso corso in un'altra università italiana e chiede il trasferimento.</p></li><li><p>Chi è iscritto a un altro corso dell'Università di Pisa e chiede il passaggio.</p></li><li><p>Chi è iscritto a un altro corso in un'altra università, italiana o estera, e chiede il trasferimento.</p></li><li><p>Chi è già laureato, in Italia o all'estero, e chiede l'iscrizione con abbreviazione di corso.</p></li><li><p>Chi è iscritto a questo corso con un ordinamento precedente al D.M. 270/04 e chiede di passare al nuovo ordinamento (ricongiunzione).</p></li></ul>"},"id":"198c9c71-b1f1-4b9e-a7bd-b913e1e598be","isHidden":false,"type":"list"},{"content":{"text":"<p>I requisiti minimi per ogni anno sono nella tabella all'articolo 4 del bando.</p>"},"id":"1fd6069f-d828-4983-a26a-65d6664b6731","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Come fare domanda"},"id":"f1191a43-0bd2-4fef-afa3-72a64f027faf","isHidden":false,"type":"heading"},{"content":{"text":"<ol><li><p>Leggi con attenzione il bando.</p></li><li><p>Registrati sul <a href=\"http://www.studenti.unipi.it/\">portale Alice</a> e iscriviti al concorso <em>SER, Ingegneria Edile-Architettura anni successivi al primo</em>.</p></li><li><p>Paga la tassa di partecipazione.</p></li><li><p>Controlla la graduatoria sulla pagina di Ateneo.</p></li></ol>"},"id":"46770b0b-fc87-4727-a5d6-39cfb0064fb5","isHidden":false,"type":"list"},{"content":{"level":"h2","text":"Anno accademico 2026/27"},"id":"a654e07f-4a2c-47ea-a49d-02602ef50613","isHidden":false,"type":"heading"},{"content":{"rows":[{"label":"Posti","value":"2° anno: 6 · 3° anno: 21 · 4° anno: 27 · 5° anno: 17"},{"label":"Domande","value":"dal 15 giugno al 19 luglio 2026"},{"label":"Tassa di partecipazione","value":"60,00 €"},{"label":"Bando","value":"<a href=\"https://alboufficiale.unipi.it/wp-content/uploads/2026/06/DR-e-bando-anni-successivi-al-primo-IEA-2026-2027.pdf\">Bando anni successivi a.a. 2026/27</a> (PDF)"},{"label":"Graduatoria e dettagli","value":"<a href=\"https://www.unipi.it/didattica/iscrizioni/immatricolazioni-e-iscrizioni/accesso-ad-anni-successivi-al-primo-per-i-corsi-a-numero-programmato/ingegneria-edile-architettura-a-a-2026-2027/\">Pagina di Ateneo</a>"}]},"id":"2d7bed1f-f7be-429a-a80b-be537f7c98c1","isHidden":false,"type":"infocard"},{"content":{"text":"<p>[DA VERIFICARE: le domande 2026/27 sono chiuse. Aggiornare con l'esito o con il periodo previsto per il prossimo bando.]</p>"},"id":"11843bfe-57b6-4744-ab7d-5884a46eea16","isHidden":false,"type":"text"}]
+
+----
+
+Description: Per trasferimenti, passaggi di corso, seconda laurea.
 
 ----
 

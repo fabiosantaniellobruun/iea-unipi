@@ -2,7 +2,11 @@ Title: Il corso
 
 ----
 
-Lead: [DA FORNIRE: introduzione della sezione, dal prototipo]
+Lead: Ingegneria Edile-Architettura è un corso di laurea magistrale a ciclo unico di cinque anni che forma una figura capace di unire progetto architettonico e competenze di ingegneria.
+
+----
+
+Text: [{"content":{"text":"<p><strong>Vuoi iscriverti?</strong> Scopri <a href=\"/it/iscriversi/primo-anno\">come si accede al primo anno</a>.</p>"},"id":"422acb66-c687-41ed-afb4-c47cd569edbe","isHidden":false,"type":"text"}]
 
 ----
 

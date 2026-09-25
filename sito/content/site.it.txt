@@ -5,13 +5,13 @@ Title: Ingegneria Edile-Architettura
 Quicklinks: 
 
 - text: "Orari ed esami"
-  link: "/it/studiare/orari-e-esami"
+  link: "page://0ytngybvvvdtoifp"
 - text: "Portale Alice"
   link: "https://www.studenti.unipi.it/"
 - text: "Prenotazione esami"
   link: "https://esami.unipi.it/esami2/"
 - text: "Contatti"
-  link: "/it/contatti"
+  link: "page://6gziutxqbxe5kxoz"
 
 ----
 

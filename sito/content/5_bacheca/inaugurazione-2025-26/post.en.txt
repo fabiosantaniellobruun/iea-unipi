@@ -1,0 +1,17 @@
+Title: Opening of the academic year 2025/26 with Fabrizio Barozzi
+
+----
+
+Slug: opening-2025-26
+
+----
+
+Summary: Architect Fabrizio Barozzi, of the Barozzi Veiga studio, talks about the reuse of Groeninge Abbey in Kortrijk.
+
+----
+
+Place: Main Hall of the School of Engineering, Largo Lucio Lazzarino
+
+----
+
+Text: [{"content":{"text":"<p>The Programme Chair, Prof. Luca Lanini, opens the academic year 2025/26 with a lecture by architect <strong>Fabrizio Barozzi</strong>, of the Barozzi Veiga studio.</p><p>Barozzi presents the reuse of Groeninge Abbey in Kortrijk, Belgium, now <em>Abby Kortrijk</em>, an art museum conceived as an open and inclusive urban space.</p>"},"id":"f12d7186-b8b8-47e4-aab5-d45fbd00881e","isHidden":false,"type":"text"},{"content":{"rows":[{"label":"Opening","value":"Luca Lanini (<a href=\"/en/noticeboard/opening-2025-26/inaugurazione-aa2025-26.pdf\">opening speech</a>, PDF, in Italian)"},{"label":"Institutional greetings","value":"Leonardo Germani"},{"label":"Introduction","value":"Andrea Crudeli"},{"label":"Discussion","value":"Francesca Molle, Manuela Reitano"}]},"id":"13e75f11-2cba-4479-a262-5cd52d260b8b","isHidden":false,"type":"infocard"}]

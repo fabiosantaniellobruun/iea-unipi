@@ -1,0 +1,17 @@
+Title: Tutoring
+
+----
+
+Slug: tutoring
+
+----
+
+Lead: Support during your studies.
+
+----
+
+Text: [{"content":{"text":"<p>[DA FORNIRE: chi sono i tutor, come contattarli, orari di ricevimento, eventuali corsi di recupero per gli OFA.]</p>"},"id":"95f5cb42-a7bd-4035-a914-ba5b07ab7d29","isHidden":false,"type":"text"}]
+
+----
+
+Description: Support during your studies.
