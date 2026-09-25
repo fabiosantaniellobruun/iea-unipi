@@ -34,5 +34,6 @@ columns:
         type: pages
         label: Elenchi
         templates:
+          - calendario
           - bacheca-categoria
           - bacheca-archivio

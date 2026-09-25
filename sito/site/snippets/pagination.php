@@ -1,8 +1,8 @@
 <?php
-/** Numeri di pagina di un elenco. $pagination */
+/** Numeri di pagina di un elenco. $pagination; $label: nome dell'elenco per i lettori di schermo */
 if ($pagination->pages() < 2) return;
 ?>
-<nav class="pagination" aria-label="<?= t('noticeboard.pages') ?>">
+<nav class="pagination" aria-label="<?= $label ?? t('noticeboard.pages') ?>">
   <ul>
     <?php if ($pagination->hasPrevPage()): ?>
     <li><a href="<?= $pagination->prevPageUrl() ?>" rel="prev"><?= t('pagination.prev') ?></a></li>

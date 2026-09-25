@@ -1,0 +1,12 @@
+# Calendario della bacheca: si genera da solo dai post con una data dell'evento o una scadenza
+title: Calendario
+icon: calendar
+options:
+  changeSlug: false
+  changeStatus: false
+  delete: false
+fields:
+  lead: fields/lead
+  info:
+    type: info
+    text: Il calendario si genera da solo con gli eventi dei post che hanno una data e con le scadenze dei bandi. I post senza date restano solo in bacheca.

@@ -4,6 +4,9 @@
  * Configurazione comune a tutti gli ambienti.
  * I file config.<dominio>.php sovrascrivono queste opzioni per ciascun ambiente.
  */
+// Date e orari dei contenuti sono ora italiana: "oggi" per la bacheca e gli orari nei calendari esterni
+date_default_timezone_set('Europe/Rome');
+
 return [
     'debug'     => false,
     'languages' => true,

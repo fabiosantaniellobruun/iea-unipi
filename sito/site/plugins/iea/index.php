@@ -4,6 +4,9 @@
  * Funzioni di supporto del sito.
  */
 
+require_once __DIR__ . '/calendar.php';
+require_once __DIR__ . '/search.php';
+
 /** Vero se l'indirizzo porta fuori dal sito */
 function isExternal(?string $url): bool
 {

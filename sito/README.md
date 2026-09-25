@@ -25,7 +25,7 @@ php -S localhost:8000 kirby/router.php
 | `site/snippets/` | Componenti: layout, header, breadcrumb, menu di sezione, footer, card, elenchi di post, paginazione, immagini, allegati, blocchi, pagina di manutenzione |
 | `site/config/` | Configurazione comune e per ambiente (`localhost`, `dev.iea.ing.unipi.it`, `iea.ing.unipi.it`) |
 | `site/languages/` | Italiano e inglese, con le etichette fisse dell'interfaccia |
-| `site/plugins/iea/` | Funzioni di supporto |
+| `site/plugins/iea/` | Funzioni di supporto: date, bacheca, calendario e file `.ics` (`calendar.php`), ricerca (`search.php`), segnalazioni, manutenzione |
 | `assets/css/` | `tokens.css` (colori, font, spaziature dal manuale di Ateneo, più il viola del corso), `fonts.css`, `base.css`, `layout.css`, `components.css`. Nessuna build |
 | `assets/IEA Brand/` | Marchi del corso (IEA, orizzontale e verticale) e marchio di Ateneo |
 | `assets/fonts/` | Inter e Titillium Web (SIL Open Font License) |
@@ -44,6 +44,8 @@ php -S localhost:8000 kirby/router.php
 | `bacheca` | Elenco di tutti i post; da qui la redazione scrive i post |
 | `bacheca-categoria`, `bacheca-archivio` | Avvisi, Eventi, Bandi e opportunità, Archivio: elenchi generati |
 | `post` | Post della bacheca. Pubblicato vuol dire "unlisted": visibile sul sito ma non nei menu |
+| `calendario` | Calendario della bacheca: mese navigabile, prossimi appuntamenti, iscrizione |
+| `cerca` | Risultati della ricerca interna |
 | `mappa` | Mappa del sito, generata dal menu e dai link del footer |
 | `error` | Pagina non trovata (404), con i link per ripartire |
 
@@ -66,6 +68,13 @@ Durante lo sviluppo `content/` è nel repository, con contenuti di prova e poi c
 
 ## Pubblicazione
 Si caricano via FTPS (con VPN di Ateneo) le cartelle `kirby/`, `vendor/`, `site/`, `assets/` e i file `index.php` e `.htaccess`. `tools/` resta sul computer dello sviluppatore. Insieme a `index.php` e `.htaccess` va caricato anche `favicon.ico`.
+
+## Calendario e ricerca
+- Il calendario (`/it/bacheca/calendario`) contiene solo i post con una data dell'evento, nel giorno o nei giorni in cui si svolge, e le scadenze dei bandi. I post senza date restano solo in bacheca.
+- Ci si iscrive da Apple Calendario, Outlook o Google Calendar con i feed `.ics`: `calendario.ics` per tutta la bacheca e `avvisi.ics`, `eventi.ics`, `bandi-e-opportunita.ics` per le singole categorie. Ogni post con una data ha anche il suo file `.ics` ("Aggiungi al calendario").
+- Nell'header la lente sostituisce tutta la riga con il campo di ricerca e mostra i primi risultati mentre si scrive (dalla versione JSON della pagina, `cerca.json`); Invio porta alla pagina con tutti i risultati. Senza JavaScript la lente è un link alla pagina di ricerca.
+- La ricerca (`/it/cerca?q=…`) cerca nei testi della lingua della pagina, anche senza accenti e con singolare e plurale ("tirocinio" trova "Tirocini"). Il titolo pesa più dell'introduzione, che pesa più del testo.
+- Date e orari sono in ora italiana (`Europe/Rome`, in `site/config/config.php`); nei file `.ics` gli orari sono convertiti in UTC.
 
 ## Manutenzione
 Durante un aggiornamento si può mostrare ai visitatori una pagina "Sito in manutenzione" (codice 503): nel file di configurazione dell'ambiente (`site/config/config.<dominio>.php`) si aggiunge `'iea.maintenance' => true`. Chi ha fatto l'accesso al pannello continua a vedere il sito normalmente. A lavoro finito si toglie la riga. `content/` si carica solo la prima volta e al passaggio in produzione: poi è gestita dal pannello.

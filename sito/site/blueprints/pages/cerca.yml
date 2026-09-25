@@ -1,0 +1,11 @@
+# Pagina dei risultati della ricerca: non ha contenuti da scrivere
+title: Ricerca
+icon: search
+options:
+  changeSlug: false
+  changeStatus: false
+  delete: false
+fields:
+  info:
+    type: info
+    text: I risultati si generano da soli e cercano nei testi di tutte le pagine e i post, nella lingua della pagina.

@@ -22,6 +22,9 @@
       <dt><?= t('post.published') ?></dt>
       <dd><time datetime="<?= $page->date()->toDate('Y-m-d') ?>"><?= formatDate($page->date()->toDate()) ?></time></dd>
     </dl>
+    <?php if ($page->startTime() !== null || $page->isCall()): ?>
+    <p><a class="more" href="<?= $page->url() ?>.ics" type="text/calendar"><?= t('calendar.add') ?></a></p>
+    <?php endif ?>
     <?php if ($cover = $page->cover()->toFile()): ?>
       <?php snippet('figure', ['image' => $cover]) ?>
     <?php endif ?>

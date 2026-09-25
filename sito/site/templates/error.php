@@ -2,6 +2,7 @@
 <?php snippet('layout', slots: true) ?>
   <div class="container page-body">
     <div class="content">
+      <?php snippet('search-form') ?>
       <h2><?= t('error.links') ?></h2>
       <ul class="sitemap">
         <li><a href="<?= $site->url() ?>"><?= t('home') ?></a></li>
