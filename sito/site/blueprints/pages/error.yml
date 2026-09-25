@@ -1,0 +1,13 @@
+# Pagina mostrata quando un indirizzo non esiste (errore 404)
+title: Pagina d'errore
+icon: alert
+options:
+  changeSlug: false
+  changeStatus: false
+  delete: false
+fields:
+  lead:
+    label: Testo
+    type: textarea
+    buttons: false
+    help: Compare sotto il titolo, prima dei link per ripartire.

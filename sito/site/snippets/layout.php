@@ -12,9 +12,12 @@ $languageCode = $kirby->language()?->code() ?? 'it';
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?= $page->isHomePage() ? t('course.full') : $page->title()->esc() . ' · ' . t('course') ?> · <?= t('university') ?></title>
-  <?php if ($page->description()->isNotEmpty()): ?>
-  <meta name="description" content="<?= $page->description()->esc() ?>">
+  <?php if (($description = $page->description()->or($page->summary())->or($page->lead()))->isNotEmpty()): ?>
+  <meta name="description" content="<?= $description->esc() ?>">
   <?php endif ?>
+  <link rel="icon" href="<?= url('favicon.ico') ?>" sizes="32x32">
+  <link rel="icon" href="<?= url('assets/favicon.svg') ?>" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="<?= url('assets/apple-touch-icon.png') ?>">
   <?php if (option('iea.noindex')): ?>
   <meta name="robots" content="noindex, nofollow">
   <?php endif ?>

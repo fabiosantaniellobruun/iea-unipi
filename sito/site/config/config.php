@@ -23,4 +23,6 @@ return [
     ],
     // Il sito si indicizza solo in produzione: vedi config.iea.ing.unipi.it.php
     'iea.noindex' => true,
+    // Pagina di manutenzione per i visitatori: si attiva nel file dell'ambiente durante un aggiornamento
+    'iea.maintenance' => false,
 ];

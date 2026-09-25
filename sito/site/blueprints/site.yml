@@ -13,6 +13,7 @@ tabs:
           - sezione
           - default
           - bacheca
+          - mappa
 
   settings:
     label: Impostazioni

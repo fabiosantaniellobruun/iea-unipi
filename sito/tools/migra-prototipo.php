@@ -136,7 +136,7 @@ $footerDirs = ['servizi/index' => 'servizi-di-ateneo'];
 foreach ($nav['footer'] as $item) {
 	$pages[$item['page']] = [
 		'dir'      => $footerDirs[$item['page']] ?? strtok($item['page'], '/'),
-		'template' => 'default',
+		'template' => $item['page'] === 'mappa-del-sito/index' ? 'mappa' : 'default',
 		'label'    => $item['label'],
 	];
 }
@@ -606,7 +606,7 @@ foreach (LANGS as $lang) {
 				if (isset($meta['lead'])) {
 					$fields['Lead'] = $meta['lead'];
 				}
-				if (in_array($page['template'], ['bacheca', 'bacheca-categoria'], true) === false) {
+				if (in_array($page['template'], ['bacheca', 'bacheca-categoria', 'mappa'], true) === false) {
 					$fields['Text'] = json_encode(toBlocks($body, $key, $lang, $images), JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 				}
 				if ($images !== []) {

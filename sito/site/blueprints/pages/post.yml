@@ -95,5 +95,6 @@ columns:
             translate: false
             uploads:
               template: immagine
-            help: Facoltativa. Per esempio la locandina.
+            info: "{{ file.alt.or('Manca il testo alternativo') }}"
+            help: Facoltativa. Per esempio la locandina. Dopo averla caricata, aprila e scrivi il testo alternativo.
       files: sections/allegati

@@ -2,3 +2,4 @@ type: files
 label: Immagini
 template: immagine
 layout: cardlets
+info: "{{ file.alt.or('Manca il testo alternativo') }}"

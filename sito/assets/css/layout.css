@@ -176,3 +176,10 @@
 .home-intro { padding-block: var(--space-7) var(--space-6); }
 .display-m { font-size: var(--fs-display-m); font-weight: 500; line-height: 1.05; letter-spacing: -0.02em; }
 .home-intro .lead { max-width: var(--measure); font-size: 1.25em; color: var(--color-text-muted); }
+.home-section { padding-block: var(--space-6); }
+.home-section > h2 { margin-top: 0; }
+.home-section + .home-section { padding-top: 0; }
+
+/* Pagina di manutenzione */
+.maintenance { padding-block: var(--space-7); }
+.maintenance .brand { margin-bottom: var(--space-7); }

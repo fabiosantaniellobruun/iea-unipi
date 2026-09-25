@@ -45,5 +45,5 @@ columns:
       featured:
         label: In evidenza
         type: pages
-        max: 4
+        max: 3
         help: Post o pagine da mostrare in home, nell'ordine della lista. Gli avvisi e le ultime notizie della bacheca si aggiornano da soli.

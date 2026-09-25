@@ -1,0 +1,9 @@
+Alt: Palloncini blu con il logo BRIGHT NIGHT davanti a un pannello con la scritta BRIGHT NIGHT.
+
+----
+
+Uuid: maigor0cfkg71rcu
+
+----
+
+Template: immagine

@@ -12,6 +12,7 @@ fields:
     required: true
     uploads:
       template: immagine
+    info: "{{ file.alt.or('Manca il testo alternativo') }}"
     help: Il testo alternativo si scrive nella scheda dell'immagine.
   caption:
     label: Didascalia
