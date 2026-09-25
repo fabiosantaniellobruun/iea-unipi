@@ -1,0 +1,8 @@
+title: Guida di stile
+options:
+  changeStatus: false
+  delete: false
+fields:
+  info:
+    type: info
+    text: Pagina tecnica che mostra tutti i componenti del sito. Non compare nei menu.

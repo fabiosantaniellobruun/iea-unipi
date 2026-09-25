@@ -1,0 +1,11 @@
+# Kirby e dipendenze: si installano con composer install
+/kirby
+/vendor
+
+# File generati o legati al server
+/media
+/site/accounts
+/site/cache
+/site/sessions
+/site/license.txt
+.lock

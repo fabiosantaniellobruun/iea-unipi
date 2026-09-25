@@ -1,0 +1,17 @@
+name: Sezioni espandibili
+icon: menu
+preview: fields
+fields:
+  items:
+    label: Sezioni
+    type: structure
+    fields:
+      title:
+        label: Titolo
+        type: text
+        required: true
+      text:
+        label: Testo
+        type: writer
+        marks: [bold, italic, link]
+        nodes: [paragraph, bulletList, orderedList]

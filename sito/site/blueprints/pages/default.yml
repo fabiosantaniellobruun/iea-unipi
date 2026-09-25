@@ -1,0 +1,34 @@
+title: Pagina
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      lead:
+        label: Frase introduttiva
+        type: textarea
+        buttons: false
+        maxlength: 300
+        help: Una o due frasi che dicono cosa trova chi legge.
+      text:
+        label: Contenuto
+        type: blocks
+        fieldsets:
+          - heading
+          - text
+          - list
+          - image
+          - notice
+          - infocard
+          - accordion
+          - attachments
+  sidebar:
+    width: 1/3
+    sections:
+      subpages:
+        type: pages
+        label: Sottopagine
+        template: default
+      files:
+        type: files
+        label: File

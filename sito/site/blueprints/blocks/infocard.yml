@@ -1,0 +1,17 @@
+name: Scheda informativa
+icon: list-bullet
+preview: fields
+fields:
+  rows:
+    label: Righe
+    type: structure
+    fields:
+      label:
+        label: Voce
+        type: text
+        required: true
+      value:
+        label: Valore
+        type: writer
+        inline: true
+        marks: [bold, link]

@@ -1,0 +1,17 @@
+title: Home
+
+fields:
+  lead:
+    label: Presentazione del corso
+    type: textarea
+    buttons: false
+  facts:
+    label: Il corso in sintesi
+    type: structure
+    fields:
+      label:
+        label: Voce
+        type: text
+      value:
+        label: Valore
+        type: text

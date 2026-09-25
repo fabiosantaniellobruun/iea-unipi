@@ -1,0 +1,18 @@
+Title: Home
+
+----
+
+Lead: Corso di Laurea Magistrale a ciclo unico dell'Università di Pisa. Cinque anni per formare una figura che progetta, costruisce e recupera edifici e città, unendo architettura e ingegneria.
+
+----
+
+Facts: 
+
+- label: "Durata"
+  value: "5 anni, ciclo unico, 300 CFU"
+- label: "Classe"
+  value: "LM-4 c.u., Architettura e ingegneria edile-architettura"
+- label: "Accesso"
+  value: "Programmato, con prova di ammissione nazionale"
+- label: "Titolo"
+  value: "Abilita, dopo l'esame di Stato, sia alla professione di ingegnere sia a quella di architetto. Riconosciuto nell'Unione europea"

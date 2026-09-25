@@ -1,0 +1,16 @@
+title: Redazione
+description: Pubblica notizie ed eventi e modifica i testi delle pagine.
+permissions:
+  access:
+    system: false
+    users: false
+  site:
+    changeTitle: false
+    update: false
+  pages:
+    changeSlug: false
+    changeTemplate: false
+    delete: false
+  user:
+    changeRole: false
+  users: false
