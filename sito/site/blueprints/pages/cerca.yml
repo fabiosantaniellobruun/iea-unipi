@@ -2,6 +2,9 @@
 title: Ricerca
 icon: search
 options:
+  create:
+    admin: true
+    "*": false
   changeSlug: false
   changeStatus: false
   delete: false

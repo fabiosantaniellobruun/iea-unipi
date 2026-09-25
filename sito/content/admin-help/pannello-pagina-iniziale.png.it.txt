@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Pagina iniziale del pannello: in alto la sezione «Bacheca, ultimi post» con il pulsante Aggiungi, sotto l'elenco «Pagine del sito».
+
+----
+
+Uuid: vjqjrk4xa5furstj

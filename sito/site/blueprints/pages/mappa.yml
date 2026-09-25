@@ -2,6 +2,9 @@
 title: Mappa del sito
 icon: sitemap
 options:
+  create:
+    admin: true
+    "*": false
   changeStatus: false
   delete: false
 fields:

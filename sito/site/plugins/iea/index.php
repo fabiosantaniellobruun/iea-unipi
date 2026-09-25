@@ -65,8 +65,51 @@ function highlightNotes(string $html): string
     return $head . $out . substr($rest, $offset);
 }
 
+/**
+ * Blueprint letto dalla cartella del plugin e adattato al ruolo. Per chi non amministra:
+ * - le sezioni di pagine diverse dai post non mostrano "Aggiungi" (la redazione crea solo post;
+ *   il pannello mostra il pulsante in base al permesso generale del ruolo, non a quello del blueprint);
+ * - la scheda Impostazioni del sito (link rapidi, footer, social) sparisce, perché non la può modificare.
+ */
+function roleBlueprint(string $file): Closure
+{
+    return function (Kirby\Cms\App $kirby) use ($file) {
+        $blueprint = Kirby\Data\Data::read(__DIR__ . '/blueprints/' . $file);
+        if ($kirby->user()?->role()->id() === 'admin') {
+            return $blueprint;
+        }
+
+        unset($blueprint['tabs']['settings']);
+
+        $lock = function (array $node) use (&$lock): array {
+            foreach ($node as $key => $value) {
+                if (is_array($value) === true) {
+                    if (($value['type'] ?? null) === 'pages' && ($value['template'] ?? null) !== 'post') {
+                        $value['create'] = false;
+                    }
+                    $node[$key] = $lock($value);
+                }
+            }
+            return $node;
+        };
+
+        return $lock($blueprint);
+    };
+}
+
 Kirby::plugin('iea/site', [
+    // Blueprint che cambiano con il ruolo: sono in site/plugins/iea/blueprints (vedi roleBlueprint)
+    'blueprints' => [
+        'site'          => roleBlueprint('site.yml'),
+        'pages/sezione' => roleBlueprint('pages/sezione.yml'),
+        'pages/bacheca' => roleBlueprint('pages/bacheca.yml'),
+    ],
     'routes' => [
+        // Indirizzo breve della guida per la redazione
+        [
+            'pattern' => 'admin-help',
+            'action'  => fn () => go(page('admin-help')?->url() ?? site()->url()),
+        ],
         // Manutenzione: con 'iea.maintenance' => true i visitatori vedono una pagina di cortesia (503);
         // chi ha fatto l'accesso al pannello continua a vedere il sito. Pannello, API e file restano raggiungibili.
         [

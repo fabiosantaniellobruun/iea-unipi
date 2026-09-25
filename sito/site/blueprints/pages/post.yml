@@ -68,7 +68,7 @@ columns:
             time: true
             display: DD/MM/YYYY
             translate: false
-            help: Compila se il post riguarda una data da segnare nel calendario.
+            help: Compila se il post riguarda una data da segnare nel calendario. Se non c'è un orario preciso lascia 00:00.
           end:
             label: Fine
             type: date
@@ -85,6 +85,7 @@ columns:
             type: date
             display: DD/MM/YYYY
             translate: false
+            help: Il bando compare nel calendario in questo giorno.
             when:
               category: bandi-e-opportunita
           cover:

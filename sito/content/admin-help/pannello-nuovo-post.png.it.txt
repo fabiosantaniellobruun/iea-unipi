@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Finestra per creare un post con i campi Titolo, URL, Categoria e Data di pubblicazione e il pulsante «Crea come Bozza».
+
+----
+
+Uuid: 0rv5mug034ask7jp

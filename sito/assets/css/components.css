@@ -431,15 +431,17 @@ a[rel~="external"]::after {
   margin-left: 0.3em;
 }
 
-/* Immagini nel testo e copertina dei post; le verticali (locandine) restano strette */
+/* Immagini nel testo e copertina dei post: mai più grandi della loro misura (--natural, da figure.php);
+   le verticali (locandine) restano strette */
 .figure {
   margin: 0 0 var(--space-5);
+  max-width: var(--natural, 100%);
 }
 .figure img {
   width: 100%;
 }
 .figure--portrait {
-  max-width: 22rem;
+  max-width: min(22rem, var(--natural, 22rem));
 }
 .figure figcaption {
   margin-top: var(--space-2);
@@ -629,4 +631,25 @@ a[rel~="external"]::after {
   background: none;
   color: inherit;
   font-weight: 700;
+}
+
+/* Guida per la redazione: indice delle sezioni */
+.guide-toc {
+  margin-bottom: var(--space-6);
+  padding: var(--space-4);
+  background: var(--color-support);
+}
+.guide-toc h2 {
+  margin: 0 0 var(--space-2);
+  font-size: var(--fs-h4);
+}
+.guide-toc ol {
+  margin: 0;
+}
+/* le schermate del pannello restano alla loro misura, con un bordo che le separa dalla pagina */
+.guide .figure--portrait {
+  max-width: var(--natural, 100%);
+}
+.guide .figure img {
+  border: 1px solid var(--color-rule);
 }

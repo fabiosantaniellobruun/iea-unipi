@@ -9,8 +9,9 @@ Sito definitivo realizzato con [Kirby](https://getkirby.com) 5, secondo il piano
 ## Avvio in locale
 ```
 composer install
-php -S localhost:8000 kirby/router.php
+php -d upload_max_filesize=20M -d post_max_size=24M -d memory_limit=256M -S localhost:8000 kirby/router.php
 ```
+Le opzioni `-d` alzano i limiti di PHP a quelli del pannello (immagini fino a 5 MB, allegati fino a 20 MB); senza, in locale non si caricano file oltre i 2 MB.
 - Sito: http://localhost:8000
 - Pannello: http://localhost:8000/panel (al primo accesso chiede di creare l'utente amministratore)
 - Guida di stile con tutti i componenti: http://localhost:8000/it/styleguide
@@ -25,12 +26,12 @@ php -S localhost:8000 kirby/router.php
 | `site/snippets/` | Componenti: layout, header, breadcrumb, menu di sezione, footer, card, elenchi di post, paginazione, immagini, allegati, blocchi, pagina di manutenzione |
 | `site/config/` | Configurazione comune e per ambiente (`localhost`, `dev.iea.ing.unipi.it`, `iea.ing.unipi.it`) |
 | `site/languages/` | Italiano e inglese, con le etichette fisse dell'interfaccia |
-| `site/plugins/iea/` | Funzioni di supporto: date, bacheca, calendario e file `.ics` (`calendar.php`), ricerca (`search.php`), segnalazioni, manutenzione |
+| `site/plugins/iea/` | Funzioni di supporto: date, bacheca, calendario e file `.ics` (`calendar.php`), ricerca (`search.php`), segnalazioni, manutenzione. In `blueprints/` i blueprint che cambiano con il ruolo (dashboard, Sezione, Bacheca) |
 | `assets/css/` | `tokens.css` (colori, font, spaziature dal manuale di Ateneo, più il viola del corso), `fonts.css`, `base.css`, `layout.css`, `components.css`. Nessuna build |
 | `assets/IEA Brand/` | Marchi del corso (IEA, orizzontale e verticale) e marchio di Ateneo |
 | `assets/fonts/` | Inter e Titillium Web (SIL Open Font License) |
 | `assets/favicon.svg`, `assets/apple-touch-icon.png`, `favicon.ico` | Favicon: la IEA del marchio in bianco su viola |
-| `tools/` | Script di migrazione dal prototipo e traduzione inglese; non va sul server |
+| `tools/` | Script di migrazione dal prototipo e traduzione inglese, script per reimpostare una password (`cambia-password.php`); non va sul server |
 | `content/` | Contenuti: una cartella per pagina, un file per lingua |
 
 `kirby/` e `vendor/` non sono nel repository: si installano con `composer install`.
@@ -48,10 +49,15 @@ php -S localhost:8000 kirby/router.php
 | `cerca` | Risultati della ricerca interna |
 | `mappa` | Mappa del sito, generata dal menu e dai link del footer |
 | `error` | Pagina non trovata (404), con i link per ripartire |
+| `guida` | Guida illustrata per la redazione, su `/admin-help`: non collegata dal sito, esclusa da motori di ricerca e ricerca interna, modificabile solo da chi amministra |
 
 Un post resta in bacheca se è stato pubblicato nell'ultimo anno o se il suo evento o la sua scadenza non sono ancora passati; poi passa da solo in Archivio. In home ogni post compare in un solo blocco: avvisi, poi in evidenza (scelti dalla home), poi ultime dalla bacheca.
 
-Il ruolo `redazione` modifica i testi di tutte le pagine e gestisce i post; non crea, sposta, rinomina o cancella pagine, e non tocca impostazioni e utenti.
+Il ruolo `redazione` modifica i testi di tutte le pagine e gestisce i post; non crea, sposta, rinomina o cancella pagine, e non tocca impostazioni e utenti. Il pannello mostra "Aggiungi" solo se il ruolo può creare pagine: per questo il ruolo lo permette, mentre ogni tipo di pagina diverso dal post limita la creazione a chi amministra e le sue sezioni non mostrano il pulsante alla redazione (`roleBlueprint()` in `site/plugins/iea/index.php`).
+
+## Accesso al pannello
+- "Hai dimenticato la password?" nel login manda per email un codice per entrare e sceglierne una nuova: serve che il server possa spedire email.
+- In locale, dove le email non partono, si reimposta una password con `php tools/cambia-password.php email@esempio.it` (la password si scrive nel terminale e non si vede).
 
 ## Contenuti
 I contenuti vengono dal prototipo (`../content`, Markdown) con lo script di migrazione:

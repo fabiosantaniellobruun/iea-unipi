@@ -18,7 +18,7 @@ $languageCode = $kirby->language()?->code() ?? 'it';
   <link rel="icon" href="<?= url('favicon.ico') ?>" sizes="32x32">
   <link rel="icon" href="<?= url('assets/favicon.svg') ?>" type="image/svg+xml">
   <link rel="apple-touch-icon" href="<?= url('assets/apple-touch-icon.png') ?>">
-  <?php if (option('iea.noindex')): ?>
+  <?php if (option('iea.noindex') || $page->intendedTemplate()->name() === 'guida'): ?>
   <meta name="robots" content="noindex, nofollow">
   <?php endif ?>
   <script>document.documentElement.classList.add('js')</script>

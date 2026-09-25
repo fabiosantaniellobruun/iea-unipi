@@ -1,5 +1,8 @@
 title: Guida di stile
 options:
+  create:
+    admin: true
+    "*": false
   changeStatus: false
   delete: false
   # Pagina tecnica: la redazione non la vede nel pannello

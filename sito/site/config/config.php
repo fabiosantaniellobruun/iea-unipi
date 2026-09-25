@@ -17,6 +17,11 @@ return [
     'panel' => [
         'language' => 'it',
     ],
+    // "Password dimenticata?" nel login del pannello: arriva per email un codice per entrare e scegliere una nuova password.
+    // Il server deve poter spedire email (funzione mail di PHP o SMTP): da confermare con l'IT
+    'auth' => [
+        'methods' => ['password', 'password-reset'],
+    ],
     'thumbs' => [
         'format'  => 'webp',
         'quality' => 80,

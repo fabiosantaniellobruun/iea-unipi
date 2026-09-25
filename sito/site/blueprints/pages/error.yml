@@ -2,6 +2,9 @@
 title: Pagina d'errore
 icon: alert
 options:
+  create:
+    admin: true
+    "*": false
   changeSlug: false
   changeStatus: false
   delete: false

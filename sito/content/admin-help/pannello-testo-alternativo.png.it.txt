@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Scheda di un'immagine con l'anteprima, i dati del file e il campo Testo alternativo compilato.
+
+----
+
+Uuid: mvohyl2whiknxbq3

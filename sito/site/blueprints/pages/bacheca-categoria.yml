@@ -2,6 +2,11 @@
 title: Categoria della bacheca
 icon: tag
 
+options:
+  create:
+    admin: true
+    "*": false
+
 fields:
   lead: fields/lead
   info:

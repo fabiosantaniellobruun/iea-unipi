@@ -1,5 +1,6 @@
 type: files
 label: Immagini
+help: Le immagini da inserire nel testo con il blocco Immagine. Aprile e scrivi sempre il testo alternativo.
 template: immagine
 layout: cardlets
 info: "{{ file.alt.or('Manca il testo alternativo') }}"

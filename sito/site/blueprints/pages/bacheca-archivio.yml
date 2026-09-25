@@ -2,6 +2,11 @@
 title: Archivio della bacheca
 icon: archive
 
+options:
+  create:
+    admin: true
+    "*": false
+
 fields:
   lead: fields/lead
   text:

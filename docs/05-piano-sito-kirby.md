@@ -209,5 +209,5 @@ Rilasci intermedi da mostrare al cliente su `dev.iea.ing.unipi.it`:
 4. messa online.
 
 ## Punti ancora aperti
-1. Sito dev, estensioni PHP, limite di caricamento dei file e backup: da confermare con l'IT.
+1. Sito dev, estensioni PHP, limiti di PHP (`upload_max_filesize` e `post_max_size` almeno 20 MB, `memory_limit` 256 MB per le immagini), backup e invio delle email dal server (serve al recupero della password del pannello): da confermare con l'IT.
 2. Approvazione della pagina di prova della grafica, prima della Fase 3.

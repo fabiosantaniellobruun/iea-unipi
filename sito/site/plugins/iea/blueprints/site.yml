@@ -1,3 +1,4 @@
+# Dashboard del pannello. Lo carica site/plugins/iea/index.php (roleBlueprint), che la adatta al ruolo.
 title: Sito
 
 tabs:
@@ -5,6 +6,26 @@ tabs:
     label: Pagine
     icon: page
     sections:
+      posts:
+        type: pages
+        label: Bacheca, ultimi post
+        parent: site.find('bacheca')
+        template: post
+        sortBy: date desc
+        limit: 6
+        layout: table
+        empty: Nessun post
+        help: Con "Aggiungi" scrivi un nuovo avviso, evento o bando. Tutti i post sono nella pagina Bacheca.
+        columns:
+          category:
+            label: Categoria
+            value: "{{ page.categoryPage.title }}"
+            width: 1/4
+          date:
+            label: Data
+            type: date
+            display: DD/MM/YYYY
+            width: 1/6
       pages:
         type: pages
         label: Pagine del sito

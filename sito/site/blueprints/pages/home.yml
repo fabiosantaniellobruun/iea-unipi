@@ -1,6 +1,11 @@
 title: Home
 icon: home
 
+options:
+  create:
+    admin: true
+    "*": false
+
 columns:
   main:
     width: 2/3
