@@ -1,0 +1,13 @@
+# Blocchi ammessi nelle pagine e nei post: la redazione scrive e riordina, ma non inserisce HTML libero
+label: Contenuto
+type: blocks
+fieldsets:
+  - heading
+  - text
+  - list
+  - table
+  - image
+  - notice
+  - infocard
+  - accordion
+  - attachments

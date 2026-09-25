@@ -12,6 +12,7 @@ return [
         'menu'            => 'Menu',
         'menu.main'       => 'Main menu',
         'menu.quick'      => 'Quick links',
+        'panel'           => 'Administration',
         'home.facts'      => 'The course at a glance',
         'section.overview' => 'Overview',
         'menu.section'    => 'In this section',

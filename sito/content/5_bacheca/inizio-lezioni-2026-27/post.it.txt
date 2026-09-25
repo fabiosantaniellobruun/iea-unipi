@@ -1,0 +1,25 @@
+Title: Le lezioni del 2026/27 iniziano il 21 settembre
+
+----
+
+Category: avvisi
+
+----
+
+Date: 2026-09-21
+
+----
+
+Summary: Lunedì 21 settembre 2026 iniziano le lezioni del primo semestre.
+
+----
+
+Start: 2026-09-21 08:30:00
+
+----
+
+Text: [{"content": {"text": "<p>Le lezioni del primo semestre dell'anno accademico 2026/27 iniziano <strong>lunedì 21 settembre 2026</strong> e terminano sabato 12 dicembre 2026.</p><p>Trovi gli orari per anno in <a href=\"/it/studiare/orari-e-esami\">Orari, calendario ed esami</a>.</p>"}, "id": "303dcd32-86b7-4903-9c09-ed906a091c4e", "isHidden": false, "type": "text"}]
+
+----
+
+Uuid: gg2tssajjib5zua7

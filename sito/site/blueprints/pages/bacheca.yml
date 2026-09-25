@@ -1,0 +1,38 @@
+title: Bacheca
+icon: megaphone
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      intro:
+        type: fields
+        fields:
+          lead: fields/lead
+      posts:
+        type: pages
+        label: Post
+        template: post
+        sortBy: date desc
+        layout: table
+        search: true
+        limit: 25
+        empty: Nessun post
+        columns:
+          category:
+            label: Categoria
+            value: "{{ page.categoryPage.title }}"
+            width: 1/4
+          date:
+            label: Data
+            value: "{{ page.date.toDate('d/m/Y') }}"
+            width: 1/6
+  sidebar:
+    width: 1/3
+    sections:
+      categories:
+        type: pages
+        label: Elenchi
+        templates:
+          - bacheca-categoria
+          - bacheca-archivio

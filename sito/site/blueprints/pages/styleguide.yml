@@ -2,6 +2,13 @@ title: Guida di stile
 options:
   changeStatus: false
   delete: false
+  # Pagina tecnica: la redazione non la vede nel pannello
+  access:
+    admin: true
+    "*": false
+  list:
+    admin: true
+    "*": false
 fields:
   info:
     type: info

@@ -1,5 +1,9 @@
-Title: Bacheca
+Title: Iscriversi
 
 ----
 
 Lead: [DA FORNIRE: introduzione della sezione, dal prototipo]
+
+----
+
+Uuid: dovksbppesptm60d

@@ -1,0 +1,25 @@
+Title: Posti vacanti dal 2° al 5° anno, bando 2026/27
+
+----
+
+Category: bandi-e-opportunita
+
+----
+
+Date: 2026-06-10
+
+----
+
+Summary: 71 posti per trasferimenti, passaggi di corso e seconde lauree. Domande dal 15 giugno al 19 luglio 2026.
+
+----
+
+Deadline: 2026-07-19
+
+----
+
+Text: [{"content": {"text": "<p>È uscito il bando per entrare negli anni successivi al primo nel 2026/27.</p>"}, "id": "e50464ab-aee7-4715-ae39-cce9bcbc59e8", "isHidden": false, "type": "text"}, {"content": {"caption": "Posti disponibili per anno", "rows": [{"c1": "Anno", "c2": "Posti"}, {"c1": "2°", "c2": "6"}, {"c1": "3°", "c2": "21"}, {"c1": "4°", "c2": "27"}, {"c1": "5°", "c2": "17"}]}, "id": "d9b30332-1824-41b8-90d8-1aed96b5eb04", "isHidden": false, "type": "table"}, {"content": {"text": "<p>Domande sul portale Alice dal 15 giugno al 19 luglio 2026, tassa di partecipazione 60 €.</p><p>Chi può partecipare, requisiti e procedura: <a href=\"/it/iscriversi/anni-successivi\">Iscriversi agli anni successivi</a>.</p>"}, "id": "1a343d58-cc83-4284-aa1e-9cbb4e0f7627", "isHidden": false, "type": "text"}]
+
+----
+
+Uuid: lha547c7ydvf4qip

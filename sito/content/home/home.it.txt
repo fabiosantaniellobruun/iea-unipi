@@ -6,7 +6,7 @@ Lead: Corso di Laurea Magistrale a ciclo unico dell'Università di Pisa. Cinque 
 
 ----
 
-Facts: 
+Facts:
 
 - label: "Durata"
   value: "5 anni, ciclo unico, 300 CFU"
@@ -16,3 +16,33 @@ Facts:
   value: "Programmato, con prova di ammissione nazionale"
 - label: "Titolo"
   value: "Abilita, dopo l'esame di Stato, sia alla professione di ingegnere sia a quella di architetto. Riconosciuto nell'Unione europea"
+
+----
+
+Audiences:
+
+- 
+  question: Vuoi iscriverti?
+  links:
+    - il-corso/in-breve
+    - iscriversi/primo-anno
+- 
+  question: Studi già qui?
+  links:
+    - studiare/orari-e-esami
+    - studiare/piano-di-studi
+- 
+  question: Ti stai laureando?
+  links:
+    - laurearsi
+
+----
+
+Featured:
+
+- bacheca/costruzione-apertura-2026-27
+- bacheca/inizio-lezioni-2026-27
+
+----
+
+Uuid: z7d6dnbsyvgzk6uk

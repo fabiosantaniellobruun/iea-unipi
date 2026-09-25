@@ -18,7 +18,8 @@ php -S localhost:8000 kirby/router.php
 ## Struttura
 | Cartella | Contenuto |
 |---|---|
-| `site/blueprints/` | Campi del pannello: pagine (`pages/`), blocchi (`blocks/`), ruolo della redazione (`users/`) |
+| `site/blueprints/` | Campi del pannello: pagine (`pages/`), blocchi ammessi (`blocks/`), tipi di file (`files/`), campi e sezioni riusati (`fields/`, `sections/`), ruolo della redazione (`users/`) |
+| `site/models/` | Metodi in più per alcuni tipi di pagina (per esempio la categoria di un post) |
 | `site/templates/` | Un modello per tipo di pagina |
 | `site/snippets/` | Componenti: layout, header, breadcrumb, menu di sezione, footer, blocchi |
 | `site/config/` | Configurazione comune e per ambiente (`localhost`, `dev.iea.ing.unipi.it`, `iea.ing.unipi.it`) |
@@ -30,6 +31,18 @@ php -S localhost:8000 kirby/router.php
 | `content/` | Contenuti: una cartella per pagina, un file per lingua |
 
 `kirby/` e `vendor/` non sono nel repository: si installano con `composer install`.
+
+## Tipi di pagina
+| Tipo | Uso |
+|---|---|
+| `home` | Presentazione, accessi per chi visita il sito, il corso in sintesi, contenuti in evidenza |
+| `sezione` | Il corso, Iscriversi, Studiare: introduzione e card delle pagine della sezione |
+| `default` | Pagina di contenuto a blocchi (anche Laurearsi, Contatti e le pagine del footer) |
+| `bacheca` | Elenco di tutti i post; da qui la redazione scrive i post |
+| `bacheca-categoria`, `bacheca-archivio` | Avvisi, Eventi, Bandi e opportunità, Archivio: elenchi generati |
+| `post` | Post della bacheca. Pubblicato vuol dire "unlisted": visibile sul sito ma non nei menu |
+
+Il ruolo `redazione` modifica i testi di tutte le pagine e gestisce i post; non crea, sposta, rinomina o cancella pagine, e non tocca impostazioni e utenti.
 
 ## Contenuti
 Durante lo sviluppo `content/` è nel repository, con contenuti di prova e poi con quelli migrati dal prototipo. Dopo la messa online i contenuti vivono solo sul server e vengono esclusi dal repository.

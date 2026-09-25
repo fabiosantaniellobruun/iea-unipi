@@ -1,5 +1,9 @@
-Title: Iscriversi
+Title: Il corso
 
 ----
 
 Lead: [DA FORNIRE: introduzione della sezione, dal prototipo]
+
+----
+
+Uuid: wov3wmgpokhsxg1w

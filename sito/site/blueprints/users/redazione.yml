@@ -1,16 +1,28 @@
 title: Redazione
-description: Pubblica notizie ed eventi e modifica i testi delle pagine.
+description: Pubblica i post della bacheca e modifica i testi delle pagine.
+
+# Di default la redazione non cambia la struttura del sito: niente pagine nuove, spostate, rinominate,
+# cancellate o tolte dai menu. I blueprint che lo consentono (post.yml) riaprono i permessi.
 permissions:
   access:
+    languages: false
     system: false
     users: false
+  languages: false
+  pages:
+    changeSlug: false
+    changeStatus: false
+    changeTemplate: false
+    changeTitle: false
+    create: false
+    delete: false
+    duplicate: false
+    move: false
+    sort: false
   site:
     changeTitle: false
     update: false
-  pages:
-    changeSlug: false
-    changeTemplate: false
-    delete: false
   user:
     changeRole: false
+    delete: false
   users: false

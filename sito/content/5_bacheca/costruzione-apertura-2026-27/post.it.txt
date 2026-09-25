@@ -1,0 +1,29 @@
+Title: "COSTRUZIONE": conferenza di apertura dell'anno accademico 2026/27
+
+----
+
+Category: eventi
+
+----
+
+Date: 2026-09-22
+
+----
+
+Summary: Gli architetti Michele Grazzini e Andrea Tonazzini aprono l'anno accademico. Sono invitati studenti e studentesse di tutti gli anni.
+
+----
+
+Start: 2026-09-22 12:30:00
+
+----
+
+Place: Polo Porta Nuova, aula PN9
+
+----
+
+Text: [{"content": {"text": "<p>Per l'apertura dell'anno accademico 2026/27 gli architetti <strong>Michele Grazzini e Andrea Tonazzini</strong>, dello studio Grazzini Tonazzini Colombo architetti di Roma, tengono la conferenza <em>COSTRUZIONE</em>.</p><p>Introduce il Prof. Arch. Luca Lanini, Presidente del corso.</p><p>Sono invitati studenti e studentesse di tutti gli anni.</p>"}, "id": "486d8a1b-bbc2-4024-905a-6960b3e570e3", "isHidden": false, "type": "text"}, {"content": {"label": "Da verificare:", "text": "<p>l'orario (12:30) non coincide con quello nell'indirizzo del post originale (14:30).</p>"}, "id": "570fa911-a6d8-4156-90c0-62d4a3ff659f", "isHidden": false, "type": "notice"}]
+
+----
+
+Uuid: ai78futheo5rmysd

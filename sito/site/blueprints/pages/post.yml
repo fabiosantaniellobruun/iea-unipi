@@ -1,0 +1,99 @@
+# Post della bacheca: avviso, evento o bando, secondo la categoria.
+# Struttura di partenza presa dal prototipo; quella definitiva si decide nel secondo giro di istruzioni.
+title: Post della bacheca
+icon: megaphone
+
+# Un post pubblicato è "unlisted": visibile sul sito, ma non nei menu
+status:
+  draft:
+    label: Bozza
+    text: Visibile solo nel pannello.
+  unlisted:
+    label: Pubblicato
+    text: Visibile sul sito.
+
+# Il ruolo "redazione" ha permessi ristretti sulle pagine: qui li riapre per i post
+options:
+  create: true
+  changeStatus: true
+  changeTitle: true
+  delete: true
+  duplicate: true
+
+create:
+  fields:
+    - category
+    - date
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      category:
+        label: Categoria
+        type: select
+        required: true
+        translate: false
+        width: 1/2
+        options:
+          type: query
+          query: page.parent.children.template('bacheca-categoria')
+          value: "{{ item.uid }}"
+          text: "{{ item.title }}"
+      date:
+        label: Data di pubblicazione
+        type: date
+        required: true
+        default: today
+        display: DD/MM/YYYY
+        translate: false
+        width: 1/2
+      summary:
+        label: Sommario
+        type: textarea
+        buttons: false
+        required: true
+        maxlength: 250
+        help: Una o due frasi. Compare negli elenchi della bacheca e in home.
+      text: fields/contenuto
+  sidebar:
+    width: 1/3
+    sections:
+      details:
+        type: fields
+        fields:
+          start:
+            label: Data dell'evento
+            type: date
+            time: true
+            display: DD/MM/YYYY
+            translate: false
+            help: Compila se il post riguarda una data da segnare nel calendario.
+          end:
+            label: Fine
+            type: date
+            time: true
+            display: DD/MM/YYYY
+            translate: false
+            help: Solo se l'evento dura più giorni o ha un orario di fine.
+          place:
+            label: Luogo
+            type: text
+            placeholder: Polo Porta Nuova, aula PN9
+          deadline:
+            label: Scadenza
+            type: date
+            display: DD/MM/YYYY
+            translate: false
+            when:
+              category: bandi-e-opportunita
+          cover:
+            label: Immagine
+            type: files
+            query: page.images
+            multiple: false
+            translate: false
+            uploads:
+              template: immagine
+            help: Facoltativa. Per esempio la locandina.
+      files: sections/allegati

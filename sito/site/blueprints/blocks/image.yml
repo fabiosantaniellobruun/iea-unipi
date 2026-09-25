@@ -1,0 +1,20 @@
+# Sostituisce il blocco di Kirby: solo immagini caricate nel sito.
+# Il testo alternativo sta nella scheda dell'immagine (files/immagine.yml), così si scrive una volta sola.
+name: Immagine
+icon: image
+preview: image
+fields:
+  image:
+    label: Immagine
+    type: files
+    query: page.images
+    multiple: false
+    required: true
+    uploads:
+      template: immagine
+    help: Il testo alternativo si scrive nella scheda dell'immagine.
+  caption:
+    label: Didascalia
+    type: writer
+    inline: true
+    marks: [italic, link]

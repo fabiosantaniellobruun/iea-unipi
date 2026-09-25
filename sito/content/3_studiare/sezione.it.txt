@@ -1,5 +1,9 @@
-Title: Il corso
+Title: Studiare
 
 ----
 
 Lead: [DA FORNIRE: introduzione della sezione, dal prototipo]
+
+----
+
+Uuid: 2amjswejqebmjv1h

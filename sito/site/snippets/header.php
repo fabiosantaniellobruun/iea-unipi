@@ -10,6 +10,7 @@ $active   = $page->parents()->last() ?? $page; // sezione di primo livello della
       <?php $url = $link->link()->toUrl() ?>
       <li><a href="<?= $url ?>"<?= isExternal($url) ? ' rel="external"' : '' ?>><?= $link->text()->esc() ?></a></li>
       <?php endforeach ?>
+      <li><a href="<?= $kirby->url('panel') ?>"><?= t('panel') ?></a></li>
     </ul>
   </div>
 </nav>

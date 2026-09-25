@@ -9,8 +9,10 @@ tabs:
         type: pages
         label: Pagine del sito
         templates:
-          - default
           - home
+          - sezione
+          - default
+          - bacheca
 
   settings:
     label: Impostazioni

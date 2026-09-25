@@ -1,0 +1,4 @@
+type: files
+label: Allegati
+template: allegato
+info: "{{ file.niceSize }}"

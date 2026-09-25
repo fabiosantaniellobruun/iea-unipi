@@ -10,7 +10,7 @@
       <dl class="infocard">
         <?php foreach ($page->facts()->toStructure() as $fact): ?>
         <dt><?= $fact->label()->esc() ?></dt>
-        <dd><?= $fact->value()->esc() ?></dd>
+        <dd><?= $fact->value() ?></dd>
         <?php endforeach ?>
       </dl>
     </div>

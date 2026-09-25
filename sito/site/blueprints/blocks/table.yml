@@ -1,0 +1,44 @@
+# Tabella con intestazione, fino a 4 colonne. Per le coppie voce/valore c'è la Scheda informativa.
+name: Tabella
+icon: table
+preview: table
+fields:
+  caption:
+    label: Titolo della tabella
+    type: text
+    help: Facoltativo. Dice in poche parole cosa contiene la tabella; lo leggono anche i lettori di schermo.
+  rows:
+    label: Righe
+    type: structure
+    help: La prima riga è l'intestazione. Le colonne vuote in tutte le righe non vengono mostrate.
+    columns:
+      c1:
+        width: 1/4
+      c2:
+        width: 1/4
+      c3:
+        width: 1/4
+      c4:
+        width: 1/4
+    fields:
+      c1:
+        label: Colonna 1
+        type: writer
+        inline: true
+        marks: [bold, link, email]
+        required: true
+      c2:
+        label: Colonna 2
+        type: writer
+        inline: true
+        marks: [bold, link, email]
+      c3:
+        label: Colonna 3
+        type: writer
+        inline: true
+        marks: [bold, link, email]
+      c4:
+        label: Colonna 4
+        type: writer
+        inline: true
+        marks: [bold, link, email]
