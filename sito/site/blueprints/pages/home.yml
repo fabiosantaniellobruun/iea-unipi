@@ -31,6 +31,15 @@ columns:
             type: pages
             max: 3
             required: true
+          image:
+            label: Foto
+            type: files
+            query: page.images
+            multiple: false
+            uploads:
+              template: immagine
+            info: "{{ file.alt.or('Manca il testo alternativo') }}"
+            help: Facoltativa, orizzontale. Nella card viene ritagliata in 3:2 attorno al punto di interesse, che puoi spostare aprendo la foto. Se nella versione inglese non la scegli, si usa quella italiana.
       facts:
         label: Il corso in sintesi
         type: structure
@@ -46,9 +55,16 @@ columns:
             marks: [bold, link]
   sidebar:
     width: 1/3
-    fields:
-      featured:
-        label: In evidenza
-        type: pages
-        max: 3
-        help: Post o pagine da mostrare in home, nell'ordine della lista. Gli avvisi e le ultime notizie della bacheca si aggiornano da soli.
+    sections:
+      evidenza:
+        type: fields
+        fields:
+          featured:
+            label: In evidenza
+            type: pages
+            max: 3
+            help: Post o pagine da mostrare in home, nell'ordine della lista. Gli avvisi e le ultime notizie della bacheca si aggiornano da soli.
+      images:
+        extends: sections/immagini
+        label: Foto
+        help: Le foto delle card di accesso. Aprile e scrivi sempre il testo alternativo.

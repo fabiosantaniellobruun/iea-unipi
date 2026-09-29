@@ -154,6 +154,7 @@ Ogni pagina ha un file per lingua (`.it.txt`, `.en.txt`). Il pannello mostra un 
 - **Pagine vuote:** Orientamento, Tutorato, Rappresentanti degli studenti, Qualità del corso.
 - **Segnalazioni:** `[DA VERIFICARE]` e `[DA FORNIRE]` restano nei testi e su dev sono evidenziate; il cliente le risolve sul sito, con l'aiuto del [foglio di revisione](revisione-contenuti.xlsx).
 - **Inglese:** traduzione con AI dei testi italiani, fatta dallo sviluppatore; i testi di `/en/` del sito attuale servono come riferimento per la terminologia.
+- **Verifica sul portale di Ateneo (25/09/2026):** confronto con la [pagina del corso su unipi.it](https://www.unipi.it/didattica/corsi/lauree-triennali-ciclo-unico/ingegneria-edile-architettura-iear-lm5/) e con il catalogo dei corsi. Corretti il piano di studi (3° e 4° anno e insegnamenti a scelta, sui piani delle coorti nel catalogo), gli OFA e le graduatorie in Iscriversi al primo anno, le email in Contatti, i dati sulle opinioni in Qualità del corso e il tutorato per gli OFA. Il piano di studi mostra una coorte per ogni anno di corso: va riaggiornato ogni anno.
 
 **Risultato:** sito completo di contenuti su dev.
 
@@ -184,6 +185,7 @@ Ogni pagina ha un file per lingua (`.it.txt`, `.en.txt`). Il pannello mostra un 
 ## Fase 8: messa online
 - **Copia da dev a produzione:** l'intera cartella del sito, contenuti compresi, una sola volta. Da quel momento il cliente lavora solo su `iea.ing.unipi.it`.
 - **Configurazione di produzione:** cache attiva, errori nascosti, rimozione del `noindex`, sitemap.
+- **Licenza di Kirby:** si registra dal pannello del sito online. Kirby la salva in `site/config/.license`, che è escluso da git e quindi non arriva con il repository.
 - **Redirect dai vecchi indirizzi** con `.htaccess`, dalla tabella in [02-architettura.md](02-architettura.md).
 - **Sito attuale:** l'Ateneo lo sposta in un archivio.
 - **Dopo il lancio:** dev resta per le modifiche future allo sviluppo, con contenuti di prova.

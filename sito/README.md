@@ -39,7 +39,7 @@ Le opzioni `-d` alzano i limiti di PHP a quelli del pannello (immagini fino a 5 
 ## Tipi di pagina
 | Tipo | Uso |
 |---|---|
-| `home` | Presentazione, accessi per chi visita il sito, il corso in sintesi, contenuti in evidenza |
+| `home` | Presentazione, accessi per chi visita il sito (con foto ritagliata in 3:2 attorno al punto di interesse), il corso in sintesi, contenuti in evidenza |
 | `sezione` | Il corso, Iscriversi, Studiare: introduzione e card delle pagine della sezione |
 | `default` | Pagina di contenuto a blocchi (anche Laurearsi, Contatti e le pagine del footer) |
 | `bacheca` | Elenco di tutti i post; da qui la redazione scrive i post |

@@ -7,7 +7,7 @@
 /site/accounts
 /site/cache
 /site/sessions
-/site/license.txt
+/site/config/.license
 .lock
 
 # Cache degli allegati scaricati dallo script di migrazione

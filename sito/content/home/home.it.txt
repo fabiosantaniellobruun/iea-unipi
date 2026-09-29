@@ -13,15 +13,21 @@ Audiences:
   links:
     - page://lbcqwk4cbrdqygko
     - page://s5usu5nwa7csmulq
+  image:
+    - file://xtkhtjs57iosxhrw
 - 
   question: Studi già qui?
   links:
     - page://0ytngybvvvdtoifp
     - page://rxmamn3v3yxbjhlq
+  image:
+    - file://o5x60iqn0h2g9huz
 - 
   question: Ti stai laureando?
   links:
     - page://bvmdvgb1safc0vqm
+  image:
+    - file://st0ikmajin9vt1kx
 
 ----
 

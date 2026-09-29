@@ -7,10 +7,20 @@
   <?php if (($audiences = $page->audiences()->toStructure())->isNotEmpty()): ?>
   <section class="container home-section" aria-labelledby="audiences-title">
     <h2 id="audiences-title" class="visually-hidden"><?= t('home.audiences') ?></h2>
+    <?php
+    // foto decorative, ritagliate in 3:2 attorno al punto di interesse; se la traduzione non la sceglie, vale quella italiana
+    $defaultAudiences = $page->content($kirby->defaultLanguage()?->code())->get('audiences')->toStructure()->values();
+    $crop             = fn (int $width) => ['width' => $width, 'height' => intdiv($width * 2, 3), 'crop' => true];
+    ?>
     <ul class="cards cards--audiences">
-      <?php foreach ($audiences as $audience): ?>
+      <?php foreach ($audiences->values() as $i => $audience): ?>
       <li>
         <article class="card">
+          <?php if ($image = $audience->image()->toFile() ?? ($defaultAudiences[$i] ?? null)?->image()->toFile()): ?>
+          <?php $widths = array_unique([...array_filter([400, 800, 1200], fn ($width) => $width < $image->width()), min(1200, $image->width())]) ?>
+          <?php $thumb  = $image->thumb($crop(min(800, $image->width()))) ?>
+          <img class="card__image" src="<?= $thumb->url() ?>" srcset="<?= $image->srcset(array_combine(array_map(fn ($width) => $width . 'w', $widths), array_map($crop, $widths))) ?>" sizes="(min-width: 80rem) 25rem, (min-width: 48em) 33vw, 100vw" width="<?= $thumb->width() ?>" height="<?= $thumb->height() ?>" alt="" loading="lazy">
+          <?php endif ?>
           <h3 class="card__title"><?= $audience->question()->esc() ?></h3>
           <ul class="card__links">
             <?php foreach ($audience->links()->toPages() as $link): ?>

@@ -421,6 +421,20 @@ a[rel~="external"]::after {
 .card__links li + li {
   margin-top: var(--space-1);
 }
+/* Accessi della home: una colonna su telefono, poi tutti su una riga a dividersi la larghezza */
+.cards--audiences {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 48em) {
+  .cards--audiences {
+    grid-template-columns: none;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+  }
+}
+.cards--audiences .card__image {
+  aspect-ratio: 3 / 2;
+}
 
 /* Link "Leggi di più", "Tutta la bacheca" */
 .more {

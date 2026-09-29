@@ -10,7 +10,7 @@ Lead: Support during your studies.
 
 ----
 
-Text: [{"content":{"text":"<p>[DA FORNIRE: chi sono i tutor, come contattarli, orari di ricevimento, eventuali corsi di recupero per gli OFA.]</p>"},"id":"95f5cb42-a7bd-4035-a914-ba5b07ab7d29","isHidden":false,"type":"text"}]
+Text: [{"content":{"text":"<p>Students admitted with additional learning requirements (OFA) can attend tutoring sessions run by the teachers of Mathematical Analysis and General Physics throughout the academic year. When OFA apply and how to make them up: see <a href=\"/en/admission/first-year#the-test\">First-year admission</a>.</p><p>[DA FORNIRE: chi sono i tutor, come contattarli, orari di ricevimento.]</p>"},"id":"95f5cb42-a7bd-4035-a914-ba5b07ab7d29","isHidden":false,"type":"text"}]
 
 ----
 
