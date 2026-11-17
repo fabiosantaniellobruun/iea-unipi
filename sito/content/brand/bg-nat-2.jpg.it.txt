@@ -1,0 +1,9 @@
+Alt: Cortile storico visto dal basso, con un riquadro di cielo
+
+----
+
+Uuid: dign5y3en5gxkm3x
+
+----
+
+Template: immagine

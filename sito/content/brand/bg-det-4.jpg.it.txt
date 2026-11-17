@@ -1,0 +1,9 @@
+Alt: Dettaglio di una struttura in pietra illuminata da una luce laterale
+
+----
+
+Uuid: dzr2v1qanysrmwl2
+
+----
+
+Template: immagine

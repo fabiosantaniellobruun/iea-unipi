@@ -1,0 +1,9 @@
+Alt: Uomo che legge un foglio, con colori alterati, e la scritta «No distorsioni e effetti di colore»
+
+----
+
+Uuid: jry7yvbcodt7qm57
+
+----
+
+Template: immagine

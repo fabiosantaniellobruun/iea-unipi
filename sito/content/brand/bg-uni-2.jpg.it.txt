@@ -1,0 +1,9 @@
+Alt: Studenti seduti in cerchio discutono in un'aula
+
+----
+
+Uuid: njt7vxkm83b40zjk
+
+----
+
+Template: immagine

@@ -411,15 +411,15 @@
 .bg-type--titillium {
   font-family: var(--font-text);
 }
-/* esempi ridotti a 0,6 delle dimensioni indicate, per stare nella tabella */
-.bg-type--display { font-size: 3.75rem; font-weight: 700; }
-.bg-type--h1 { font-size: 2.7rem; font-weight: 600; }
-.bg-type--h2 { font-size: 2.25rem; font-weight: 600; }
-.bg-type--h3 { font-size: 1.7rem; font-weight: 600; }
-.bg-type--h4 { font-size: 1.2rem; font-weight: 600; }
-.bg-type--l { font-size: 1.5rem; }
-.bg-type--m { font-size: 1.25rem; }
-.bg-type--s { font-size: 1.125rem; }
+/* esempi ridotti a 0,6 delle dimensioni indicate per i titoli, per stare nella tabella; il corpo è in scala 1:1 */
+.bg-type--display { font-size: 2.7rem; font-weight: 700; }
+.bg-type--h1 { font-size: 2.1rem; font-weight: 600; }
+.bg-type--h2 { font-size: 1.5rem; font-weight: 600; }
+.bg-type--h3 { font-size: 1.2rem; font-weight: 600; }
+.bg-type--h4 { font-size: 0.825rem; font-weight: 600; }
+.bg-type--l { font-size: 1.375rem; }
+.bg-type--m { font-size: 1.125rem; }
+.bg-type--s { font-size: 0.875rem; }
 
 /* colore */
 .bg-palette {
@@ -573,7 +573,7 @@
 }
 .bg-sign p {
   margin: 0 0 var(--space-3);
-  color: #8b8c8f;
+  color: #1f1f1f;
 }
 .bg-sign .bg-sign__name {
   color: #000;
@@ -587,4 +587,106 @@
   vertical-align: -0.1em;
 }
 .bg-dot--black { background: #000; }
-.bg-dot--grey { background: #8b8c8f; }
+.bg-dot--grey { background: #1f1f1f; }
+
+/* immagini dalle brand guidelines */
+.bg-card--tall img,
+.bg-card--square img {
+  aspect-ratio: 3 / 4;
+  object-position: center top;
+}
+.bg-card--square img {
+  aspect-ratio: 1 / 1;
+}
+.bg-shots {
+  gap: var(--space-3);
+}
+.bg-shots img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.bg-subject {
+  display: grid;
+  gap: var(--space-4);
+  margin: var(--space-5) 0;
+  padding: var(--space-4);
+  border-top: 4px solid var(--color-secondary);
+  background: var(--b-support);
+}
+.bg-subject h4 {
+  margin: 0 0 var(--space-2);
+  font-size: var(--fs-h4);
+}
+.bg-subject p {
+  margin: 0;
+}
+@media (min-width: 1200px) {
+  .bg-subject {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    align-items: start;
+  }
+}
+.bg-gallery {
+  display: grid;
+  gap: var(--space-2);
+}
+.bg-gallery img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bg-gallery--portrait {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.bg-gallery--portrait img {
+  aspect-ratio: 423 / 730;
+}
+.bg-gallery--wide {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.bg-gallery--wide img {
+  aspect-ratio: 648 / 353;
+}
+
+/* tag WIP nell'indice */
+.bg-wip {
+  display: inline-block;
+  margin-left: var(--space-1);
+  padding: 0 0.35em;
+  background: #fff1a8;
+  color: var(--b-text);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  vertical-align: 0.1em;
+}
+
+/* esempi di composizione */
+.bg-gestalt figure {
+  margin: 0;
+}
+.bg-gestalt svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: var(--space-3);
+  background: #fff;
+}
+.bg-gestalt h4 {
+  margin: 0 0 var(--space-2);
+  padding: 0;
+  border: 0;
+  font-size: var(--fs-h4);
+}
+.bg-gestalt p {
+  margin: 0;
+}
+.bg-gestalt .s { fill: var(--b-secondary); }
+.bg-gestalt .a { fill: var(--b-accent); }
+.bg-gestalt .t { fill: var(--b-text); }
+.bg-gestalt .line { stroke: var(--b-secondary); stroke-width: 2; }
+.bg-gestalt .frame { fill: none; stroke: var(--b-secondary); stroke-width: 1.5; }
+.bg-gestalt .respect { fill: none; stroke: var(--b-secondary); stroke-width: 1; stroke-dasharray: 3 3; }
+.bg-gestalt .grid { fill: none; stroke: var(--b-secondary); stroke-width: 0.75; stroke-dasharray: 2 2; }

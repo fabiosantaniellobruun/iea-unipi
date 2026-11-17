@@ -1,0 +1,9 @@
+Alt: Dettaglio di una scheda elettronica verde
+
+----
+
+Uuid: bi08rja69zldqavj
+
+----
+
+Template: immagine

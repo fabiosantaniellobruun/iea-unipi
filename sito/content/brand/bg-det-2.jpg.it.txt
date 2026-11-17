@@ -1,0 +1,9 @@
+Alt: Dettaglio di un rilievo in marmo bianco
+
+----
+
+Uuid: vvho3292l4s7xuyx
+
+----
+
+Template: immagine

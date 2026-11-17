@@ -1,0 +1,9 @@
+Alt: Panorama di Firenze con la cupola del Duomo
+
+----
+
+Uuid: t7tap743ykig0tp3
+
+----
+
+Template: immagine

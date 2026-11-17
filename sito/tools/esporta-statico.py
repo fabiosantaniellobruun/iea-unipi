@@ -4,7 +4,7 @@
 Uso (dalla cartella sito/, con il server locale acceso su localhost:8000):
     python3 tools/esporta-statico.py ../demo
 
-Segue i link interni da /it e /en. Nella demo non ci sono pannello, guida per la redazione e ricerca;
+Segue i link interni da /it e /en e aggiunge la pagina delle brand guidelines (/it/brand, non linkata dal sito). Nella demo non ci sono pannello, guida per la redazione e ricerca;
 il calendario e la bacheca restano come erano al momento dell'esportazione.
 """
 import os
@@ -96,7 +96,7 @@ def rewrite(html):
 
 
 def main(out):
-    queue = ["/it", "/en"]
+    queue = ["/it", "/en", "/it/brand"]
     seen, failed, count = set(), [], 0
 
     if os.path.isdir(out):
