@@ -4,6 +4,7 @@ Registro dei cambiamenti del progetto, dal più recente. Si aggiorna a ogni comm
 Il piano e lo stato delle fasi sono in [docs/05-piano-sito-kirby.md](docs/05-piano-sito-kirby.md).
 
 ## 17 novembre 2026
+- Piano delle fasi 7-9 e punti aperti aggiornati allo stato attuale.
 - **Brand guidelines** (`/it/brand`, non linkata, `noindex`): documento dal file Figma "Variuous" con indice fisso a sinistra, tag WIP sulle sezioni da completare; 34 foto dal Figma (da verificare le licenze); sezione Format con esempi di composizione.
 - **Demo statica su GitHub Pages**: `sito/tools/esporta-statico.py` salva il sito come HTML; `pages.yml` la genera in CI a ogni push su `main`. Sostituisce il vecchio prototipo HTML. Include la pagina brand.
 - **Figma aggiornato**: panoramica del marchio, scala dei titoli del sito, firma email in Inter con refusi corretti, contrasti, trattamenti delle foto, testo dei rapporti con il marchio, nuova pagina Don'ts (Marchio 7).
