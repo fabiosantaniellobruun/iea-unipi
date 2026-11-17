@@ -1,5 +1,7 @@
-# Genera il prototipo con build.py e lo pubblica su GitHub Pages a ogni push su main.
-name: Pubblica prototipo
+# Genera una demo statica del sito Kirby (sito/) e la pubblica su GitHub Pages a ogni push su main.
+# Nella demo non ci sono pannello, ricerca e guida per la redazione; vedi sito/tools/esporta-statico.py.
+# Il vecchio prototipo HTML (build.py) non è più pubblicato.
+name: Pubblica demo del sito
 
 on:
   push:
@@ -20,15 +22,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: shivammathur/setup-php@v2
         with:
-          python-version: "3.12"
-      - run: pip install -r requirements.txt
-      - run: python build.py
+          php-version: "8.4"
+          extensions: intl, mbstring, gd, exif, fileinfo
+          tools: composer:v2
+      - name: Installa Kirby
+        run: composer install --no-dev --no-interaction --prefer-dist
+        working-directory: sito
+      - name: Avvia il sito in locale
+        run: |
+          php -d memory_limit=512M -S localhost:8000 -t sito sito/kirby/router.php > /tmp/php-server.log 2>&1 &
+          for i in $(seq 1 30); do curl -sf -o /dev/null http://localhost:8000/it && exit 0; sleep 1; done
+          cat /tmp/php-server.log; exit 1
+      - name: Esporta le pagine
+        run: python3 -u sito/tools/esporta-statico.py demo
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: demo
 
   deploy:
     needs: build

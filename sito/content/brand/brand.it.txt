@@ -1,0 +1,9 @@
+Title: Brand guidelines
+
+----
+
+Lead: Marchio, colori, tipografia, immagini e tono di voce del Corso di Laurea Magistrale in Ingegneria Edile-Architettura. Versione V01, 2026.
+
+----
+
+Uuid: 99fb25779ebb30cd

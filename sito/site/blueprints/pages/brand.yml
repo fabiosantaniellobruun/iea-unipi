@@ -1,0 +1,19 @@
+# Brand guidelines (/it/brand): non collegata dal sito, esclusa da motori di ricerca e ricerca interna.
+# Il contenuto è nel template site/templates/brand.php; da qui si cambiano solo titolo e frase introduttiva.
+title: Brand guidelines
+icon: palette
+options:
+  create:
+    admin: true
+    "*": false
+  changeSlug: false
+  changeStatus: false
+  delete: false
+  update:
+    admin: true
+    "*": false
+columns:
+  main:
+    width: 2/3
+    fields:
+      lead: fields/lead

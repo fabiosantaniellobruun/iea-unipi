@@ -9,7 +9,7 @@ use Kirby\Toolkit\Str;
  * la struttura dei blocchi (chiavi come "type" o "level"): qui si leggono solo i testi.
  */
 
-const SEARCH_SKIP_TEMPLATES = ['error', 'styleguide', 'cerca', 'calendario', 'mappa', 'guida'];
+const SEARCH_SKIP_TEMPLATES = ['error', 'styleguide', 'cerca', 'calendario', 'mappa', 'guida', 'brand'];
 
 /** Minuscolo e senza accenti, per trovare "università" anche scrivendo "universita" */
 function searchNormalize(string $text): string
