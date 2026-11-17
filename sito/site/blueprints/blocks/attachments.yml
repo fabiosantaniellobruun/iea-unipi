@@ -1,0 +1,11 @@
+name: Allegati
+icon: attachment
+preview: fields
+fields:
+  files:
+    label: File
+    type: files
+    query: page.files.template('allegato')
+    uploads:
+      template: allegato
+    help: Il nome mostrato è il titolo del file; se manca, il nome del file.

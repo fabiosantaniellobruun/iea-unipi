@@ -1,0 +1,17 @@
+Title: Orientation
+
+----
+
+Slug: orientation
+
+----
+
+Lead: Events, open days and contacts to get to know the programme before you choose.
+
+----
+
+Text: [{"content":{"text":"<p>[DA FORNIRE: date di open day e giornate di orientamento, contatti per chi vuole informazioni, eventuali video o materiali di presentazione del corso.]</p><p>In the meantime you can read <a href=\"/en/course/in-brief\">The course in brief</a> and <a href=\"/en/admission/first-year\">how to enrol in the first year</a>.</p>"},"id":"0a0c0a66-eceb-4434-a950-3206536b3bff","isHidden":false,"type":"text"}]
+
+----
+
+Description: Events and opportunities to get to know the programme before you enrol.

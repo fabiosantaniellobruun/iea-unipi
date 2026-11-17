@@ -1,0 +1,14 @@
+# Elenco dei post di una categoria (Avvisi, Eventi, Bandi e opportunità). I post scelgono la categoria con il nome di questa pagina nell'indirizzo.
+title: Categoria della bacheca
+icon: tag
+
+options:
+  create:
+    admin: true
+    "*": false
+
+fields:
+  lead: fields/lead
+  info:
+    type: info
+    text: L'elenco dei post di questa categoria si genera da solo. I post si scrivono nella pagina Bacheca.

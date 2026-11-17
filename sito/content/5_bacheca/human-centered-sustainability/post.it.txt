@@ -1,0 +1,29 @@
+Title: "Human-centered sustainability in contemporary architecture", lezione di Prachi Mehar
+
+----
+
+Summary: La sostenibilità in architettura vista dal lato delle persone, con l'architetta e ricercatrice indiana Prachi Mehar.
+
+----
+
+Place: Polo A, aula A24
+
+----
+
+Text: [{"content":{"text":"<p>L'architetta e ricercatrice <strong>Prachi Mehar</strong> (New Delhi) parla di sostenibilità non solo ambientale e tecnica, ma anche umana: intelligenza vernacolare, progettazione ispirata alla natura, benessere ed ecologia, materiali e progettazione circolare.</p><p>È l'attività conclusiva del progetto speciale per la didattica <em>Architettura dell'Habitat Sociale: laboratorio didattico per le costruzioni leggere</em>, finanziato dall'Università di Pisa per il 2026.</p><p>Informazioni: <a href=\"mailto:giovanni.santi@unipi.it\">giovanni.santi@unipi.it</a> · <a href=\"/it/bacheca/human-centered-sustainability/volantino-prachi.pdf\">Volantino</a> (PDF)</p>"},"id":"69cdbca5-5c27-44ac-a3f4-fd22c8469a24","isHidden":false,"type":"text"}]
+
+----
+
+Category: eventi
+
+----
+
+Date: 2026-05-15
+
+----
+
+Start: 2026-05-15 09:00:00
+
+----
+
+Uuid: v7wmr9vgejkbrshl

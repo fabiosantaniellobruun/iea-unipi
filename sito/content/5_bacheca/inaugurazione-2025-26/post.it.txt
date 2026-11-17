@@ -1,0 +1,33 @@
+Title: Inaugurazione dell'anno accademico 2025/26 con Fabrizio Barozzi
+
+----
+
+Summary: L'architetto Fabrizio Barozzi, dello studio Barozzi Veiga, racconta il riuso dell'Abbazia di Groeninge a Kortrijk.
+
+----
+
+Place: Aula Magna della Scuola di Ingegneria, Largo Lucio Lazzarino
+
+----
+
+Text: [{"content":{"text":"<p>Il Presidente del corso, Prof. Arch. Luca Lanini, apre l'anno accademico 2025/26 con la conferenza dell'architetto <strong>Fabrizio Barozzi</strong>, dello studio Barozzi Veiga.</p><p>Barozzi presenta il riuso dell'Abbazia di Groeninge a Kortrijk, in Belgio, diventata <em>Abby Kortrijk</em>, museo d'arte pensato come spazio urbano aperto e inclusivo.</p>"},"id":"cb531ee1-8c83-4c93-a1a7-d98c65f5bd1e","isHidden":false,"type":"text"},{"content":{"rows":[{"label":"Inaugurazione","value":"Luca Lanini (<a href=\"/it/bacheca/inaugurazione-2025-26/inaugurazione-aa2025-26.pdf\">discorso inaugurale</a>, PDF)"},{"label":"Saluti istituzionali","value":"Leonardo Germani"},{"label":"Introduce","value":"Andrea Crudeli"},{"label":"Discussione","value":"Francesca Molle, Manuela Reitano"}]},"id":"93dd65c5-c5ca-41b7-a93d-fa3d9ca367cb","isHidden":false,"type":"infocard"}]
+
+----
+
+Category: eventi
+
+----
+
+Date: 2025-09-17
+
+----
+
+Start: 2025-09-17 11:00:00
+
+----
+
+Cover: - file://wfliizuozjhn7pj8
+
+----
+
+Uuid: wfliizuozjhn7pj8

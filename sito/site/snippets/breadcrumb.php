@@ -1,0 +1,20 @@
+<nav class="breadcrumb" aria-label="<?= t('breadcrumb') ?>">
+  <ol>
+    <?php
+    // i post della bacheca passano dalla loro categoria: Home > Bacheca > Eventi > post
+    $crumbs = $site->breadcrumb();
+    if ($page->intendedTemplate()->name() === 'post' && $category = $page->categoryPage()) {
+        $crumbs = $crumbs->not($page)->add($category)->add($page);
+    }
+    ?>
+    <?php foreach ($crumbs as $crumb): ?>
+    <li>
+      <?php if ($crumb->is($page)): ?>
+      <span aria-current="page"><?= $crumb->title()->esc() ?></span>
+      <?php else: ?>
+      <a href="<?= $crumb->url() ?>"><?= $crumb->isHomePage() ? t('home') : $crumb->title()->esc() ?></a>
+      <?php endif ?>
+    </li>
+    <?php endforeach ?>
+  </ol>
+</nav>

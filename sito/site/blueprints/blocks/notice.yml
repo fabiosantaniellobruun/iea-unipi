@@ -1,0 +1,13 @@
+name: Avviso
+icon: alert
+preview: fields
+wysiwyg: true
+fields:
+  label:
+    label: Etichetta
+    type: text
+    default: "Ricorda:"
+  text:
+    label: Testo
+    type: writer
+    marks: [bold, link]

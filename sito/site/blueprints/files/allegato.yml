@@ -1,0 +1,9 @@
+title: Allegato
+accept:
+  extension: pdf, doc, docx, xls, xlsx, odt, ods, ppt, pptx, zip
+  maxsize: 20000000
+fields:
+  title:
+    label: Titolo
+    type: text
+    help: Il testo del link, per esempio "Bando 2026/27". Se manca si usa il nome del file.

@@ -1,0 +1,25 @@
+Title: Premio di Architettura Elite Bathroom Greentech 2026
+
+----
+
+Summary: Progetta un bagno pubblico per la città di Pisa. Primo premio, una borsa di 2.000 € per un tirocinio in uno studio di architettura.
+
+----
+
+Text: [{"content":{"text":"<p>Il concorso è promosso da TED Group e NOI Network, con il patrocinio del Comune di Pisa. È aperto a professionisti under 39 e a studenti e studentesse di Architettura, Interior Design, Ingegneria e istituti tecnici a indirizzo progettuale.</p>"},"id":"4a2f6316-c9f0-4bf1-aa07-24dc3dde498c","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Il tema per la categoria studenti"},"id":"e0255a13-c5ab-45e6-a47d-987653107de8","isHidden":false,"type":"heading"},{"content":{"text":"<p><em>Dove la città si prende cura di sé</em>: il progetto di un bagno pubblico per Pisa, attento a qualità architettonica, accessibilità, sostenibilità ambientale, efficienza energetica e integrazione urbana.</p>"},"id":"24be297a-8d27-4528-a0c5-296f4b1477bf","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Premi per la categoria studenti"},"id":"2a4edf78-6ab9-45a7-aac4-c848b7a5ee86","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>1° premio: borsa di studio di 2.000 € per un tirocinio di 3 mesi nello studio llabb architettura</p></li><li><p>Menzioni speciali</p></li></ul>"},"id":"b94bc555-f832-462c-a829-98134410faa8","isHidden":false,"type":"list"},{"content":{"level":"h2","text":"Date"},"id":"af63d147-974b-4142-a42e-434f846b187f","isHidden":false,"type":"heading"},{"content":{"rows":[{"label":"Consegna dei progetti","value":"entro il 19 ottobre 2026"},{"label":"Premiazione","value":"18 novembre 2026, a Pisa"}]},"id":"cb482204-1778-47b6-a9c9-a4b37a889a73","isHidden":false,"type":"infocard"},{"content":{"text":"<p>La partecipazione è gratuita.</p><p><a href=\"/it/bacheca/premio-elite-bathroom/bando_elite_bathroom_greentech_2026.pdf\">Bando</a> (PDF) · <a href=\"/it/bacheca/premio-elite-bathroom/premio_di_architettura_elite_bathroom_greentech.pdf\">Locandina</a> (PDF) · <a href=\"/it/bacheca/premio-elite-bathroom/presentazione_elite_bathroom_greentech.pdf\">Presentazione</a> (PDF) · <a href=\"https://www.elitebathroom.it/it/chi-siamo/\">Sito dei promotori</a></p>"},"id":"4cb88b41-97ac-4051-a2fe-5bb01a318aa6","isHidden":false,"type":"text"}]
+
+----
+
+Category: bandi-e-opportunita
+
+----
+
+Date: 2026-07-07
+
+----
+
+Deadline: 2026-10-19
+
+----
+
+Uuid: 7d6ucu7df2klyrle

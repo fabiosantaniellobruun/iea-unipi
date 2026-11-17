@@ -1,0 +1,25 @@
+Title: Galileo Festival della Scienza e dell'Innovazione, 200 borse per l'Academy
+
+----
+
+Summary: Padova, 8-10 maggio 2026. Borse di soggiorno per incontrare scienziati, premi Nobel e manager.
+
+----
+
+Text: [{"content":{"text":"<p>La 13ª edizione del Galileo Festival si tiene a Padova dall'8 al 10 maggio 2026, con esperti di space economy, intelligenza artificiale, robotica, tecnologie per la salute e imprese innovative.</p><p>L'<strong>Academy</strong> del Festival mette a disposizione 200 borse di soggiorno per studenti e studentesse universitari e degli ITS. Include accesso riservato agli eventi, alloggio, pasti e trasferimenti, attestato di partecipazione e buono libri da 60 €.</p>"},"id":"d3bad444-1620-40c5-aa8b-8bb620468103","isHidden":false,"type":"text"},{"content":{"caption":"","rows":[{"c1":"Opzione","c2":"Durata","c3":"Quota"},{"c1":"Visite guidate in aziende + Festival","c2":"7-10 maggio, 3 notti","c3":"360 €"},{"c1":"Solo Festival","c2":"8-10 maggio, 2 notti","c3":"260 €"}]},"id":"133d6779-d0ea-4a2e-a128-cf051dd9da76","isHidden":false,"type":"table"},{"content":{"text":"<p><strong>Prima scadenza per candidarsi:</strong> 29 marzo 2026.</p><p><a href=\"https://forms.zohopublic.com/goodnetsrl/form/GalileoFestivalAcademy/formperma/PFXDGpEfcWbyvA7FLvmkJSKU3SyCW0XBIr4ftlnBS78\">Candidati</a> · <a href=\"/it/bacheca/galileo-festival/infokit_galileo_festival_academy.pdf\">Brochure</a> (PDF) · <a href=\"https://www.galileofestival.it/\">Sito del Festival</a></p>"},"id":"185203ab-3491-4cdb-a5c1-df99c718ce30","isHidden":false,"type":"text"}]
+
+----
+
+Category: bandi-e-opportunita
+
+----
+
+Date: 2026-03-04
+
+----
+
+Deadline: 2026-03-29
+
+----
+
+Uuid: b9imsroyt0l2zfdw

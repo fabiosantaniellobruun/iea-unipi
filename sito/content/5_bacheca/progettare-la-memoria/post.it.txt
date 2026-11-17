@@ -1,0 +1,29 @@
+Title: Progettare la memoria, 28 luglio - 1 agosto 2026
+
+----
+
+Summary: Attività di didattica speciale estiva.
+
+----
+
+Text: [{"content":{"text":"<p>[DA FORNIRE: descrizione dell'iniziativa. Il post originale contiene solo il titolo e un link al programma.]</p><p><a href=\"/it/bacheca/progettare-la-memoria/linee_e_programmi_edizione_2026.pdf\">Linee e programma dell'edizione 2026</a> (PDF)</p>"},"id":"e6ea80ab-2c24-40af-a09f-787c04ed5a8d","isHidden":false,"type":"text"}]
+
+----
+
+Category: eventi
+
+----
+
+Date: 2026-07-28
+
+----
+
+Start: 2026-07-28
+
+----
+
+End: 2026-08-01
+
+----
+
+Uuid: glu6dsnxc4f6dxiu

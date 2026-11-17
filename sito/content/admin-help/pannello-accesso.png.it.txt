@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Schermata di accesso al pannello con i campi Email e Password, il link «Hai dimenticato la password?» e il pulsante Accedi.
+
+----
+
+Uuid: qvsjmt5uesd5nu6c

@@ -1,0 +1,17 @@
+Title: Admission to later years
+
+----
+
+Slug: later-years
+
+----
+
+Lead: If you come from another programme or another university, you can enter a year after the first directly, in the places that remain available.
+
+----
+
+Text: [{"content":{"text":"<p>Every year the University publishes a call to assign the vacant places from the 2nd to the 5th year.</p>"},"id":"a2fd09ad-6bf0-43a7-a8af-8193fe562b18","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Who can apply"},"id":"6ef10cde-b177-43fe-a6b6-a84ceae00dbb","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>Students enrolled in the same programme at another Italian university who request a transfer.</p></li><li><p>Students enrolled in another programme at the University of Pisa who request a change of programme.</p></li><li><p>Students enrolled in another programme at another university, in Italy or abroad, who request a transfer.</p></li><li><p>Graduates, in Italy or abroad, who request enrolment with credit recognition.</p></li><li><p>Students enrolled in this programme under a system prior to Ministerial Decree 270/04 who request to switch to the new system.</p></li></ul>"},"id":"ca46dacc-5f03-4fcc-a3ff-764acba5b416","isHidden":false,"type":"list"},{"content":{"text":"<p>The minimum requirements for each year are listed in the table in Article 4 of the call.</p>"},"id":"c958245b-331c-425b-a75c-b4725c575798","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"How to apply"},"id":"32ca90d7-9df9-4755-a3f3-08cfbcb3600b","isHidden":false,"type":"heading"},{"content":{"text":"<ol><li><p>Read the call carefully.</p></li><li><p>Register on the <a href=\"http://www.studenti.unipi.it/\">Alice portal</a> and sign up for the competition <em>SER, Ingegneria Edile-Architettura anni successivi al primo</em>.</p></li><li><p>Pay the participation fee.</p></li><li><p>Check the ranking list on the University page.</p></li></ol>"},"id":"2c51248b-57fa-42db-ab07-27291bec4297","isHidden":false,"type":"list"},{"content":{"level":"h2","text":"Academic year 2026/27"},"id":"15b1114e-d695-48da-a14f-042f9a27fc26","isHidden":false,"type":"heading"},{"content":{"rows":[{"label":"Places","value":"2nd year: 6 · 3rd year: 21 · 4th year: 27 · 5th year: 17"},{"label":"Applications","value":"from 15 June to 19 July 2026"},{"label":"Participation fee","value":"€60.00"},{"label":"Call for applications","value":"<a href=\"https://alboufficiale.unipi.it/wp-content/uploads/2026/06/DR-e-bando-anni-successivi-al-primo-IEA-2026-2027.pdf\">Call for later years 2026/27</a> (PDF, in Italian)"},{"label":"Ranking list and details","value":"<a href=\"https://www.unipi.it/didattica/iscrizioni/immatricolazioni-e-iscrizioni/accesso-ad-anni-successivi-al-primo-per-i-corsi-a-numero-programmato/ingegneria-edile-architettura-a-a-2026-2027/\">University page</a> (in Italian)"}]},"id":"af1758ab-4706-4fe9-acb5-775165313189","isHidden":false,"type":"infocard"},{"content":{"text":"<p>[DA VERIFICARE: le domande 2026/27 sono chiuse. Aggiornare con l'esito o con il periodo previsto per il prossimo bando.]</p>"},"id":"10c1c636-392d-473b-af0f-21ee293cd8da","isHidden":false,"type":"text"}]
+
+----
+
+Description: For transfers, changes of programme and second degrees.

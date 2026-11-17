@@ -1,0 +1,17 @@
+Title: "Architecture as a historical discipline", lecture by Vittorio Pizzigoni
+
+----
+
+Slug: architecture-historical-discipline
+
+----
+
+Summary: Prof. Vittorio Pizzigoni of the University of Genoa is a guest of the Theory and Techniques of Architectural Design course.
+
+----
+
+Place: Polo Etruria, room F9
+
+----
+
+Text: [{"content":{"text":"<p>Lecture by <strong>Prof. Vittorio Pizzigoni</strong>, architect, University of Genoa, as part of the Theory and Techniques of Architectural Design course 2025/26. It can also be followed online on Microsoft Teams.</p><p><a href=\"/en/noticeboard/architecture-historical-discipline/pizzigoni-slim.pdf\">Poster</a> (PDF)</p>"},"id":"ba559b81-cb96-444e-a67d-cac77206215e","isHidden":false,"type":"text"}]

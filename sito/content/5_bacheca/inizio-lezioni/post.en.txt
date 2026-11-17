@@ -1,0 +1,13 @@
+Title: Lectures for 2026/27 start on 21 September
+
+----
+
+Slug: lectures-start
+
+----
+
+Summary: First-semester lectures start on Monday 21 September 2026.
+
+----
+
+Text: [{"content":{"text":"<p>First-semester lectures of the academic year 2026/27 start on <strong>Monday 21 September 2026</strong> and end on Saturday 12 December 2026.</p><p>You will find the timetables for each year in <a href=\"/en/studying/timetables-and-exams\">Timetables, calendar and exams</a>.</p>"},"id":"0ee5a930-2b8c-42e2-a011-8167ffd196bd","isHidden":false,"type":"text"}]

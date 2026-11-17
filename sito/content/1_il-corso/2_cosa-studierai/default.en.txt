@@ -1,0 +1,17 @@
+Title: What you will study
+
+----
+
+Slug: what-you-will-study
+
+----
+
+Lead: Basic sciences, architectural design and structural engineering, with studios that bring different disciplines together.
+
+----
+
+Text: [{"content":{"level":"h2","text":"Subjects"},"id":"132403ae-7c54-4490-abdb-f53d24d05db8","isHidden":false,"type":"heading"},{"content":{"caption":"","rows":[{"c1":"Area","c2":"Examples"},{"c1":"<strong>Basic</strong>","c2":"Mathematics, physics, drawing, history of architecture"},{"c1":"<strong>Core</strong>","c2":"Architectural, structural and urban design; restoration. With attention to environmental comfort, energy and environmental impact"},{"c1":"<strong>Related</strong>","c2":"Hydraulics, geotechnics, socio-economic aspects, construction site management"}]},"id":"ae3ebb00-b639-496f-ac11-2d17489f6412","isHidden":false,"type":"table"},{"content":{"text":"<p>The year-by-year details are in the <a href=\"/en/studying/study-plan\">study plan</a>.</p>"},"id":"ebd6d6f9-e2d0-4ae1-a056-779726eeebe0","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Studios, workshops and seminars"},"id":"b8d28ef5-a1ba-4065-afb8-4294fea2aa93","isHidden":false,"type":"heading"},{"content":{"text":"<p>Alongside the lectures, the programme organises studios, workshops and seminars. The aim is to get you used to working across disciplines, as happens in professional practice. Design studios account for a large share of the credits every year and attendance is compulsory.</p>"},"id":"e1ee7acb-681d-408e-a318-537af4239ca5","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Experiences abroad"},"id":"e85550f9-924a-4594-ae3f-d1fdedc34cbd","isHidden":false,"type":"heading"},{"content":{"text":"<p>You can spend part of your studies abroad: with the Erasmus programme, with internships in professional practices or by preparing your thesis at another university. Find out how on the <a href=\"/en/studying/international-mobility\">International mobility</a> page.</p>"},"id":"511cfaf1-b017-433d-aa9f-76868da82aa5","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Beyond the lectures"},"id":"f1ab2b7f-f976-4f96-a887-54e8663ff68a","isHidden":false,"type":"heading"},{"content":{"text":"<p>Every year the programme offers lectures and meetings with architects, teachers from other universities and professionals. Since 2014 it has also organised the <a href=\"/en/studying/summer-school\">international Summer School \"The city and the water\"</a>. You will find the schedule on the <a href=\"/en/noticeboard/events\">noticeboard</a> and other initiatives under <a href=\"/en/studying/opportunities\">Opportunities</a>.</p>"},"id":"185c3b54-eca3-4823-af2a-08448b6351d8","isHidden":false,"type":"text"}]
+
+----
+
+Description: Subjects, design studios and experiences abroad.

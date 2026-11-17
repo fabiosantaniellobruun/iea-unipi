@@ -1,0 +1,17 @@
+Title: Presentation of the Integrated Architectural Design Studio 1
+
+----
+
+Slug: presentation-design-studio-1
+
+----
+
+Summary: Teachers Antonello Boschi and Denise Ulivieri present the 2nd-year studio.
+
+----
+
+Place: Room A24, Largo Lucio Lazzarino
+
+----
+
+Text: [{"content":{"text":"<p>Teachers Antonello Boschi and Denise Ulivieri present the Integrated Architectural Design Studio 1 for 2025/26.</p>"},"id":"cd2bcb41-dfa7-4b78-a5dd-410adadd2698","isHidden":false,"type":"text"}]

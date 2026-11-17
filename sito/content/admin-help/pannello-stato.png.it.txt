@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Finestra «Seleziona un nuovo stato» con le opzioni Bozza e Pubblicato e i pulsanti Annulla e Cambia.
+
+----
+
+Uuid: 1onqzcjdwfl8w2zc

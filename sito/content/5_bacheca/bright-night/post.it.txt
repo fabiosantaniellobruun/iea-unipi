@@ -1,0 +1,41 @@
+Title: BRIGHT-NIGHT 2026, la Notte europea delle Ricercatrici e dei Ricercatori
+
+----
+
+Category: eventi
+
+----
+
+Date: 2026-09-25
+
+----
+
+Summary: Circa 200 eventi a Pisa tra laboratori, esperimenti, incontri e spettacoli.
+
+----
+
+Text: [{"content":{"text":"<p>Venerdì 25 settembre torna BRIGHT-NIGHT. A Pisa sono in programma circa 200 eventi tra laboratori, esperimenti, dimostrazioni, incontri, visite e spettacoli, con ricercatrici e ricercatori dell'Università di Pisa e delle altre istituzioni scientifiche della città.</p><p>Il tema di quest'anno è <strong>la ricerca come gesto di cura</strong>: delle persone, dell'ambiente, delle comunità, della conoscenza e del futuro.</p>"},"id":"5a8ab5e4-fe99-40d1-a6d5-bf1f1912282c","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><p><a href=\"https://bright-night.it/dove/pisa/\">Programma degli eventi a Pisa</a></p></li><li><p><a href=\"https://bright-night.it/tutti-gli-eventi/\">Tutti gli eventi in Toscana</a></p></li></ul>"},"id":"8e6fc1cb-d8c6-4ebc-af4d-8d457128df18","isHidden":false,"type":"list"}]
+
+----
+
+Start: 2026-09-25 00:00:00
+
+----
+
+End: 
+
+----
+
+Place: Pisa, Firenze, Lucca, Siena
+
+----
+
+Deadline: 
+
+----
+
+Cover: - file://maigor0cfkg71rcu
+
+----
+
+Uuid: bnpwqpdpyatgiyca

@@ -1,0 +1,25 @@
+Title: Workshop "Architectural prosthetics", 19-27 giugno 2019
+
+----
+
+Summary: Workshop di modellazione digitale e stampa 3D applicate a decorazione, strutture, restauro e design, con lo studio BASICS di Madrid.
+
+----
+
+Text: [{"content":{"text":"<p>Workshop di modellazione digitale e stampa 3D applicate a decorazione, strutture, restauro e design, con lo studio BASICS di Madrid.</p>"},"id":"ac89791a-aec6-4b18-ada8-ab41d72b091d","isHidden":false,"type":"text"}]
+
+----
+
+Category: bandi-e-opportunita
+
+----
+
+Date: 2019-06-09
+
+----
+
+Deadline: 2019-06-09
+
+----
+
+Uuid: htltei3gjoytyw6z

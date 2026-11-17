@@ -1,0 +1,13 @@
+Title: Special project: composite materials and digital technologies for marble restoration
+
+----
+
+Slug: special-project-marble
+
+----
+
+Summary: A hands-on studio on cases from the Opera del Duomo of Pisa, combining 3D modelling, 3D printing and composite materials. Up to 15 places.
+
+----
+
+Text: [{"content":{"text":"<p>The Department of Civil and Industrial Engineering is running a special teaching project on the conservation of marble artworks. You will work in groups on cases inspired by real ones from the Opera del Duomo of Pisa, to design and build restoration prototypes using:</p>"},"id":"d4a276f2-31ff-42b7-aae5-ddbe37f2647b","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><p>3D modelling;</p></li><li><p>additive manufacturing (3D printing);</p></li><li><p>composite materials for marble conservation.</p></li></ul>"},"id":"7ce61d74-3500-4480-a791-dba63d8e8132","isHidden":false,"type":"list"},{"content":{"rows":[{"label":"When","value":"from April to June 2026, about 3 days a month"},{"label":"Who it is for","value":"up to 15 students of Materials and Nanotechnology, Architecture and Building Engineering, Civil Engineering"},{"label":"At the end","value":"certificate of attendance"},{"label":"Registration","value":"<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdnMFyHYhY6S6F8ys522LOQPe5h-96EXEw46OpFeptmbGVt-Q/viewform\">online form</a> or QR code on the <a href=\"/en/noticeboard/special-project-marble/locandina_v1.pdf\">flyer</a> (PDF)"}]},"id":"b76d70dd-51f7-44bd-a48b-57c5b785b7b6","isHidden":false,"type":"infocard"},{"content":{"text":"<p><strong>Contacts:</strong> Prof. Mario Milazzo and Prof. Anna De Falco (Department of Civil and Industrial Engineering), Prof. Claudia Aveta (DESTEC).</p><p>[DA VERIFICARE: la scadenza per iscriversi non è indicata.]</p>"},"id":"21e3543c-6572-4fbf-a90f-63a0f0a98d70","isHidden":false,"type":"text"}]

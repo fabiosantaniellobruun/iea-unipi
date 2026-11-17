@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Menu Impostazioni del post, aperto dall'icona dell'ingranaggio, con le voci Rinomina, Cambia stato, Duplica ed Elimina.
+
+----
+
+Uuid: rigtlaxwtm0gsm2q

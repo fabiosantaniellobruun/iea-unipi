@@ -1,0 +1,13 @@
+Title: BRIGHT-NIGHT 2026, European Researchers' Night
+
+----
+
+Summary: About 200 events in Pisa: workshops, experiments, meetings and shows.
+
+----
+
+Place: Pisa, Florence, Lucca, Siena
+
+----
+
+Text: [{"content":{"text":"<p>BRIGHT-NIGHT is back on Friday 25 September. About 200 events are planned in Pisa, including workshops, experiments, demonstrations, meetings, visits and shows, with researchers from the University of Pisa and the city's other scientific institutions.</p><p>This year's theme is <strong>research as an act of care</strong>: for people, the environment, communities, knowledge and the future.</p>"},"id":"565906de-f55c-4cc5-ad8e-93f4b9bfb4c1","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><p><a href=\"https://bright-night.it/dove/pisa/\">Programme of events in Pisa</a></p></li><li><p><a href=\"https://bright-night.it/tutti-gli-eventi/\">All events in Tuscany</a></p></li></ul>"},"id":"838209f2-f101-4f9e-a081-7c4500e20177","isHidden":false,"type":"list"}]

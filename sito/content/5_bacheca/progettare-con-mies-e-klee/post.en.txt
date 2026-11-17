@@ -1,0 +1,17 @@
+Title: "Designing with Mies and Klee" and "Pure relations", two meetings with Dario Costi
+
+----
+
+Slug: designing-with-mies-and-klee
+
+----
+
+Summary: A day with architect Dario Costi, University of Parma and Studio MC2AA.
+
+----
+
+Place: Polo Etruria, room F9, 11:00 and 14:30
+
+----
+
+Text: [{"content":{"text":"<p>Two meetings with architect <strong>Dario Costi</strong>, as part of the Theory and Techniques of Architectural Design course 2025/26. They can also be followed online on Microsoft Teams.</p>"},"id":"f85929f7-5ca1-434c-a778-ba23d8296412","isHidden":false,"type":"text"},{"content":{"caption":"","rows":[{"c1":"Time","c2":"Meeting"},{"c1":"11:00","c2":"<em>Pure relations</em> (Pure relazioni), the projects of Studio MC2AA. <a href=\"/en/noticeboard/designing-with-mies-and-klee/costi.pdf\">Poster</a> (PDF)"},{"c1":"14:30","c2":"<em>Designing with Mies and Klee</em> (Progettare con Mies e Klee), lecture by Prof. Dario Costi, architect, University of Parma. <a href=\"/en/noticeboard/designing-with-mies-and-klee/costi-2.pdf\">Poster</a> (PDF)"}]},"id":"7c971c3f-35d6-4e6f-af82-aec089c45628","isHidden":false,"type":"table"}]

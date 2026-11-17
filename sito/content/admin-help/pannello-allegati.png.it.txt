@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Sezione Allegati di un post con tre PDF e, in alto a destra, l'icona per caricare un file.
+
+----
+
+Uuid: hgs1y5xolh34qofj

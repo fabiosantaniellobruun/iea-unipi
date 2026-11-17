@@ -1,0 +1,75 @@
+/*
+ * Design token del sito.
+ * Fonte: Manuale di immagine coordinata dell'Università di Pisa (colori p. 17, tipografia pp. 18-19);
+ * per ciò che il manuale non specifica: tema di www.unipi.it. Dettagli in docs/06-stile-unipi.md.
+ * Gli altri fogli di stile usano solo queste variabili.
+ */
+:root {
+  /* Colori istituzionali (manuale, p. 17) */
+  --color-primary: #225dd7;      /* blu reale: link, pulsanti, contenuti in evidenza */
+  --color-secondary: #1a315d;    /* blu notte: titoli, menu, intestazioni, filetti */
+  --color-support: #f0f0f0;      /* fondi di sezione */
+
+  /* Colore del corso (marchio IEA): segnala dove ci si trova; link e pulsanti restano nel blu reale */
+  --color-accent: #742eff;       /* 5,87:1 su bianco */
+
+  /* Colori di servizio (tema di unipi.it) */
+  --color-text: #000;
+  --color-text-muted: #666;      /* 5,74:1 su bianco */
+  --color-bg: #fff;
+  --color-rule: #ddd;            /* solo separatori decorativi, mai bordi di controlli */
+  --color-focus: #225dd7;
+
+  /* Font (manuale, p. 18) */
+  --font-display: "Inter", system-ui, sans-serif;
+  --font-text: "Titillium Web", system-ui, sans-serif;
+
+  /* Scala tipografica mobile (manuale, colonna "SM") */
+  --fs-display-m: 3rem;      /* 48px */
+  --fs-h1: 2rem;             /* 32px */
+  --fs-h2: 1.75rem;          /* 28px */
+  --fs-h3: 1.5rem;           /* 24px */
+  --fs-h4: 1.25rem;          /* 20px */
+  --fs-body: 1rem;           /* 16px */
+  --lh-body: 1.5;            /* 24px */
+  --fs-small: 0.875rem;      /* 14px */
+  --fs-label: 0.8125rem;     /* 13px */
+
+  /* Spaziature */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4rem;
+  --space-8: 6rem;
+
+  /* Griglia */
+  --container: 80rem;        /* 1280px */
+  --measure: 47.5rem;        /* 760px, colonna di testo */
+  --gutter: 1rem;            /* 16px su mobile */
+
+  --radius: 0;               /* unipi.it usa angoli vivi */
+  --focus-ring: 3px solid var(--color-focus);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --gutter: 1.5rem;
+  }
+}
+
+/* Scala tipografica desktop (manuale, colonna "MAX") */
+@media (min-width: 1025px) {
+  :root {
+    --fs-display-m: 4.5rem;  /* 72px */
+    --fs-h1: 3.5rem;         /* 56px */
+    --fs-h2: 2.5rem;         /* 40px */
+    --fs-h3: 2rem;           /* 32px */
+    --fs-h4: 1.375rem;       /* 22px */
+    --fs-body: 1.125rem;     /* 18px */
+    --lh-body: 1.444;        /* 26px */
+    --gutter: 2.5rem;
+  }
+}

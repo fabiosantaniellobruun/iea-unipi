@@ -1,0 +1,17 @@
+Title: Tirocini
+
+----
+
+Lead: Il tirocinio curriculare è un periodo di formazione in uno studio, un'azienda o un ente, che fa parte del tuo percorso di studi.
+
+----
+
+Text: [{"content":{"level":"h2","text":"Cos'è"},"id":"35229bd0-f289-41a9-afeb-c5ad660b3adc","isHidden":false,"type":"heading"},{"content":{"text":"<p>Il tirocinio ti permette di fare un'esperienza diretta del mondo del lavoro mentre studi. È <strong>curriculare</strong> perché si svolge durante il corso ed è previsto dal piano di studi: nel 5° anno vale 3 o 6 CFU, tra le <a href=\"/it/studiare/piano-di-studi#50-anno\">attività a scelta</a>. È curriculare anche il tirocinio svolto per preparare la tesi di laurea.</p>"},"id":"e78123f3-5e2f-4d31-ad3d-ecae979969a2","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Regole principali"},"id":"fe7b90e1-682f-42b7-a60e-b7cfb5ad45f4","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>Può durare al massimo 12 mesi, comprese eventuali proroghe. Per studenti e studentesse con disabilità valgono regole specifiche.</p></li><li><p>Si svolge sulla base di una <strong>convenzione</strong> tra l'azienda o l'ente e il Dipartimento DESTEC.</p></li><li><p>Prima di iniziare, l'azienda compila online un <strong>progetto formativo</strong> con obiettivi, sede, durata e coperture assicurative.</p></li><li><p>Il progetto è firmato da te, da un tutor aziendale che ti affianca sul lavoro e da un tutor accademico, un docente che scegli tu e che segue gli aspetti didattici.</p></li><li><p>Alla fine, l'azienda scrive una relazione sulle competenze che hai acquisito.</p></li><li><p>L'azienda non è obbligata a pagarti un'indennità.</p></li></ul>"},"id":"8b563322-3068-4e9b-ac1c-b61017e33aa8","isHidden":false,"type":"list"},{"content":{"text":"<p>Le regole seguono il regolamento dell'Università di Pisa e la normativa nazionale (D.I. 25 marzo 1998, n. 142).</p>"},"id":"9ca448f8-db9e-45c9-a575-6df784c13e4b","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Come iniziare"},"id":"7819c55e-a23c-4994-a115-cb7d493ade0a","isHidden":false,"type":"heading"},{"content":{"text":"<p>[DA FORNIRE: passi per chi studia. Come trovare un'azienda o uno studio, come verificare se ha già una convenzione, come scegliere il tutor accademico, cosa fare sul portale tirocini.]</p><p>Portale di Ateneo: <a href=\"http://tirocini.adm.unipi.it/\">tirocini.adm.unipi.it</a></p>"},"id":"14b1399a-015f-4e26-acd1-351f65744a17","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Contatti"},"id":"6d294b37-77b4-4921-ad44-dac110994a52","isHidden":false,"type":"heading"},{"content":{"text":"<p>Unità didattica del DESTEC, Cristina Cerbone Telefono 050 2217040 · <a href=\"mailto:didatticadestec@ing.unipi.it\">didatticadestec@ing.unipi.it</a></p><p><strong>Sei un'azienda o uno studio?</strong> Leggi <a href=\"/it/aziende-ed-enti\">Aziende ed enti</a>.</p>"},"id":"028fe8c9-cb36-4b99-ab0a-47aa6d8dedc3","isHidden":false,"type":"text"}]
+
+----
+
+Description: Come fare un'esperienza in uno studio, un'azienda o un ente.
+
+----
+
+Uuid: td2b8dtbs1hokqd7

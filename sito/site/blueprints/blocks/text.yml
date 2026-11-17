@@ -1,0 +1,11 @@
+# Sostituisce il blocco di Kirby: solo paragrafi, con grassetto, corsivo e link
+name: Testo
+icon: text
+wysiwyg: true
+preview: text
+fields:
+  text:
+    type: writer
+    nodes: false
+    marks: [bold, italic, link, email]
+    placeholder: Scrivi il testo…

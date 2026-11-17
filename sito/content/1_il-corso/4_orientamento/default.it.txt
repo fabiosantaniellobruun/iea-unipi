@@ -1,0 +1,17 @@
+Title: Orientamento
+
+----
+
+Lead: Incontri, open day e contatti per conoscere il corso prima di scegliere.
+
+----
+
+Text: [{"content":{"text":"<p>[DA FORNIRE: date di open day e giornate di orientamento, contatti per chi vuole informazioni, eventuali video o materiali di presentazione del corso.]</p><p>Nel frattempo puoi leggere <a href=\"/it/il-corso/in-breve\">Il corso in breve</a> e <a href=\"/it/iscriversi/primo-anno\">come iscriverti al primo anno</a>.</p>"},"id":"402545dd-e0c7-4b06-a1da-993bef48a66e","isHidden":false,"type":"text"}]
+
+----
+
+Description: Incontri e occasioni per conoscere il corso prima di iscriverti.
+
+----
+
+Uuid: m1ygsweketrdl2tj

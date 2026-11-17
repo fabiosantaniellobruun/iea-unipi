@@ -1,0 +1,17 @@
+Title: Mobilità internazionale
+
+----
+
+Lead: Puoi trascorrere parte del percorso in un'altra università, in Europa o in Italia.
+
+----
+
+Text: [{"content":{"level":"h2","text":"Erasmus e programmi dell'Università di Pisa"},"id":"508528e1-2069-40d2-a656-31cb11b7f922","isHidden":false,"type":"heading"},{"content":{"text":"<p>Il corso promuove le esperienze all'estero: studio con il programma Erasmus, stage in studi professionali e tesi di laurea all'estero.</p><p>Bandi e informazioni: <a href=\"https://www.unipi.it/index.php/studio-e-tirocinio\">Studio e tirocinio all'estero</a> sul portale di Ateneo.</p><p>[DA FORNIRE: università partner del corso, referente Erasmus del corso, come riconoscere gli esami sostenuti all'estero (learning agreement), testimonianze.]</p>"},"id":"db44ea15-bc17-43a1-aa76-f4c22d79709f","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Erasmus italiano"},"id":"faff3f59-c021-456c-a368-cb56cf647809","isHidden":false,"type":"heading"},{"content":{"text":"<p>Con il bando di mobilità tra atenei italiani, chi è iscritto a una laurea magistrale o magistrale a ciclo unico può seguire un semestre in un'altra università italiana. La domanda si presenta sul <a href=\"http://www.studenti.unipi.it/\">portale Alice</a>.</p><p>L'ultimo bando pubblicato riguardava il 2° semestre 2025/26, con scadenza 6 novembre 2025. <a href=\"https://www.unipi.it/campus-e-servizi/opportunita-e-tempo-libero/bando-erasmus-italiano-a-a-2025-2026-semestre-2/\">Bando Erasmus italiano 2025/26</a></p><p>[DA FORNIRE: posti disponibili per il corso. Nel sito attuale la tabella è vuota.]</p><p>Informazioni: <a href=\"mailto:erasmus.italiano@unipi.it\">erasmus.italiano@unipi.it</a></p>"},"id":"c4bca8ea-a5e9-4c71-a81e-9d79c9f0c47a","isHidden":false,"type":"text"}]
+
+----
+
+Description: Erasmus e altri programmi per studiare all'estero.
+
+----
+
+Uuid: xt6scuhur9qizdgv

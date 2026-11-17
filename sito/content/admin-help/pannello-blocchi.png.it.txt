@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Elenco dei blocchi che si possono aggiungere: Titolo, Testo, Elenco, Tabella, Immagine, Avviso, Scheda informativa, Sezioni espandibili, Allegati.
+
+----
+
+Uuid: 0x15kz3a88z1slkr

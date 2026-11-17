@@ -1,0 +1,5 @@
+label: Frase introduttiva
+type: textarea
+buttons: false
+maxlength: 300
+help: Una o due frasi che dicono cosa trova chi legge.

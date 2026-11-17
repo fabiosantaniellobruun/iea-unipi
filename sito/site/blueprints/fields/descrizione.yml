@@ -1,0 +1,5 @@
+label: Descrizione breve
+type: textarea
+buttons: false
+maxlength: 160
+help: Una frase. Compare nelle card della sezione e nei risultati dei motori di ricerca; se manca si usa la frase introduttiva.

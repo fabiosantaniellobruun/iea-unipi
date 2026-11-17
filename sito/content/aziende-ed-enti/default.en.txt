@@ -1,0 +1,13 @@
+Title: Companies and organisations
+
+----
+
+Slug: companies-and-organisations
+
+----
+
+Lead: Your practice, company or organisation can host Architecture and Building Engineering students for a curricular internship.
+
+----
+
+Text: [{"content":{"level":"h2","text":"How to host an internship"},"id":"968c0d78-9408-406a-af29-8343a4cb286e","isHidden":false,"type":"heading"},{"content":{"text":"<ol><li><p><strong>Sign an agreement with the DESTEC Department.</strong> The Department handles the administrative side of internships for the programme. Follow the procedure on the <a href=\"http://tirocini.adm.unipi.it/\">University of Pisa internship portal</a> (in Italian), in the section for companies and organisations.</p></li><li><p><strong>Wait for activation.</strong> The agreement is active once it has been signed by both parties and registered on the portal.</p></li><li><p><strong>Fill in the training project online.</strong> Log in to the portal with your credentials and enter the objectives, location, duration and insurance cover of the internship.</p></li><li><p><strong>Follow the internship.</strong> A company tutor supports the intern; an academic tutor follows the educational aspects. The project is signed by both tutors and by the intern.</p></li><li><p><strong>Write the final report</strong> on the skills acquired.</p></li></ol>"},"id":"5f58afd0-1602-4b04-a64f-948a33b69cc5","isHidden":false,"type":"list"},{"content":{"text":"<p>Paying a monthly allowance is not compulsory.</p>"},"id":"a7315c7c-0910-4b8c-a180-474016b8178b","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Contacts"},"id":"8e6ac3f5-3145-4b01-aae6-7c9582bac898","isHidden":false,"type":"heading"},{"content":{"text":"<p>DESTEC Teaching Office, Cristina Cerbone Phone +39 050 2217040 · <a href=\"mailto:didatticadestec@ing.unipi.it\">didatticadestec@ing.unipi.it</a></p><p>[DA FORNIRE: altre forme di collaborazione (tesi in azienda, seminari, concorsi, premi).]</p>"},"id":"3608f30a-36ad-4c95-a7e5-f4c1e6cef6a4","isHidden":false,"type":"text"}]

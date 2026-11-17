@@ -1,0 +1,17 @@
+Title: Towards an atlas of the parish church architecture of Lunigiana
+
+----
+
+Slug: atlas-parish-churches-lunigiana
+
+----
+
+Summary: Presentation of the project for a digital atlas of the parish churches (pievi) of Lunigiana, a fragile heritage in a highly seismic area.
+
+----
+
+Place: Main Hall of the School of Engineering, Largo Lucio Lazzarino
+
+----
+
+Text: [{"content":{"text":"<p>The parish churches (pievi) of Lunigiana have been studied by historians, archaeologists, architects and structural engineers. To protect this heritage, layered and fragile in a highly seismic area, this knowledge needs to be brought together.</p><p>The <strong>Atlas of the Parish Church Architecture of Lunigiana</strong> project aims to collect it in a shared digital atlas, open to the scientific community and the public and easy to update. It is promoted by scholars, associations, cultural institutions, professionals and Italian universities.</p><p>The day presents the method and objectives of the project and gathers comments and contributions. The proceedings are opened by Enzo Mingozzi, President of the School of Engineering, and Luca Lanini, Programme Chair.</p><p><a href=\"/en/noticeboard/atlas-parish-churches-lunigiana/2026-03-06-pisa-verso-un-atlante-locandina.pdf\">Full programme</a> (PDF, in Italian)</p>"},"id":"735b9f9b-c9d2-4d98-af90-0ea1342a8636","isHidden":false,"type":"text"}]

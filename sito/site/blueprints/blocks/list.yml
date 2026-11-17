@@ -1,0 +1,10 @@
+# Sostituisce il blocco di Kirby: stessi segni del blocco Testo
+name: Elenco
+icon: list-bullet
+wysiwyg: true
+preview: list
+fields:
+  text:
+    label: Elenco
+    type: list
+    marks: [bold, italic, link, email]

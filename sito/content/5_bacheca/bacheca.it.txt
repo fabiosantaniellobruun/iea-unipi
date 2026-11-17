@@ -1,0 +1,9 @@
+Title: Bacheca
+
+----
+
+Lead: Avvisi, eventi, bandi e opportunità del corso di Ingegneria Edile-Architettura.
+
+----
+
+Uuid: ixs3d9apvribolhy

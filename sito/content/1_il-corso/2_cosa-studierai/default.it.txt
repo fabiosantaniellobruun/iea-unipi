@@ -1,0 +1,17 @@
+Title: Cosa studierai
+
+----
+
+Lead: Materie scientifiche di base, progetto architettonico e tecnica delle costruzioni, con laboratori che mettono insieme discipline diverse.
+
+----
+
+Text: [{"content":{"level":"h2","text":"Le materie"},"id":"00dae451-4633-481e-a1c8-009118b3e0e6","isHidden":false,"type":"heading"},{"content":{"caption":"","rows":[{"c1":"Area","c2":"Esempi"},{"c1":"<strong>Di base</strong>","c2":"Matematica, fisica, disegno, storia dell'architettura"},{"c1":"<strong>Caratterizzanti</strong>","c2":"Progettazione architettonica, strutturale e urbanistica; restauro. Con attenzione al benessere ambientale, all'energia e all'impatto sull'ambiente"},{"c1":"<strong>Affini</strong>","c2":"Idraulica, geotecnica, aspetti socio-economici, organizzazione del cantiere"}]},"id":"21a488bf-c3f4-461b-a609-805d38fdaaac","isHidden":false,"type":"table"},{"content":{"text":"<p>Il dettaglio anno per anno è nel <a href=\"/it/studiare/piano-di-studi\">piano di studi</a>.</p>"},"id":"a1073651-e008-48c1-a00e-08a9066f5ef9","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Laboratori, workshop e seminari"},"id":"5abab2e3-a59c-442c-ae76-295c4c25f9c2","isHidden":false,"type":"heading"},{"content":{"text":"<p>Accanto alle lezioni teoriche il corso organizza laboratori, workshop e seminari. L'obiettivo è abituarti a lavorare tra discipline diverse, come accade nella professione. I laboratori di progettazione valgono una parte importante dei crediti di ogni anno e la frequenza è obbligatoria.</p>"},"id":"a856464b-2368-4dff-a478-87884be3f7fa","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Esperienze all'estero"},"id":"e1d62768-6d51-4df1-a11a-d09a8af43d22","isHidden":false,"type":"heading"},{"content":{"text":"<p>Puoi svolgere parte del percorso all'estero: con il programma Erasmus, con stage in studi professionali o preparando la tesi in un'altra università. Scopri come nella pagina <a href=\"/it/studiare/mobilita\">Mobilità internazionale</a>.</p>"},"id":"72567275-a7ef-47a0-aeac-ad97408f9948","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Oltre le lezioni"},"id":"afd6e345-8a9d-494b-a5c9-80733a25c2aa","isHidden":false,"type":"heading"},{"content":{"text":"<p>Ogni anno il corso propone conferenze e incontri con architetti e architette, docenti di altre università e professionisti. Dal 2014 organizza anche la <a href=\"/it/studiare/summer-school\">Summer School internazionale \"The city and the water\"</a>. Trovi il calendario nella <a href=\"/it/bacheca/eventi\">bacheca</a> e le altre iniziative in <a href=\"/it/studiare/opportunita\">Opportunità</a>.</p>"},"id":"9f670c60-85a1-4c5d-a345-b69c9fc62d4d","isHidden":false,"type":"text"}]
+
+----
+
+Description: Le materie, i laboratori di progetto e le esperienze all'estero.
+
+----
+
+Uuid: wwf9bklyakkbo0tl

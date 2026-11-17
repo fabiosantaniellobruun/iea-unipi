@@ -1,0 +1,17 @@
+Title: Rappresentanti degli studenti
+
+----
+
+Lead: Chi rappresenta studenti e studentesse negli organi del corso e del Dipartimento.
+
+----
+
+Text: [{"content":{"text":"<p>[DA FORNIRE: nomi e contatti dei rappresentanti nel Consiglio di corso di studio e nella Commissione didattica paritetica, come e quando si vota.]</p>"},"id":"2064f1bc-693d-48b8-a55c-b6aa4f32d78b","isHidden":false,"type":"text"}]
+
+----
+
+Description: Chi ti rappresenta negli organi del corso.
+
+----
+
+Uuid: ovqhhqzkbfmqnlki

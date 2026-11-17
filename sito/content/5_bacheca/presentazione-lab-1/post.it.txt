@@ -1,0 +1,29 @@
+Title: Presentazione del Laboratorio integrato di progettazione architettonica 1
+
+----
+
+Summary: I docenti Antonello Boschi e Denise Ulivieri presentano il laboratorio del 2° anno.
+
+----
+
+Place: Aula A24, Largo Lucio Lazzarino
+
+----
+
+Text: [{"content":{"text":"<p>I docenti Antonello Boschi e Denise Ulivieri presentano il Laboratorio integrato di progettazione architettonica 1 per il 2025/26.</p>"},"id":"81c003f8-46a6-4873-ab9d-ca2a8439532b","isHidden":false,"type":"text"}]
+
+----
+
+Category: eventi
+
+----
+
+Date: 2025-09-25
+
+----
+
+Start: 2025-09-25 08:30:00
+
+----
+
+Uuid: ra4lyapva6g73wkj

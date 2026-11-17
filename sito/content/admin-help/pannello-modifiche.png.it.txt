@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Post con modifiche non salvate: in alto a destra compaiono i pulsanti Abbandona e Salva.
+
+----
+
+Uuid: syivnmj0jhdfhnzv

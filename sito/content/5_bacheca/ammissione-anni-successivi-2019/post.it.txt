@@ -1,0 +1,25 @@
+Title: Ammissione agli anni successivi al primo, 2019/20
+
+----
+
+Summary: 100 posti complessivi per trasferimenti, passaggi di corso e abbreviazioni di carriera, assegnati in ordine di arrivo delle domande.
+
+----
+
+Text: [{"content":{"text":"<p>100 posti complessivi per trasferimenti, passaggi di corso e abbreviazioni di carriera, assegnati in ordine di arrivo delle domande.</p>"},"id":"a2b6b85c-7d34-4627-a85b-72b5f89bee51","isHidden":false,"type":"text"}]
+
+----
+
+Category: bandi-e-opportunita
+
+----
+
+Date: 2019-10-11
+
+----
+
+Deadline: 2019-12-31
+
+----
+
+Uuid: 4uestviwytgtxop3

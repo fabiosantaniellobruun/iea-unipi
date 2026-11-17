@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Locandina: Fabrizio Barozzi (Barozzi Veiga), "Abby Kortrijk", 17 settembre 2025 alle 11:00, Aula Magna della Scuola di Ingegneria di Pisa. Foto di un edificio scuro a torre accanto a una casa in mattoni.
+
+----
+
+Uuid: wfliizuozjhn7pj8

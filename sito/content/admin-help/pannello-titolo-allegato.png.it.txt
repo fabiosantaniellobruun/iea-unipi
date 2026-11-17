@@ -1,0 +1,9 @@
+Template: immagine
+
+----
+
+Alt: Campo Titolo di un allegato, compilato con «Bando».
+
+----
+
+Uuid: ekib30161c8mj64v

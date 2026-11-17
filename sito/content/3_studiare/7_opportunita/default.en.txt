@@ -1,0 +1,17 @@
+Title: Opportunities
+
+----
+
+Slug: opportunities
+
+----
+
+Lead: Special projects, the Summer School, competitions and awards to enrich your studies.
+
+----
+
+Text: [{"content":{"level":"h2","text":"Summer School \"The city and the water\""},"id":"8f9d4ad1-e448-485a-a3a8-9666e8aff21f","isHidden":false,"type":"heading"},{"content":{"text":"<p>Since 2014 the programme has organised an international design school on the relationship between cities and water, full time and in English.</p><p><a href=\"/en/studying/summer-school\">Discover the Summer School</a></p>"},"id":"8fd43f70-ec7b-4a96-ab36-10d6ba86e125","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Special teaching projects"},"id":"381e9b70-4264-4ddd-af46-2558f283a8fc","isHidden":false,"type":"heading"},{"content":{"text":"<p>Hands-on experiences with limited places, often with other degree programmes, which lead to a certificate of attendance. Example for 2026: <a href=\"/en/noticeboard/special-project-marble\">Composite materials and digital technologies for the conservation of marble artworks</a>.</p>"},"id":"b3cb3326-9f6d-499e-a87a-b823f9a8909f","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Competitions, awards and scholarships"},"id":"dd9acacc-8bdd-47c9-aff8-94ba81e4115d","isHidden":false,"type":"heading"},{"content":{"text":"<p>Design competitions, awards and scholarships for students and young professionals are published on the noticeboard.</p><p><a href=\"/en/noticeboard/calls-and-opportunities\">See current calls and opportunities</a></p>"},"id":"9ffde234-a9ee-4fd6-af0f-3efa5e499ef2","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Mobility"},"id":"c7fa1ef8-f849-4546-a714-0badaef8e947","isHidden":false,"type":"heading"},{"content":{"text":"<p>To study abroad or at another Italian university, go to <a href=\"/en/studying/international-mobility\">International mobility</a>.</p>"},"id":"b7148e74-1f5e-4a81-ad50-716520cc02f6","isHidden":false,"type":"text"}]
+
+----
+
+Description: Special projects, competitions and awards.

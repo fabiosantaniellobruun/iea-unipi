@@ -1,0 +1,18 @@
+title: Guida di stile
+options:
+  create:
+    admin: true
+    "*": false
+  changeStatus: false
+  delete: false
+  # Pagina tecnica: la redazione non la vede nel pannello
+  access:
+    admin: true
+    "*": false
+  list:
+    admin: true
+    "*": false
+fields:
+  info:
+    type: info
+    text: Pagina tecnica che mostra tutti i componenti del sito. Non compare nei menu.

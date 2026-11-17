@@ -1,0 +1,17 @@
+Title: International mobility
+
+----
+
+Slug: international-mobility
+
+----
+
+Lead: You can spend part of your studies at another university, in Europe or in Italy.
+
+----
+
+Text: [{"content":{"level":"h2","text":"Erasmus and University of Pisa programmes"},"id":"9d277366-a614-4021-a488-e45764e80658","isHidden":false,"type":"heading"},{"content":{"text":"<p>The programme encourages experiences abroad: study with the Erasmus programme, internships in professional practices and theses abroad.</p><p>Calls and information: <a href=\"https://www.unipi.it/index.php/studio-e-tirocinio\">Study and internships abroad</a> on the University portal.</p><p>[DA FORNIRE: università partner del corso, referente Erasmus del corso, come riconoscere gli esami sostenuti all'estero (learning agreement), testimonianze.]</p>"},"id":"662f798d-e2a9-46a7-aeb8-97ca0ea4d4e4","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Erasmus italiano"},"id":"84ea74a2-d009-4227-a392-f504a36d1be6","isHidden":false,"type":"heading"},{"content":{"text":"<p>With the call for mobility between Italian universities, students enrolled in a Master's or single-cycle Master's degree can spend a semester at another Italian university. Applications are submitted on the <a href=\"http://www.studenti.unipi.it/\">Alice portal</a>.</p><p>The latest call concerned the 2nd semester of 2025/26, with a deadline of 6 November 2025. <a href=\"https://www.unipi.it/campus-e-servizi/opportunita-e-tempo-libero/bando-erasmus-italiano-a-a-2025-2026-semestre-2/\">Erasmus italiano call 2025/26</a> (in Italian)</p><p>[DA FORNIRE: posti disponibili per il corso. Nel sito attuale la tabella è vuota.]</p><p>Information: <a href=\"mailto:erasmus.italiano@unipi.it\">erasmus.italiano@unipi.it</a></p>"},"id":"c66e6bf9-8625-457a-a18a-41054d3f4958","isHidden":false,"type":"text"}]
+
+----
+
+Description: Erasmus and other programmes to study abroad.

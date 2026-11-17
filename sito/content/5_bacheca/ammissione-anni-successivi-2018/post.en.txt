@@ -1,0 +1,13 @@
+Title: Admission to years after the first, 2018/19
+
+----
+
+Slug: admission-later-years-2018
+
+----
+
+Summary: Places for transfers from other universities: 15 in the 2nd year, 8 in the 3rd, 32 in the 4th, 24 in the 5th.
+
+----
+
+Text: [{"content":{"text":"<p>Places for transfers from other universities: 15 in the 2nd year, 8 in the 3rd, 32 in the 4th, 24 in the 5th.</p>"},"id":"3d7dbcb2-3945-4a24-a568-d86622043198","isHidden":false,"type":"text"}]

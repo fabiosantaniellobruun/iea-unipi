@@ -1,0 +1,13 @@
+Title: Architectural survey of Villa Santa Margherita in Volterra, 2020/21
+
+----
+
+Slug: survey-villa-santa-margherita
+
+----
+
+Summary: Supplementary 3-CFU training activity: 3-4 days of on-site survey in May 2021, up to 7 participants.
+
+----
+
+Text: [{"content":{"text":"<p>Supplementary 3-CFU training activity: 3-4 days of on-site survey in May 2021, up to 7 participants.</p>"},"id":"1d4ce39b-b470-4255-a873-270fbe352fd3","isHidden":false,"type":"text"}]

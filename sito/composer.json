@@ -1,0 +1,18 @@
+{
+  "name": "iea-unipi/sito",
+  "description": "Sito del Corso di Laurea Magistrale a ciclo unico in Ingegneria Edile-Architettura, Università di Pisa",
+  "type": "project",
+  "require": {
+    "php": "~8.4.0",
+    "getkirby/cms": "^5.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    },
+    "optimize-autoloader": true
+  },
+  "extra": {
+    "kirby-cms-path": "kirby"
+  }
+}

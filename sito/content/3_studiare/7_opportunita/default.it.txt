@@ -1,0 +1,17 @@
+Title: Opportunità
+
+----
+
+Lead: Progetti speciali, Summer School, concorsi e premi per arricchire il tuo percorso.
+
+----
+
+Text: [{"content":{"level":"h2","text":"Summer School \"The city and the water\""},"id":"689b5068-be81-4c0d-ab7a-0de75b307d01","isHidden":false,"type":"heading"},{"content":{"text":"<p>Dal 2014 il corso organizza una scuola internazionale di progettazione sul rapporto tra città e acqua, a tempo pieno e in inglese.</p><p><a href=\"/it/studiare/summer-school\">Scopri la Summer School</a></p>"},"id":"d9c1bc9a-9233-43d8-a0aa-b27dda55b545","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Progetti speciali per la didattica"},"id":"de4a3aa2-0a60-4738-a62c-bdb25b44b9cf","isHidden":false,"type":"heading"},{"content":{"text":"<p>Esperienze pratiche a numero chiuso, spesso con altri corsi di studio, che danno un attestato di partecipazione. Esempio 2026: <a href=\"/it/bacheca/progetto-speciale-marmo\">Materiali compositi e tecnologie digitali per la conservazione dei beni artistici marmorei</a>.</p>"},"id":"f252b7e1-44fd-4814-a2aa-58cb6e5097f7","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Concorsi, premi e borse"},"id":"63d76e08-4b38-43c9-a161-bcd3af0cdb50","isHidden":false,"type":"heading"},{"content":{"text":"<p>Concorsi di progettazione, premi e borse di studio per studenti, studentesse e giovani professionisti vengono pubblicati nella bacheca.</p><p><a href=\"/it/bacheca/bandi-e-opportunita\">Vedi bandi e opportunità in corso</a></p>"},"id":"3e2e6d91-38ea-461f-a176-e45fb5a03e27","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Mobilità"},"id":"8a4e2de1-5a33-4eb8-ad37-8e5e92547219","isHidden":false,"type":"heading"},{"content":{"text":"<p>Per studiare all'estero o in un'altra università italiana vai a <a href=\"/it/studiare/mobilita\">Mobilità internazionale</a>.</p>"},"id":"d357e248-bc89-49c7-aeb3-b79ad488d29a","isHidden":false,"type":"text"}]
+
+----
+
+Description: Progetti speciali, concorsi e premi.
+
+----
+
+Uuid: fygwcqbj2nk301ze

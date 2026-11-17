@@ -1,0 +1,13 @@
+Title: Elite Bathroom Greentech Architecture Award 2026
+
+----
+
+Slug: elite-bathroom-award
+
+----
+
+Summary: Design a public toilet for the city of Pisa. First prize: a €2,000 grant for an internship in an architecture practice.
+
+----
+
+Text: [{"content":{"text":"<p>The competition is promoted by TED Group and NOI Network, under the patronage of the Municipality of Pisa. It is open to professionals under 39 and to students of Architecture, Interior Design, Engineering and technical institutes with a design focus.</p>"},"id":"8760fad5-f095-4144-a95b-504f0d322498","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"The theme for the student category"},"id":"2c347d71-2be4-4808-a419-e9b7ed594d61","isHidden":false,"type":"heading"},{"content":{"text":"<p><em>Where the city takes care of itself</em>: the design of a public toilet for Pisa, paying attention to architectural quality, accessibility, environmental sustainability, energy efficiency and urban integration.</p>"},"id":"2c923703-13a8-47cc-ab17-aa9b04f6a072","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Prizes for the student category"},"id":"b24bdde6-4c8e-4b90-a6e7-dd54e957d857","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>1st prize: a €2,000 grant for a 3-month internship at the llabb architettura practice</p></li><li><p>Special mentions</p></li></ul>"},"id":"58235617-b11a-4b97-a2c5-e427b81c9153","isHidden":false,"type":"list"},{"content":{"level":"h2","text":"Dates"},"id":"799c04a2-c565-42b8-aada-1225e4c08667","isHidden":false,"type":"heading"},{"content":{"rows":[{"label":"Project submission","value":"by 19 October 2026"},{"label":"Award ceremony","value":"18 November 2026, in Pisa"}]},"id":"9929c90f-01a7-43bc-af60-26c089b38c88","isHidden":false,"type":"infocard"},{"content":{"text":"<p>Participation is free of charge.</p><p><a href=\"/en/noticeboard/elite-bathroom-award/bando_elite_bathroom_greentech_2026.pdf\">Call</a> (PDF, in Italian) · <a href=\"/en/noticeboard/elite-bathroom-award/premio_di_architettura_elite_bathroom_greentech.pdf\">Poster</a> (PDF) · <a href=\"/en/noticeboard/elite-bathroom-award/presentazione_elite_bathroom_greentech.pdf\">Presentation</a> (PDF) · <a href=\"https://www.elitebathroom.it/it/chi-siamo/\">Promoters' website</a></p>"},"id":"b199ec73-99e7-422d-a5ca-49a27d9d9d36","isHidden":false,"type":"text"}]

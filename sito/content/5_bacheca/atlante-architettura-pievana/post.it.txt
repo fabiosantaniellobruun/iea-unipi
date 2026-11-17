@@ -1,0 +1,29 @@
+Title: Verso un atlante dell'architettura pievana della Lunigiana
+
+----
+
+Summary: Presentazione del progetto di atlante digitale delle pievi della Lunigiana, un patrimonio fragile in un territorio ad alta sismicità.
+
+----
+
+Place: Aula Magna della Scuola di Ingegneria, Largo Lucio Lazzarino
+
+----
+
+Text: [{"content":{"text":"<p>Le pievi della Lunigiana sono state studiate da storici, archeologi, architetti e strutturisti. Per proteggere questo patrimonio, stratificato e fragile in un territorio ad alta sismicità, serve mettere insieme queste conoscenze.</p><p>Il progetto dell'<strong>Atlante dell'Architettura Pievana della Lunigiana</strong> vuole raccoglierle in un atlante digitale condiviso, aperto alla comunità scientifica e al pubblico e facile da aggiornare. È promosso da studiosi, associazioni, istituzioni culturali, professionisti e università italiane.</p><p>La giornata presenta metodo e obiettivi del progetto e raccoglie osservazioni e contributi. Aprono i lavori Enzo Mingozzi, Presidente della Scuola di Ingegneria, e Luca Lanini, Presidente del corso.</p><p><a href=\"/it/bacheca/atlante-architettura-pievana/2026-03-06-pisa-verso-un-atlante-locandina.pdf\">Programma completo</a> (PDF)</p>"},"id":"9d45e0e6-8381-4675-a233-6dd06c1c143f","isHidden":false,"type":"text"}]
+
+----
+
+Category: eventi
+
+----
+
+Date: 2026-03-06
+
+----
+
+Start: 2026-03-06 09:00:00
+
+----
+
+Uuid: ivyuzpptmo0qiyqd

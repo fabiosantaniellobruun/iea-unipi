@@ -1,0 +1,17 @@
+Title: Tutorato
+
+----
+
+Lead: Supporto durante il percorso di studi.
+
+----
+
+Text: [{"content":{"text":"<p>Chi entra con gli obblighi formativi aggiuntivi (OFA) può seguire le attività di tutorato tenute dai docenti di Analisi matematica e Fisica generale, per tutto l'anno accademico. Quando si hanno gli OFA e come si recuperano: vedi <a href=\"/it/iscriversi/primo-anno#la-prova\">Iscriversi al primo anno</a>.</p><p>[DA FORNIRE: chi sono i tutor, come contattarli, orari di ricevimento.]</p>"},"id":"ce88225f-0ac0-47f1-a6ce-0cc127fd245e","isHidden":false,"type":"text"}]
+
+----
+
+Description: Supporto durante il percorso.
+
+----
+
+Uuid: wyffrg50ovujtz2k

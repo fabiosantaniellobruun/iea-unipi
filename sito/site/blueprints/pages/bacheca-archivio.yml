@@ -1,0 +1,17 @@
+# Post pubblicati da più di un anno, di tutte le categorie (come nel prototipo)
+title: Archivio della bacheca
+icon: archive
+
+options:
+  create:
+    admin: true
+    "*": false
+
+fields:
+  lead: fields/lead
+  text:
+    extends: fields/contenuto
+    help: Facoltativo. Compare prima dell'elenco.
+  info:
+    type: info
+    text: L'elenco si genera da solo: raccoglie i post di tutte le categorie pubblicati da più di un anno, tranne quelli con un evento o una scadenza ancora da venire.

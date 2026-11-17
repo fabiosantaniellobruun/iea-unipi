@@ -1,0 +1,9 @@
+Title: Erasmus italiano, 2nd semester 2025/26
+
+----
+
+Summary: A semester at another Italian university for students enrolled in a Master's degree.
+
+----
+
+Text: [{"content":{"text":"<p>The call for mobility between Italian universities for the second semester of 2025/26 has been published. Students enrolled in participating Master's and single-cycle Master's degrees can apply.</p><p>Applications on the <a href=\"http://www.studenti.unipi.it/\">Alice portal</a> by <strong>6 November 2025</strong>.</p><p><a href=\"https://www.unipi.it/campus-e-servizi/opportunita-e-tempo-libero/bando-erasmus-italiano-a-a-2025-2026-semestre-2/\">Call</a> (in Italian) · Information: <a href=\"mailto:erasmus.italiano@unipi.it\">erasmus.italiano@unipi.it</a></p><p>[DA VERIFICARE: nel post originale la tabella dei posti per il corso è vuota.]</p>"},"id":"10720fc7-0b44-4a26-a589-385f376e8ce6","isHidden":false,"type":"text"}]
