@@ -1,0 +1,9 @@
+Alt: Un docente spiega a un gruppo di studenti attorno a un tavolo
+
+----
+
+Uuid: cecp9iigtady3uul
+
+----
+
+Template: immagine

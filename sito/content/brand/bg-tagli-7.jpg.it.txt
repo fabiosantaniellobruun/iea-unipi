@@ -1,0 +1,9 @@
+Alt: Persona con una giacca verde ripresa in modo poco definito, con la scritta «No soggetti non definiti»
+
+----
+
+Uuid: n3c6madgbmchp78r
+
+----
+
+Template: immagine

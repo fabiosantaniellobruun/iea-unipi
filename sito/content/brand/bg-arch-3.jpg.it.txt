@@ -1,0 +1,9 @@
+Alt: Una torre medievale e un edificio moderno in vetro
+
+----
+
+Uuid: 8wisnlafnfvz111t
+
+----
+
+Template: immagine

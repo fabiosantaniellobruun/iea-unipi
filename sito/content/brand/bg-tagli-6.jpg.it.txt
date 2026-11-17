@@ -1,0 +1,9 @@
+Alt: Facciata di un edificio sgranata e di bassa qualità, con la scritta «No immagini di bassa qualità»
+
+----
+
+Uuid: czdhvxf30rxylh55
+
+----
+
+Template: immagine

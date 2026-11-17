@@ -1,0 +1,9 @@
+Alt: Dettaglio di una cupola con struttura a lacunari
+
+----
+
+Uuid: ma3ne3qz94y30udd
+
+----
+
+Template: immagine

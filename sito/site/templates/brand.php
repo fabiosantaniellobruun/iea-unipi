@@ -14,7 +14,7 @@ $toc = [
     'tipografia'   => ['3. Tipografia', ['font-principale' => 'Font principale', 'font-secondario' => 'Font secondario', 'tipografia-web' => 'Utilizzo su web']],
     'colore'       => ['4. Colore', ['palette' => 'Palette', 'colore-utilizzo' => 'Utilizzo', 'accessibilita' => 'Accessibilità']],
     'immagini'     => ['5. Immagini', ['stile' => 'Stile', 'linguaggio' => 'Linguaggio', 'tagli' => 'Tagli e inquadrature', 'soggetti' => 'Soggetti', 'trattamenti' => 'Trattamenti', 'rapporto-marchio' => 'Rapporto con il marchio']],
-    'format'       => ['6. Format', ['concept' => 'Concept', 'format-applicazione' => 'Applicazione']],
+    'format'       => ['6. Format', ['concept' => 'Concept', 'composizione' => 'Composizione', 'format-applicazione' => 'Applicazione']],
     'applicazioni' => ['7. Applicazioni', ['documenti' => 'Documenti', 'cancelleria' => 'Cancelleria', 'sito-web' => 'Sito web', 'poster' => 'Poster', 'brochure' => 'Brochure', 'merchandising' => 'Merchandising', 'newsletter' => 'Newsletter', 'social-media' => 'Social media', 'firma-email' => 'Firma email']],
 ];
 $titles = [];
@@ -22,6 +22,8 @@ foreach ($toc as $id => [$title, $subs]) {
     $titles[$id] = $title;
     $titles += $subs;
 }
+// sezioni su cui si deve ancora lavorare: nell'indice portano il tag WIP
+$wip = ['format', 'format-applicazione', 'applicazioni'];
 $h2 = fn (string $id) => '<h2 id="' . $id . '">' . $titles[$id] . '</h2>';
 $h3 = fn (string $id) => '<h3 id="' . $id . '">' . $titles[$id] . '</h3>';
 
@@ -29,6 +31,10 @@ $logo = fn (string $file) => brandUrl($file);
 $photo = function (string $name, int $width = 800) {
     $file = page('home')?->image($name);
     return $file ? $file->thumb(['width' => $width, 'height' => intdiv($width * 2, 3), 'crop' => true])->url() : null;
+};
+$img = function (string $name, string $class = '') use ($page) {
+    $file = $page->image("bg-$name.jpg");
+    return $file ? '<img' . ($class ? ' class="' . $class . '"' : '') . ' src="' . $file->url() . '" alt="' . $file->alt()->esc() . '" width="' . $file->width() . '" height="' . $file->height() . '" loading="lazy">' : '';
 };
 $photos = ['persone' => $photo('iscriviti.jpg'), 'unilife' => $photo('studi.jpg'), 'laureati' => $photo('laureati.jpg')];
 
@@ -45,13 +51,13 @@ $values = [
 ];
 
 $headline = [
-    ['Titolo', '100 px', 'Bold (700)', 'bg-type--display'],
-    ['H1', '72 px', 'Demi-bold (600)', 'bg-type--h1'],
-    ['H2', '60 px', 'Demi-bold (600)', 'bg-type--h2'],
-    ['H3', '45 px', 'Demi-bold (600)', 'bg-type--h3'],
-    ['H4', '32 px', 'Demi-bold (600)', 'bg-type--h4'],
+    ['Titolo', '72 px', 'Bold (700)', 'bg-type--display'],
+    ['H1', '56 px', 'Demi-bold (600)', 'bg-type--h1'],
+    ['H2', '40 px', 'Demi-bold (600)', 'bg-type--h2'],
+    ['H3', '32 px', 'Demi-bold (600)', 'bg-type--h3'],
+    ['H4', '22 px', 'Demi-bold (600)', 'bg-type--h4'],
 ];
-$bodies = [['Corpo grande', '24 px', 'Regular (400)', 'bg-type--l'], ['Corpo', '20 px', 'Regular (400)', 'bg-type--m'], ['Corpo piccolo', '18 px', 'Regular (400)', 'bg-type--s']];
+$bodies = [['Corpo grande', '22 px', 'Regular (400)', 'bg-type--l'], ['Corpo', '18 px', 'Regular (400)', 'bg-type--m'], ['Corpo piccolo', '14 px', 'Regular (400)', 'bg-type--s']];
 
 $colors = [
     ['Accento', '#742EFF', 'accent', 'Colore del corso: marchio ed enfasi.'],
@@ -89,11 +95,11 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
     <ol>
       <?php foreach ($toc as $id => [$title, $subs]): ?>
       <li>
-        <a href="#<?= $id ?>"><?= $title ?></a>
+        <a href="#<?= $id ?>"><?= $title ?><?= in_array($id, $wip, true) ? ' <span class="bg-wip" title="In lavorazione">WIP</span>' : '' ?></a>
         <?php if ($subs): ?>
         <ol>
           <?php foreach ($subs as $subId => $subTitle): ?>
-          <li><a href="#<?= $subId ?>"><?= $subTitle ?></a></li>
+          <li><a href="#<?= $subId ?>"><?= $subTitle ?><?= in_array($subId, $wip, true) ? ' <span class="bg-wip" title="In lavorazione">WIP</span>' : '' ?></a></li>
           <?php endforeach ?>
         </ol>
         <?php endif ?>
@@ -165,8 +171,8 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
       <?= $h3('target') ?>
       <p>Il tono di voce di IEA è target-driven: è basato sulla persona o sull'organizzazione a cui si rivolge, e usa poche regole precise per evitare la frammentazione e mantenere consistenza comunicativa. Il soggetto o i pronomi personali seguono regole diverse a seconda dei gruppi di attori a cui ci si rivolge.</p>
       <div class="bg-grid bg-grid--4">
-        <div class="bg-card"><h4>Livello 1</h4><ul><li>Aspiranti studenti</li><li>Matricole</li><li>Studenti</li><li>Dottorandi</li><li>Alumni</li><li>Docenti</li><li>Personale tecnico e amministrativo</li></ul></div>
-        <div class="bg-card"><h4>Livello 2</h4><ul><li>Comunità scientifica</li><li>Professionisti</li><li>Istituzioni</li></ul></div>
+        <div class="bg-card"><h4>Livello 1</h4><ul><li>Aspiranti studenti</li><li>Matricole</li><li>Studenti</li><li>Dottorandi</li><li>Alumni</li></ul></div>
+        <div class="bg-card"><h4>Livello 2</h4><ul><li>Docenti</li><li>Personale tecnico e amministrativo</li><li>Comunità scientifica</li><li>Professionisti</li><li>Istituzioni</li></ul></div>
         <div class="bg-card"><h4>Livello 3</h4><ul><li>Imprese</li><li>Stampa</li></ul></div>
         <div class="bg-card"><h4>Livello 4</h4><ul><li>Cittadinanza</li></ul></div>
       </div>
@@ -180,14 +186,13 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
           <tr><td>Docenti, personale, comunità scientifica, professionisti, istituzioni, imprese, stampa, cittadinanza</td><td>Informato, esperto, chiaro: <strong>istituzionale</strong></td><td>Informare, divulgare, rappresentare</td></tr>
         </tbody>
       </table>
-      <?= $note('Docenti e personale tecnico e amministrativo compaiono tra i destinatari del Livello 1, e quindi del tono amichevole, ma anche nella riga del tono istituzionale. Scegliere dove collocarli.') ?>
 
       <?= $h3('esempi-di-tono') ?>
       <div class="bg-grid bg-grid--2">
         <div class="bg-card">
           <h4>Tono amichevole</h4>
           <p class="bg-q">Come parla IEA quando usa un tono accogliente, chiaro, autentico?</p>
-          <p><strong>Soggetto:</strong> «il Corso» in terza persona; il soggetto può sempre essere sottinteso.</p>
+          <p><strong>Soggetto:</strong> «Egli», terza persona singolare. Il pronome personale soggetto può sempre essere sottinteso.</p>
           <blockquote class="bg-example">Il Corso IEA è tra i primi fondati in Italia: l'organizzazione è ben collaudata e in continuo miglioramento.</blockquote>
           <p class="bg-q">Come parla quando invita all'azione?</p>
           <p><strong>«Noi diamo del tu».</strong> Il pronome personale soggetto può sempre essere sottinteso. Evitare il gerundio, l'ironia e l'irriverenza.</p>
@@ -206,7 +211,6 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
           <blockquote class="bg-example">Presentare la domanda di partecipazione entro la scadenza indicata nel bando. Allegare i documenti richiesti senza superare i 15 MB totali.</blockquote>
         </div>
       </div>
-      <?= $note('l\'esempio del tono amichevole nel file Figma indica «Egli» in prima persona singolare, che è una terza persona: qui è scritto «il Corso» in terza persona. La frase del tono istituzionale era interrotta e qui è completata.') ?>
 
       <?= $h3('inclusivita') ?>
       <p>La comunicazione del corso non discrimina per genere, provenienza o condizione. Il corso è aperto a chi studia e a chi vorrebbe studiare qui, comprese le persone con disabilità e con disturbi specifici dell'apprendimento: ogni contenuto deve poter essere letto, capito e usato da tutte e tutti.</p>
@@ -216,7 +220,6 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
         <li>Scegliere immagini che valorizzino la diversità di genere, età, origine e condizione, senza stereotipi (vedi <a href="#linguaggio">Linguaggio</a> nelle immagini).</li>
         <li>Garantire l'accessibilità: contrasto, testo alternativo alle immagini, link che descrivono la destinazione (vedi <a href="#accessibilita">Accessibilità</a>).</li>
       </ul>
-      <?= $note('sezione completata dalle linee guida redazionali, ricavate dal manuale di immagine coordinata dell\'Università di Pisa: non era nel file Figma.') ?>
 
       <?= $h3('best-practice') ?>
       <ul>
@@ -245,7 +248,6 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
           <div class="bg-logo-box"><img src="<?= $logo('iea-logo-horizontal.svg') ?>" alt="Marchio IEA, versione orizzontale" width="683" height="109"></div>
         </div>
       </div>
-      <?= $note('il testo della panoramica nel file Figma era un segnaposto («ddd»): qui è scritto sulla base del manuale di Ateneo.') ?>
 
       <?= $h3('configurazioni') ?>
       <p>Il marchio esiste in quattro versioni. Si sceglie in base allo spazio disponibile:</p>
@@ -280,7 +282,6 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
         <span aria-hidden="true"></span>
         <img src="<?= $logo('iea-logo-horizontal.svg') ?>" alt="" width="683" height="109">
       </div>
-      <?= $note('regole sul marchio di Ateneo riprese dal manuale di immagine coordinata dell\'Università di Pisa: confermare con l\'Ateneo le proporzioni e l\'area di rispetto.') ?>
 
       <?= $h3('marchio-donts') ?>
       <div class="bg-grid bg-grid--3">
@@ -292,7 +293,6 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
         <?php endforeach ?>
       </div>
       <p>Il marchio non si riscrive con un altro carattere, non si separa dalla denominazione quando il formato lo prevede completo e non si colloca su immagini in cui perde leggibilità.</p>
-      <?= $note('il file Figma ha il titolo «Don\'ts» ma nessun contenuto: gli errori da evitare sono proposti sulla base del manuale di Ateneo.') ?>
     </section>
 
     <!-- 3. TIPOGRAFIA -->
@@ -332,7 +332,6 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
         </tbody>
       </table>
       <p>Regole d'uso: testo allineato a sinistra; righe di 60-75 caratteri; interlinea di circa 1,5 per il corpo e 1,1-1,2 per i titoli; maiuscolo continuo solo per piccole etichette; un solo livello di titolo per volta, senza saltare da H1 a H3.</p>
-      <?= $note('regole d\'uso dal manuale di Ateneo. Inoltre il sito del corso usa la scala di unipi.it (sul desktop H1 56 px, H2 40 px, H3 32 px, H4 22 px, corpo 18 px) e non quella di questo file Figma (H1 72 px, H2 60 px, H3 45 px, H4 32 px): scegliere quale scala vale.') ?>
     </section>
 
     <!-- 4. COLORE -->
@@ -374,7 +373,6 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
           <?php endforeach ?>
         </tbody>
       </table>
-      <?= $note('il file Figma indicava «AAA» per 5,87:1, che è AA, e per le soglie AA e AAA usava valori diversi dalle norme WCAG (AA 4,5:1 per il testo corrente e 3:1 per i testi grandi; AAA 7:1 e 4,5:1). I rapporti sono stati ricalcolati.') ?>
     </section>
 
     <!-- 5. IMMAGINI -->
@@ -384,55 +382,60 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
       <?= $h3('stile') ?>
       <p>Le immagini sono protagoniste nella comunicazione del corso: raccontano storie, riflettono i valori e l'identità complessa di Ingegneria Edile-Architettura Pisa. La qualità visiva è essenziale per trasmettere l'esperienza unica di chi studia e vive questo percorso.</p>
       <div class="bg-grid bg-grid--4">
-        <div class="bg-card"><h4>Shooting</h4><p>Servizi fotografici specifici realizzati per esigenze istituzionali e comunicative, fondamentali per progetti ad alta personalizzazione e rilevanza.</p></div>
-        <div class="bg-card"><h4>Banche immagini</h4><p>Risorsa quotidiana per immagini attuali, editoriali e tematiche, utili a mantenere freschezza e pertinenza nei contenuti.</p></div>
-        <div class="bg-card"><h4>IA</h4><p>Immagini e arte generate da IA possono essere utilizzate per facilitare e arricchire la produzione di contenuti editoriali e promozionali.</p></div>
-        <div class="bg-card bg-card--no"><h4>Amatoriali</h4><p>Da evitare nella comunicazione istituzionale e promozionale, per garantire professionalità e coerenza al brand del corso.</p></div>
+        <div class="bg-card bg-card--photo bg-card--tall"><?= $img('stile-shooting') ?><h4>Shooting</h4><p>Servizi fotografici specifici realizzati per esigenze istituzionali e comunicative, fondamentali per progetti ad alta personalizzazione e rilevanza.</p></div>
+        <div class="bg-card bg-card--photo bg-card--tall"><?= $img('stile-banche') ?><h4>Banche immagini</h4><p>Risorsa quotidiana per immagini attuali, editoriali e tematiche, utili a mantenere freschezza e pertinenza nei contenuti.</p></div>
+        <div class="bg-card bg-card--photo bg-card--tall"><?= $img('stile-ia') ?><h4>IA</h4><p>Immagini e arte generate da IA possono essere utilizzate per facilitare e arricchire la produzione di contenuti editoriali e promozionali.</p></div>
+        <div class="bg-card bg-card--photo bg-card--tall bg-card--no"><?= $img('stile-amatoriali') ?><h4>Amatoriali</h4><p>Da evitare nella comunicazione istituzionale e promozionale, per garantire professionalità e coerenza al brand del corso.</p></div>
       </div>
 
       <?= $h3('linguaggio') ?>
       <div class="bg-grid bg-grid--2">
-        <div class="bg-card"><h4>Unicità</h4><p>Evitare immagini artificiali o costruite; preferire ambienti e situazioni autentici e realistici, che colpiscano per originalità.</p></div>
-        <div class="bg-card"><h4>Luminosità e colore</h4><p>I colori e la luce devono apparire naturali, evitando toni troppo forti o saturi. Il flash va evitato, soprattutto nelle foto amatoriali.</p></div>
-        <div class="bg-card"><h4>Soggetti</h4><p>Garantire che il soggetto sia ben rappresentato, in ambienti ordinati e privi di distrazioni.</p></div>
-        <div class="bg-card"><h4>Inclusività</h4><p>Usare immagini che valorizzino la diversità politica, razziale, di genere e di età, evitando gli stereotipi.</p></div>
+        <div class="bg-card bg-card--photo bg-card--square"><?= $img('ling-unicita') ?><h4>Unicità</h4><p>Evitare immagini artificiali o costruite; preferire ambienti e situazioni autentici e realistici, che colpiscano per originalità.</p></div>
+        <div class="bg-card bg-card--photo bg-card--square"><?= $img('ling-luminosita') ?><h4>Luminosità e colore</h4><p>I colori e la luce devono apparire naturali, evitando toni troppo forti o saturi. Il flash va evitato, soprattutto nelle foto amatoriali.</p></div>
+        <div class="bg-card bg-card--photo bg-card--square"><?= $img('ling-soggetti') ?><h4>Soggetti</h4><p>Garantire che il soggetto sia ben rappresentato, in ambienti ordinati e privi di distrazioni.</p></div>
+        <div class="bg-card bg-card--photo bg-card--square"><?= $img('ling-inclusivita') ?><h4>Inclusività</h4><p>Usare immagini che valorizzino la diversità politica, razziale, di genere e di età, evitando gli stereotipi.</p></div>
       </div>
 
       <?= $h3('tagli') ?>
       <p>Una buona inquadratura mette a fuoco il soggetto, è luminosa e nitida e racconta una situazione reale. Da evitare:</p>
-      <ul class="bg-chips bg-chips--no">
-        <?php foreach ($shots as $shot): ?><li><span class="bg-no">No</span> <?= $shot ?></li><?php endforeach ?>
-      </ul>
-      <?= $note('nel file Figma questa pagina mostra otto esempi fotografici da banche immagini, con le sole didascalie: qui sono riportate le didascalie. Servono esempi propri del corso.') ?>
+      <div class="bg-grid bg-grid--4 bg-shots">
+        <?php foreach (range(1, 8) as $n): ?>
+        <?= $img('tagli-' . $n) ?>
+        <?php endforeach ?>
+      </div>
+      <?= $note('le fotografie di questa sezione vengono dal file Figma e sembrano da banche immagini: controllare le licenze d\'uso prima di pubblicare la pagina. Servono esempi propri del corso.') ?>
 
       <?= $h3('soggetti') ?>
-      <div class="bg-grid bg-grid--2">
-        <article class="bg-card bg-card--photo">
-          <?php if ($photos['persone']): ?><img src="<?= $photos['persone'] ?>" alt="Studentesse e studenti camminano sorridendo davanti a un edificio universitario" width="800" height="533" loading="lazy"><?php endif ?>
-          <h4>Persone</h4>
-          <p>Le immagini devono essere semplici e autentiche, mettendo in luce persone reali anziché modelli. È preferibile catturare interazioni naturali piuttosto che pose statiche, per raccontare relazioni genuine. Gli scatti ideali sono spontanei e offrono uno sguardo reale sulla vita universitaria. I soggetti devono apparire positivi, accoglienti e naturali, con una rappresentanza equilibrata di etnie, età e generi, riflettendo la diversità del nostro contesto.</p>
-        </article>
-        <article class="bg-card bg-card--photo">
-          <div class="bg-placeholder">Esempio da aggiungere</div>
-          <h4>Architettura</h4>
-          <p>Le immagini devono mettere in risalto ciò che rende unico il nostro corso e l'ateneo pisano, inserito in un contesto urbano ricco di storia e servizi. I luoghi devono apparire vivi, contemporanei e accoglienti, con un dinamismo dato dalla presenza delle persone in armonia con l'ambiente universitario.</p>
-        </article>
-        <article class="bg-card bg-card--photo">
-          <div class="bg-placeholder">Esempio da aggiungere</div>
-          <h4>Natura</h4>
-          <p>Lo stile fotografico per soggetti naturali, paesaggi e aree urbane deve essere semplice e autentico, valorizzando la luce naturale e composizioni pulite. Nelle aree urbane è importante mostrare luoghi vivi e accoglienti, integrando la presenza umana per creare dinamismo e raccontare relazioni autentiche con l'ambiente. L'obiettivo è catturare momenti reali e atmosfere genuine, evitando artificiosità e privilegiando armonia, profondità ed equilibrio visivo.</p>
-        </article>
-        <article class="bg-card bg-card--photo">
-          <div class="bg-placeholder">Esempio da aggiungere</div>
-          <h4>Dettagli</h4>
-          <p>La fotografia di dettagli, macro, pattern e texture si concentra sull'esaltazione di elementi minuti, rivelando forme e trame spesso invisibili a occhio nudo. Utilizza luci morbide e laterali per valorizzare rilievi e profondità, e una messa a fuoco precisa per catturare la nitidezza dei particolari. Questo approccio trasforma superfici e motivi in soggetti artistici e trasforma ripetizioni, moduli e dettagli tecnici in elementi che toccano la soglia dell'astratto.</p>
-        </article>
-        <article class="bg-card bg-card--photo">
-          <?php if ($photos['unilife']): ?><img src="<?= $photos['unilife'] ?>" alt="Studentesse e studenti al lavoro nella sala di lettura di una biblioteca, vista dall'alto" width="800" height="533" loading="lazy"><?php endif ?>
-          <h4>Uni life</h4>
-          <p>Le fotografie della vita universitaria devono catturare momenti autentici e quotidiani, riflettendo i valori del corso di laurea: inclusività, collaborazione, impegno e crescita personale. Devono mostrare studenti e docenti impegnati nello studio, nel confronto e nelle attività sociali, con un'atmosfera positiva e accogliente. Le immagini raccontano storie di passione, innovazione e appartenenza, offrendo uno sguardo sincero e dinamico sulla vita dentro e fuori le aule.</p>
-        </article>
-      </div>
+      <article class="bg-subject">
+        <div class="bg-subject__text"><h4>Persone</h4><p>Le immagini devono essere semplici e autentiche, mettendo in luce persone reali anziché modelli. È preferibile catturare interazioni naturali piuttosto che pose statiche, per raccontare relazioni genuine. Gli scatti ideali sono spontanei e offrono uno sguardo reale sulla vita universitaria. I soggetti devono apparire positivi, accoglienti e naturali, con una rappresentanza equilibrata di etnie, età e generi, riflettendo la diversità del nostro contesto.</p></div>
+        <div class="bg-gallery bg-gallery--portrait">
+          <?php foreach (range(1, 3) as $n): ?><?= $img('pers-' . $n) ?><?php endforeach ?>
+        </div>
+      </article>
+      <article class="bg-subject">
+        <div class="bg-subject__text"><h4>Architettura</h4><p>Le immagini devono mettere in risalto ciò che rende unico il nostro corso e l'ateneo pisano, inserito in un contesto urbano ricco di storia e servizi. I luoghi devono apparire vivi, contemporanei e accoglienti, con un dinamismo dato dalla presenza delle persone in armonia con l'ambiente universitario.</p></div>
+        <div class="bg-gallery bg-gallery--portrait">
+          <?php foreach (range(1, 3) as $n): ?><?= $img('arch-' . $n) ?><?php endforeach ?>
+        </div>
+      </article>
+      <article class="bg-subject">
+        <div class="bg-subject__text"><h4>Natura</h4><p>Lo stile fotografico per soggetti naturali, paesaggi e aree urbane deve essere semplice e autentico, valorizzando la luce naturale e composizioni pulite. Nelle aree urbane è importante mostrare luoghi vivi e accoglienti, integrando la presenza umana per creare dinamismo e raccontare relazioni autentiche con l'ambiente. L'obiettivo è catturare momenti reali e atmosfere genuine, evitando artificiosità e privilegiando armonia, profondità ed equilibrio visivo.</p></div>
+        <div class="bg-gallery bg-gallery--wide">
+          <?php foreach (range(1, 4) as $n): ?><?= $img('nat-' . $n) ?><?php endforeach ?>
+        </div>
+      </article>
+      <article class="bg-subject">
+        <div class="bg-subject__text"><h4>Dettagli</h4><p>La fotografia di dettagli, macro, pattern e texture si concentra sull'esaltazione di elementi minuti, rivelando forme e trame spesso invisibili a occhio nudo. Utilizza luci morbide e laterali per valorizzare rilievi e profondità, e una messa a fuoco precisa per catturare la nitidezza dei particolari. Questo approccio trasforma superfici e motivi in soggetti artistici e trasforma ripetizioni, moduli e dettagli tecnici in elementi che toccano la soglia dell'astratto.</p></div>
+        <div class="bg-gallery bg-gallery--wide">
+          <?php foreach (range(1, 4) as $n): ?><?= $img('det-' . $n) ?><?php endforeach ?>
+        </div>
+      </article>
+      <article class="bg-subject">
+        <div class="bg-subject__text"><h4>Uni life</h4><p>Le fotografie della vita universitaria devono catturare momenti autentici e quotidiani, riflettendo i valori del corso di laurea: inclusività, collaborazione, impegno e crescita personale. Devono mostrare studenti e docenti impegnati nello studio, nel confronto e nelle attività sociali, con un'atmosfera positiva e accogliente. Le immagini raccontano storie di passione, innovazione e appartenenza, offrendo uno sguardo sincero e dinamico sulla vita dentro e fuori le aule.</p></div>
+        <div class="bg-gallery bg-gallery--wide">
+          <?php foreach (range(1, 4) as $n): ?><?= $img('uni-' . $n) ?><?php endforeach ?>
+        </div>
+      </article>
 
       <?= $h3('trattamenti') ?>
       <p>Le fotografie si usano a colori. Per esigenze grafiche sono ammessi tre trattamenti, sempre con i colori della palette e mai con l'Accento come sfondo:</p>
@@ -444,11 +447,9 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
         </figure>
         <?php endforeach ?>
       </div>
-      <?= $note('nel file Figma i tre riquadri erano vuoti: i trattamenti sono descritti sulla base della palette del corso.') ?>
 
       <?= $h3('rapporto-marchio') ?>
-      <p>Il marchio su una fotografia si colloca in una zona uniforme e libera, lontano dai volti e dai dettagli importanti. Sulle immagini scure o sul gradiente si usa la versione bianca, su quelle chiare la versione a colori o nera. Il marchio non si appoggia su zone affollate o a basso contrasto e rispetta sempre la dimensione minima. Non si applicano riquadri, bordi o ombre per «salvare» la leggibilità: si cambia l'immagine o la versione del marchio.</p>
-      <?= $note('testo completato sulla base del manuale di Ateneo: nel file Figma c\'era un testo segnaposto (lorem ipsum).') ?>
+      <p>Il marchio su una fotografia si colloca in una zona uniforme e libera, lontano da volti e dettagli. Sulle immagini scure o sul gradiente si usa la versione bianca, su quelle chiare la versione a colori o nera. Non si applicano riquadri, bordi o ombre: si cambia l'immagine o la versione del marchio.</p>
     </section>
 
     <!-- 6. FORMAT -->
@@ -457,8 +458,41 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
 
       <?= $h3('concept') ?>
       <p>Un format è un impaginato che si ripete: stessa posizione del marchio, stessa gerarchia di titolo e testo, stesso uso del colore, con contenuti che cambiano di volta in volta. Serve a riconoscere subito il corso, qualunque sia il mezzo, e a produrre materiali più in fretta.</p>
-      <p>Ogni format del corso ha una fotografia protagonista, un titolo in Inter, un testo breve in Titillium Web, il marchio in uno degli angoli e un solo accento di colore per il concetto principale. Le immagini arrivano da servizi fotografici dedicati o da banche immagini; si ricorre alle immagini generate con IA per fluidificare il flusso dei contenuti, e si evitano quelle amatoriali.</p>
-      <?= $note('il testo del concept nel file Figma era un segnaposto (lorem ipsum): qui è scritto sulla base del manuale di Ateneo.') ?>
+      <p>Un format può essere <strong>grafico</strong>, <strong>tipografico</strong> o <strong>basato su immagini</strong>. In ogni caso rispetta la palette del corso, la tipografia (Inter per i titoli, Titillium Web per il testo) e le fasce di rispetto: lo spazio libero attorno al marchio e i margini del formato.</p>
+      <div class="bg-grid bg-grid--3">
+        <div class="bg-card"><h4>Grafico</h4><p>Forme, campiture e filetti nei colori della palette, senza fotografie. Adatto a locandine, copertine e comunicazioni di servizio.</p></div>
+        <div class="bg-card"><h4>Tipografico</h4><p>Il testo è il protagonista: un titolo in Inter ben dimensionato, con poche parole e un solo accento di colore.</p></div>
+        <div class="bg-card"><h4>Basato su immagini</h4><p>Una fotografia protagonista, scelta secondo le regole della sezione Immagini, con titolo e marchio in zone libere.</p></div>
+      </div>
+
+      <?= $h3('composizione') ?>
+      <p>La composizione è libera. Si consiglia però di seguire le buone prassi della percezione visiva, in particolare i principi della psicologia della Gestalt: servono a far capire un impaginato prima ancora di leggerlo.</p>
+      <div class="bg-grid bg-grid--3 bg-gestalt">
+        <figure class="bg-card">
+          <svg viewBox="0 0 120 70" aria-hidden="true"><g class="s"><circle cx="12" cy="22" r="5"/><circle cx="26" cy="22" r="5"/><circle cx="40" cy="22" r="5"/><circle cx="80" cy="22" r="5"/><circle cx="94" cy="22" r="5"/><circle cx="108" cy="22" r="5"/><circle cx="12" cy="48" r="5"/><circle cx="26" cy="48" r="5"/><circle cx="40" cy="48" r="5"/><circle cx="80" cy="48" r="5"/><circle cx="94" cy="48" r="5"/><circle cx="108" cy="48" r="5"/></g></svg>
+          <figcaption><h4>Prossimità</h4><p>Ciò che è vicino si legge come un gruppo. Tieni insieme titolo, testo e link che parlano della stessa cosa e separali dal resto con lo spazio.</p></figcaption>
+        </figure>
+        <figure class="bg-card">
+          <svg viewBox="0 0 120 70" aria-hidden="true"><g class="s"><circle cx="16" cy="16" r="6"/><circle cx="44" cy="16" r="6"/><circle cx="72" cy="16" r="6"/><circle cx="100" cy="16" r="6"/><circle cx="16" cy="54" r="6"/><circle cx="100" cy="54" r="6"/><circle cx="16" cy="35" r="6"/><circle cx="44" cy="54" r="6"/><circle cx="100" cy="35" r="6"/></g><g class="a"><circle cx="44" cy="35" r="6"/><circle cx="72" cy="35" r="6"/><circle cx="72" cy="54" r="6"/></g></svg>
+          <figcaption><h4>Somiglianza</h4><p>Elementi con lo stesso colore, la stessa forma o la stessa dimensione hanno la stessa funzione. L'Accento è per ciò che conta davvero, e solo per quello.</p></figcaption>
+        </figure>
+        <figure class="bg-card">
+          <svg viewBox="0 0 120 70" aria-hidden="true"><path class="line" d="M6 50 C 30 6, 52 6, 62 34 S 94 62, 114 18" fill="none"/><g class="s"><circle cx="6" cy="50" r="4"/><circle cx="30" cy="22" r="4"/><circle cx="62" cy="34" r="4"/><circle cx="88" cy="50" r="4"/><circle cx="114" cy="18" r="4"/></g></svg>
+          <figcaption><h4>Continuità</h4><p>L'occhio segue linee e allineamenti. Allinea gli elementi a una griglia e ai margini del formato, in modo che il percorso di lettura sia evidente.</p></figcaption>
+        </figure>
+        <figure class="bg-card">
+          <svg viewBox="0 0 120 70" aria-hidden="true"><rect class="frame" x="4" y="4" width="112" height="62"/><rect class="respect" x="16" y="14" width="88" height="42"/><rect class="a" x="52" y="26" width="20" height="18"/></svg>
+          <figcaption><h4>Spazio e fasce di rispetto</h4><p>Il vuoto attorno a un elemento lo fa emergere dallo sfondo. Lascia libero lo spazio attorno al marchio e ai margini: non è spazio sprecato.</p></figcaption>
+        </figure>
+        <figure class="bg-card">
+          <svg viewBox="0 0 120 70" aria-hidden="true"><rect class="t" x="8" y="10" width="84" height="12"/><rect class="s" x="8" y="32" width="60" height="6"/><rect class="s" x="8" y="44" width="70" height="6"/><rect class="s" x="8" y="56" width="46" height="6"/></svg>
+          <figcaption><h4>Gerarchia</h4><p>Dimensione, peso e contrasto indicano cosa leggere per primo. Un titolo, un sottotitolo, un testo: tre livelli bastano.</p></figcaption>
+        </figure>
+        <figure class="bg-card">
+          <svg viewBox="0 0 120 70" aria-hidden="true"><rect class="frame" x="4" y="4" width="112" height="62"/><path class="grid" d="M41 4v62M79 4v62M4 25h112M4 45h112"/><circle class="a" cx="79" cy="25" r="7"/></svg>
+          <figcaption><h4>Equilibrio e terzi</h4><p>Dividi il formato in tre parti per lato e metti il soggetto su una linea o su un incrocio: la composizione è più viva di una centrata e simmetrica.</p></figcaption>
+        </figure>
+      </div>
 
       <?= $h3('format-applicazione') ?>
       <div class="bg-grid bg-grid--4">
@@ -504,12 +538,11 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
           <table class="bg-table">
             <thead><tr><th scope="col">Font</th><th scope="col">Colore</th></tr></thead>
             <tbody>
-              <tr><td>Helvetica bold, 12 px<br>Helvetica italic, 12 px<br>Helvetica regular, 12 px</td><td><span class="bg-dot bg-dot--black"></span> Nero #000000<br><span class="bg-dot bg-dot--grey"></span> Grigio antracite #8B8C8F</td></tr>
+              <tr><td>Helvetica bold, 12 px<br>Helvetica italic, 12 px<br>Helvetica regular, 12 px</td><td><span class="bg-dot bg-dot--black"></span> Nero #000000<br><span class="bg-dot bg-dot--grey"></span> Grigio antracite #1F1F1F</td></tr>
             </tbody>
           </table>
         </div>
       </div>
-      <?= $note('nel file Figma l\'indirizzo era «www.unipit.it» e il corso «Architeettura»: corretti. Il grigio #8B8C8F su bianco ha un contrasto di 3,36:1, inferiore al minimo di 4,5:1: valutare un grigio più scuro, come #1F1F1F indicato dal manuale di Ateneo (16,48:1).') ?>
     </section>
 
   </div>

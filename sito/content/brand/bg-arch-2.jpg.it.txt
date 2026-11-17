@@ -1,0 +1,9 @@
+Alt: Facciata curva in lamiera ruggine contro il cielo
+
+----
+
+Uuid: mttccflf00vk72do
+
+----
+
+Template: immagine
