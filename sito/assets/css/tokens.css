@@ -12,6 +12,7 @@
 
   /* Colore del corso (marchio IEA): segnala dove ci si trova; link e pulsanti restano nel blu reale */
   --color-accent: #742eff;       /* 5,87:1 su bianco */
+  --color-live: #d4202b;         /* pallino ORA/LIVE: segnale, non testo */
 
   /* Colori di servizio (tema di unipi.it) */
   --color-text: #000;

@@ -1,0 +1,17 @@
+Title: ATI Project Integrated Design Challenge 2026: multidisciplinary contest
+
+----
+
+Slug: ati-project
+
+----
+
+Summary: Integrated design contest for students of several degree programmes. €5,000 in vouchers and an internship at ATI Project are up for grabs. Registration by 24 October 2026.
+
+----
+
+Text: [{"content":{"text":"<p>ATI Project, an integrated engineering and architectural design firm, is running the Integrated Design Challenge 2026, with the patronage of the DESTEC Department and the School of Engineering of the University of Pisa. Teams of students from different programmes work on a realistic case study, with the dynamics, timing and complexity of the professional world, and put forward a project that brings their skills together.</p><p><strong>Prizes:</strong> €5,000 in vouchers and an internship at ATI Project.</p>"},"id":"d8c67400-7cfb-4fec-a01f-974f8269f25e","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Aims"},"id":"322c01d9-9f41-4cc1-8e77-c984c2180591","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>encourage collaboration between different disciplines;</p></li><li><p>value teamwork;</p></li><li><p>stimulate innovative, sustainable and feasible solutions;</p></li><li><p>test the ability to decide within limited time;</p></li><li><p>assess how flexible the team is when changes and unexpected events come up during the day;</p></li><li><p>bring the student community closer to integrated design.</p></li></ul>"},"id":"03e77838-a16b-495a-ae00-019210a2c251","isHidden":false,"type":"list"},{"content":{"level":"h2","text":"Who can take part"},"id":"3ba5825d-0952-43f9-998d-258bddf1aee3","isHidden":false,"type":"heading"},{"content":{"text":"<p>The call is open to students who, on the closing date of applications, are regularly enrolled in one of these programmes of the University of Pisa:</p>"},"id":"750fb632-8bc8-473c-a748-825d65b12322","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><p>Master's degree in Energy Engineering;</p></li><li><p>Master's degree in Electrical Engineering;</p></li><li><p>Master's degree in Management Engineering;</p></li><li><p>Master's degree in Civil and Environmental Infrastructure Engineering;</p></li><li><p><strong>Single-cycle Master's degree in Architecture and Building Engineering</strong>, for students beyond the 3rd year who have completed the exams of the first three years.</p></li></ul>"},"id":"5336e377-89d2-410b-8d27-4afeaf060e6a","isHidden":false,"type":"list"},{"content":{"level":"h2","text":"How to take part"},"id":"dd4e7bc5-844b-4556-a28b-eb854616dc1a","isHidden":false,"type":"heading"},{"content":{"text":"<p>Apply with the online form, attaching your CV. A maximum of 30 students will be admitted, chosen on the basis of their CV.</p><p><strong>Registration deadline:</strong> Saturday 24 October 2026.</p><p>The contest takes place on <strong>Saturday 7 November 2026</strong> at the School of Engineering.</p><p><a href=\"https://destec.unipi.it/sites/default/files/2026-09/bando-unipi_ati-project-2026.pdf\">Call</a> (PDF, in Italian) · <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSf7Osf_AUarzeu3j6_QAo2EfNCAOrXct8Rn0A96aRa1oWhkNQ/viewform?usp=publish-editor\">Application form</a> (in Italian) · <a href=\"/en/noticeboard/ati-project/locandina-ati-project-2026.pdf\">Poster</a> (PDF)</p>"},"id":"02c5d3ae-a1b6-471e-a955-45acf24b7a25","isHidden":false,"type":"text"}]
+
+----
+
+Place: School of Engineering, Pisa

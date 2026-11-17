@@ -1,0 +1,37 @@
+Title: ATI Project Integrated Design Challenge 2026: contest multidisciplinare
+
+----
+
+Summary: Contest di progettazione integrata per studenti e studentesse di più corsi di laurea. In palio 5.000 € in buoni acquisto e uno stage presso ATI Project. Iscrizioni entro il 24 ottobre 2026.
+
+----
+
+Text: [{"content":{"text":"<p>ATI Project, società di progettazione integrata ingegneristica e architettonica, organizza l'Integrated Design Challenge 2026, con il patrocinio del Dipartimento DESTEC e della Scuola di Ingegneria dell'Università di Pisa. Gruppi di studenti e studentesse di corsi diversi lavorano a un caso studio realistico, con le dinamiche, i tempi e la complessità del mondo professionale, e propongono un progetto che integra le loro competenze.</p><p><strong>In palio:</strong> 5.000 € in buoni acquisto e uno stage presso ATI Project.</p>"},"id":"72eac43c-3275-4c87-adde-07d9366b2c3a","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Obiettivi"},"id":"e9d545b3-49b2-4bc7-817e-d9f897cab78c","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><p>favorire la collaborazione tra discipline diverse;</p></li><li><p>valorizzare il lavoro in gruppo;</p></li><li><p>stimolare soluzioni innovative, sostenibili e realizzabili;</p></li><li><p>mettere alla prova la capacità di decidere in tempi limitati;</p></li><li><p>valutare la flessibilità del gruppo davanti a variazioni e imprevisti durante la giornata;</p></li><li><p>avvicinare la comunità studentesca alla progettazione integrata.</p></li></ul>"},"id":"96033f9d-e7d3-429a-9580-9f1221098335","isHidden":false,"type":"list"},{"content":{"level":"h2","text":"Per chi"},"id":"37060093-6320-4c86-8a89-bb73415cd61c","isHidden":false,"type":"heading"},{"content":{"text":"<p>Il bando è per chi è regolarmente iscritta o iscritto, alla data di chiusura delle candidature, a uno di questi corsi dell'Università di Pisa:</p>"},"id":"7e96d71b-e6a1-418b-bf1f-5eb64b8042ac","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><p>Laurea Magistrale in Ingegneria Energetica;</p></li><li><p>Laurea Magistrale in Ingegneria Elettrica;</p></li><li><p>Laurea Magistrale in Ingegneria Gestionale;</p></li><li><p>Laurea Magistrale in Ingegneria delle Infrastrutture Civili e dell'Ambiente;</p></li><li><p><strong>Laurea Magistrale a ciclo unico in Ingegneria Edile-Architettura</strong>, per chi è iscritto oltre il 3° anno e ha completato gli esami dei primi tre anni.</p></li></ul>"},"id":"40cc887a-466b-4ca1-b3ad-98776606b513","isHidden":false,"type":"list"},{"content":{"level":"h2","text":"Come partecipare"},"id":"b928efca-5d34-4f39-a50c-203d0b587430","isHidden":false,"type":"heading"},{"content":{"text":"<p>Si partecipa con il modulo online, a cui allegare il curriculum vitae. Sono ammessi al massimo 30 studenti e studentesse, scelti in base al curriculum.</p><p><strong>Scadenza delle iscrizioni:</strong> sabato 24 ottobre 2026.</p><p>Il contest si tiene <strong>sabato 7 novembre 2026</strong> alla Scuola di Ingegneria.</p><p><a href=\"https://destec.unipi.it/sites/default/files/2026-09/bando-unipi_ati-project-2026.pdf\">Bando</a> (PDF) · <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSf7Osf_AUarzeu3j6_QAo2EfNCAOrXct8Rn0A96aRa1oWhkNQ/viewform?usp=publish-editor\">Modulo di partecipazione</a> · <a href=\"/it/bacheca/ati-project/locandina-ati-project-2026.pdf\">Locandina</a> (PDF)</p>"},"id":"3a60c0e4-67e5-4701-bd00-d6c3d5490e22","isHidden":false,"type":"text"}]
+
+----
+
+Category: bandi-e-opportunita
+
+----
+
+Date: 2026-09-29
+
+----
+
+Start: 2026-11-07
+
+----
+
+Place: Scuola di Ingegneria, Pisa
+
+----
+
+Deadline: 2026-10-24
+
+----
+
+Cover: - file://hnprewpjlugottmv
+
+----
+
+Uuid: n2cov8ubkesosdj7

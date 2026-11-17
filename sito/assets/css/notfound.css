@@ -1,0 +1,62 @@
+/* Pagina non trovata: foto a tutta larghezza (Unsplash) con un riquadro blu notte a sinistra */
+.notfound {
+  position: relative;
+  display: grid;
+  align-items: center;
+  min-height: max(34rem, calc(100svh - 12rem));
+  overflow: hidden;
+  background: var(--color-secondary);
+}
+.notfound__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 65% 80%; /* la figura in basso resta in vista */
+}
+.notfound__inner {
+  position: relative;
+  padding-block: var(--space-7);
+}
+.notfound__panel {
+  max-width: 34rem;
+  padding: var(--space-5);
+  background: var(--color-secondary);
+  color: #fff;
+}
+.notfound__code {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: clamp(4.5rem, 14vw, 8rem);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+.notfound__panel h1 {
+  margin: var(--space-2) 0 var(--space-3);
+  color: #fff;
+  font-size: var(--fs-h2);
+}
+.notfound__lead {
+  margin: 0 0 var(--space-4);
+  font-size: 1.125rem;
+}
+.notfound .search-form {
+  max-width: none;
+  border-color: #fff;
+  background: #fff;
+}
+.notfound__home {
+  margin: var(--space-4) 0 0;
+  font-weight: 600;
+}
+.notfound__panel a {
+  color: #fff;
+}
+@media (max-width: 36em) {
+  .notfound__panel {
+    padding: var(--space-4);
+  }
+}

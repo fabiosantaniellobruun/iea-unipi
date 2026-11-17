@@ -6,6 +6,7 @@
 
 require_once __DIR__ . '/calendar.php';
 require_once __DIR__ . '/search.php';
+require_once __DIR__ . '/live.php';
 
 /** Vero se l'indirizzo porta fuori dal sito */
 function isExternal(?string $url): bool
@@ -105,6 +106,12 @@ Kirby::plugin('iea/site', [
         'pages/bacheca' => roleBlueprint('pages/bacheca.yml'),
     ],
     'routes' => [
+        // Dati della barra ORA/LIVE e dei toast (non vanno in cache: cambiano con il giorno e con il pannello)
+        [
+            'pattern'  => 'live.json',
+            'language' => '*',
+            'action'   => fn (string $language) => liveResponse($language),
+        ],
         // Indirizzo breve della guida per la redazione
         [
             'pattern' => 'admin-help',

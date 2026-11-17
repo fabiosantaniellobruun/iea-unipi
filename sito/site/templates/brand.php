@@ -67,14 +67,14 @@ $colors = [
 ];
 
 $contrasts = [
-    ['Testo #171718 su Supporto #E8EAEF', '14,88:1', 'AAA', 'Testo di ogni dimensione'],
-    ['Testo #171718 su bianco', '17,92:1', 'AAA', 'Testo di ogni dimensione'],
-    ['Bianco su Secondario #1A315D', '12,79:1', 'AAA', 'Testo di ogni dimensione, sfondi scuri'],
-    ['Secondario #1A315D su Supporto #E8EAEF', '10,63:1', 'AAA', 'Testo di ogni dimensione'],
-    ['Accento #742EFF su bianco', '5,87:1', 'AA', 'Titoli grandi, enfasi, link: non per testi lunghi o piccoli'],
-    ['Accento #742EFF su Supporto #E8EAEF', '4,88:1', 'AA', 'Titoli grandi ed enfasi'],
-    ['Accento #742EFF su Testo #171718', '3,05:1', 'Solo grandi', 'Solo testi grandi e grafica, da evitare'],
-    ['Accento #742EFF su Secondario #1A315D', '2,18:1', 'No', 'Mai: non è leggibile'],
+    ['Testo #171718 su Supporto #E8EAEF', '14,88:1', 'AAA', 'Testo di ogni dimensione', '#171718', '#E8EAEF'],
+    ['Testo #171718 su bianco', '17,92:1', 'AAA', 'Testo di ogni dimensione', '#171718', '#FFFFFF'],
+    ['Bianco su Secondario #1A315D', '12,79:1', 'AAA', 'Testo di ogni dimensione, sfondi scuri', '#FFFFFF', '#1A315D'],
+    ['Secondario #1A315D su Supporto #E8EAEF', '10,63:1', 'AAA', 'Testo di ogni dimensione', '#1A315D', '#E8EAEF'],
+    ['Accento #742EFF su bianco', '5,87:1', 'AA', 'Titoli grandi, enfasi, link: non per testi lunghi o piccoli', '#742EFF', '#FFFFFF'],
+    ['Accento #742EFF su Supporto #E8EAEF', '4,88:1', 'AA', 'Titoli grandi ed enfasi', '#742EFF', '#E8EAEF'],
+    ['Accento #742EFF su Testo #171718', '3,05:1', 'Solo grandi', 'Solo testi grandi e grafica, da evitare', '#742EFF', '#171718'],
+    ['Accento #742EFF su Secondario #1A315D', '2,18:1', 'No', 'Mai: non è leggibile', '#742EFF', '#1A315D'],
 ];
 
 $donts = [
@@ -366,10 +366,10 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
       <p>Per mantenere alti gli standard di accessibilità, va sempre controllato che il contrasto tra testo e sfondo sia alto: il livello AAA (almeno 7:1) è l'obiettivo per i contenuti informativi e per i testi; il livello AA (almeno 4,5:1) è il minimo ammesso per il testo corrente e può essere usato per i testi grandi, da 24 px in su. Per verificare una combinazione si può usare <a href="https://webaim.org/resources/contrastchecker/" rel="external">il verificatore di contrasto di WebAIM</a>.</p>
       <table class="bg-table">
         <caption class="visually-hidden">Contrasto delle combinazioni di colore</caption>
-        <thead><tr><th scope="col">Combinazione</th><th scope="col">Contrasto</th><th scope="col">Livello</th><th scope="col">Uso</th></tr></thead>
+        <thead><tr><th scope="col">Esempio</th><th scope="col">Combinazione</th><th scope="col">Contrasto</th><th scope="col">Livello</th><th scope="col">Uso</th></tr></thead>
         <tbody>
-          <?php foreach ($contrasts as [$pair, $ratio, $level, $use]): ?>
-          <tr><th scope="row"><?= $pair ?></th><td><?= $ratio ?></td><td><strong><?= $level ?></strong></td><td><?= $use ?></td></tr>
+          <?php foreach ($contrasts as [$pair, $ratio, $level, $use, $fg, $bg]): ?>
+          <tr><td><span class="bg-sample" style="color: <?= $fg ?>; background: <?= $bg ?>" aria-hidden="true"><strong>Aa</strong> Testo</span></td><th scope="row"><?= $pair ?></th><td><?= $ratio ?></td><td><strong><?= $level ?></strong></td><td><?= $use ?></td></tr>
           <?php endforeach ?>
         </tbody>
       </table>
