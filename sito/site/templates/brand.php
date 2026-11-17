@@ -403,7 +403,6 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
         <?= $img('tagli-' . $n) ?>
         <?php endforeach ?>
       </div>
-      <?= $note('le fotografie di questa sezione vengono dal file Figma e sembrano da banche immagini: controllare le licenze d\'uso prima di pubblicare la pagina. Servono esempi propri del corso.') ?>
 
       <?= $h3('soggetti') ?>
       <article class="bg-subject">
