@@ -26,6 +26,7 @@ Footerlinks:
 - aziende-ed-enti
 - servizi-di-ateneo
 - mappa-del-sito
+- crediti
 
 ----
 

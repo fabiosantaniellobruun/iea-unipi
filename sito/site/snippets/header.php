@@ -5,6 +5,17 @@ $active   = $page->parents()->last() ?? $page; // sezione di primo livello della
 ?>
 <nav class="quickbar" aria-label="<?= t('menu.quick') ?>">
   <div class="container">
+    <?php // il giorno di un evento con data compare qui (ORA/LIVE); i dati arrivano da live.json, quindi senza nuovi deploy ?>
+    <div class="live" data-live data-url="<?= $kirby->language()->url() ?>/live.json" role="region" aria-label="<?= t('live.aria') ?>" hidden>
+      <span class="live__dot" aria-hidden="true"></span>
+      <strong class="live__label"><?= t('live.label') ?></strong>
+      <span class="live__item" aria-live="polite"><a data-live-link href="#"></a> <span data-live-when></span></span>
+      <span class="live__nav" data-live-nav hidden>
+        <button type="button" data-live-prev aria-label="<?= t('live.prev') ?>"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button>
+        <span data-live-count aria-hidden="true"></span>
+        <button type="button" data-live-next aria-label="<?= t('live.next') ?>"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+      </span>
+    </div>
     <ul>
       <?php foreach ($site->quicklinks()->toStructure() as $link): ?>
       <?php $url = $link->link()->toUrl() ?>

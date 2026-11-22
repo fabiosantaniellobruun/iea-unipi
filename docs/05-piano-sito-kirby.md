@@ -174,26 +174,31 @@ Ogni pagina ha un file per lingua (`.it.txt`, `.en.txt`). Il pannello mostra un 
 **Risultato:** il cliente pubblica una notizia di prova in autonomia su dev.
 
 ## Fase 7: verifiche finali
-- **Accessibilità WCAG 2.1 AA:** controlli automatici (axe o pa11y); controlli manuali con tastiera e lettore di schermo (NVDA, VoiceOver); contrasti; ingrandimento al 200%.
-- **Compatibilità e velocità:** browser principali, Lighthouse.
-- **Revisione dei contenuti** con il cliente.
-- **Dichiarazione di accessibilità** sul form AgID: a cura dell'Ateneo.
-- **Privacy:** pagina dedicata o rimando a quella di Ateneo.
+**Stato (17 novembre 2026): da fare, dopo il caricamento su dev.** Fatti in locale: controllo automatico con axe sulle pagine principali (nessuna violazione WCAG 2.1 AA) e verifica dei link e degli allegati su tutto il sito (128 pagine, 82 collegamenti ad allegati).
+- **Accessibilità WCAG 2.1 AA:** ripetere i controlli automatici (axe o pa11y) su dev; controlli manuali con tastiera e lettore di schermo (NVDA, VoiceOver); contrasti; ingrandimento al 200%.
+- **Compatibilità e velocità:** browser principali, Lighthouse, su dev.
+- **Revisione dei contenuti** con il cliente: le segnalazioni `[DA VERIFICARE]` e `[DA FORNIRE]` si risolvono sul sito, con il [foglio di revisione](revisione-contenuti.xlsx). I contenuti sono già stati confrontati con la pagina del corso su unipi.it (settembre 2026).
+- **Dichiarazione di accessibilità** sul form AgID: a cura dell'Ateneo. Nel footer il sito rimanda già alle pagine Accessibilità e Privacy di Ateneo.
+- **Privacy:** rimando alla pagina di Ateneo, salvo diversa indicazione.
 
 **Risultato:** verbale di verifica e via libera del cliente.
 
 ## Fase 8: messa online
+**Stato (17 novembre 2026): in preparazione.** Lo spazio dev è attivo (`dev.iea.ing.unipi.it`, accesso FTP solo da rete di Ateneo o VPN) e c'è lo script di caricamento; manca il primo caricamento. Una demo statica del sito è su GitHub Pages (ricavata dal sito Kirby, senza pannello né ricerca) e serve solo a mostrare il lavoro in corso.
+- **Primo caricamento su dev** con `sito/tools/carica-dev.sh` (password FTP nel portachiavi), in tre passi: `controllo` (versione di PHP, estensioni, limiti, `.htaccess`, `mail()`; i file di controllo si cancellano subito), `primo` (tutto, account del pannello compresi) e poi `aggiorna` (codice e grafica, mai `content/` né gli account). Il database fornito dall'Ateneo non serve a Kirby.
 - **Copia da dev a produzione:** l'intera cartella del sito, contenuti compresi, una sola volta. Da quel momento il cliente lavora solo su `iea.ing.unipi.it`.
 - **Configurazione di produzione:** cache attiva, errori nascosti, rimozione del `noindex`, sitemap.
-- **Licenza di Kirby:** si registra dal pannello del sito online. Kirby la salva in `site/config/.license`, che è escluso da git e quindi non arriva con il repository.
+- **Licenza di Kirby:** si acquista a cura del cliente e si registra dal pannello del sito online. Kirby la salva in `site/config/.license`, che è escluso da git e quindi non arriva con il repository.
 - **Redirect dai vecchi indirizzi** con `.htaccess`, dalla tabella in [02-architettura.md](02-architettura.md).
 - **Sito attuale:** l'Ateneo lo sposta in un archivio.
 - **Dopo il lancio:** dev resta per le modifiche future allo sviluppo, con contenuti di prova.
 
 ## Fase 9: consegna
+**Stato (17 novembre 2026): da fare.** Già pronti: la guida per la redazione (`/admin-help`, illustrata, non linkata dal sito) e le [brand guidelines](https://fabiosantaniellobruun.github.io/iea-unipi/it/brand/) del corso (`/it/brand`, non linkata, `noindex`).
 - Account di amministratore del pannello al referente del corso.
-- Documentazione tecnica: struttura dei file, come aggiornare Kirby, come aggiungere un tipo di pagina.
+- Documentazione tecnica: struttura dei file, come aggiornare Kirby, come aggiungere un tipo di pagina, come caricare gli aggiornamenti (`carica-dev.sh`).
 - Sessione di formazione sul pannello per chi pubblicherà.
+- **Brand guidelines:** decidere se e dove pubblicarle (ora solo in via non linkata) e verificare le licenze delle fotografie prima di consegnarle o di rendere pubblico il repository.
 
 ---
 
@@ -205,11 +210,13 @@ Ogni pagina ha un file per lingua (`.it.txt`, `.en.txt`). Il pannello mostra un 
 - **Fasi 7, 8 e 9:** in sequenza, alla fine.
 
 Rilasci intermedi da mostrare al cliente su `dev.iea.ing.unipi.it`:
-1. pagina di prova della grafica (fine Fase 1);
-2. sito navigabile con tutte le tipologie di pagina (fine Fase 3);
-3. sito completo e pannello pronto per il cliente (fine Fase 6);
+1. pagina di prova della grafica (fine Fase 1): fatto e approvato;
+2. sito navigabile con tutte le tipologie di pagina (fine Fase 3): fatto, visibile in locale e nella demo su GitHub Pages;
+3. sito completo e pannello pronto per il cliente (fine Fase 6): fatto in locale, da caricare su dev;
 4. messa online.
 
 ## Punti ancora aperti
-1. Sito dev, estensioni PHP, limiti di PHP (`upload_max_filesize` e `post_max_size` almeno 20 MB, `memory_limit` 256 MB per le immagini), backup e invio delle email dal server (serve al recupero della password del pannello): da confermare con l'IT.
-2. Approvazione della pagina di prova della grafica, prima della Fase 3.
+1. **Server dev:** confermare con il primo `controllo` la versione di PHP (serve 8.4 o successivo), le estensioni, i limiti (`upload_max_filesize` e `post_max_size` almeno 20 MB, `memory_limit` 256 MB per le immagini), la cartella pubblica, il protocollo (FTP, FTPS o SFTP) e il funzionamento di `.htaccess`. Da chiedere all'IT: backup e invio delle email dal server (serve al recupero della password del pannello).
+2. **Licenza di Kirby:** da acquistare a cura del cliente.
+3. **Licenze delle fotografie** delle brand guidelines (vengono dal file Figma, sembrano da banche immagini): il repository è pubblico e la demo le mostra.
+4. **Contenuti:** restano le segnalazioni `[DA VERIFICARE]` e `[DA FORNIRE]`, che il cliente risolve sul sito.

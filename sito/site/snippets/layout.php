@@ -22,8 +22,8 @@ $languageCode = $kirby->language()?->code() ?? 'it';
   <meta name="robots" content="noindex, nofollow">
   <?php endif ?>
   <script>document.documentElement.classList.add('js')</script>
-  <?= css(['assets/css/tokens.css', 'assets/css/fonts.css', 'assets/css/base.css', 'assets/css/layout.css', 'assets/css/components.css']) ?>
-  <?= js('assets/js/main.js', ['defer' => true]) ?>
+  <?= css(['assets/css/tokens.css', 'assets/css/fonts.css', 'assets/css/base.css', 'assets/css/layout.css', 'assets/css/components.css', 'assets/css/live.css']) ?>
+  <?= js(['assets/js/main.js', 'assets/js/live.js'], ['defer' => true]) ?>
   <?php foreach ($kirby->languages() as $language): ?>
   <link rel="alternate" hreflang="<?= $language->code() ?>" href="<?= $page->url($language->code()) ?>">
   <?php endforeach ?>
@@ -34,7 +34,8 @@ $languageCode = $kirby->language()?->code() ?? 'it';
   <?php snippet('header') ?>
 
   <main id="contenuto" tabindex="-1">
-    <?php if ($page->isHomePage() === false): ?>
+    <?php // la home e la pagina non trovata hanno una testata propria ?>
+    <?php if ($page->isHomePage() === false && $page->intendedTemplate()->name() !== 'error'): ?>
     <div class="container page-header">
       <h1><?= $page->title()->esc() ?></h1>
       <?php snippet('breadcrumb') ?>
@@ -55,5 +56,12 @@ $languageCode = $kirby->language()?->code() ?? 'it';
   </main>
 
   <?php snippet('footer') ?>
+
+  <?php if (in_array($page->intendedTemplate()->name(), ['guida', 'brand', 'styleguide'], true) === false): ?>
+  <?php // toast delle ultime dalla bacheca, in basso a sinistra: si riempiono da soli con live.json ?>
+  <aside class="toasts" id="toasts" data-url="<?= $kirby->language()->url() ?>/live.json" aria-label="<?= t('toast.aria') ?>"
+         data-label="<?= t('toast.label') ?>" data-read="<?= t('toast.read') ?>" data-close="<?= t('toast.close') ?>"
+         data-prev="<?= t('toast.prev') ?>" data-next="<?= t('toast.next') ?>" hidden></aside>
+  <?php endif ?>
 </body>
 </html>

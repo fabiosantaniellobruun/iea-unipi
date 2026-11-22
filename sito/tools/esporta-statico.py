@@ -7,6 +7,7 @@ Uso (dalla cartella sito/, con il server locale acceso su localhost:8000):
 Segue i link interni da /it e /en e aggiunge la pagina delle brand guidelines (/it/brand, non linkata dal sito). Nella demo non ci sono pannello, guida per la redazione e ricerca;
 il calendario e la bacheca restano come erano al momento dell'esportazione.
 """
+import json
 import os
 import re
 import shutil
@@ -20,8 +21,8 @@ BASE = "/iea-unipi"
 PUBLIC_HOST = "fabiosantaniellobruun.github.io" + BASE
 
 MONTHS = ("2026-07", "2027-06")  # il calendario ha un link al mese dopo e prima di ogni mese, senza fine: se ne copia solo un intervallo
-SKIP = re.compile(r"^/(panel|admin-help|api)(/|$)|/(cerca|search)(\.json)?$|\.json$")
-ATTR = re.compile(r'\b(href|src|action|poster)="([^"]*)"')
+SKIP = re.compile(r"^/(panel|admin-help|api)(/|$)|/(cerca|search)(\.json)?$")
+ATTR = re.compile(r'\b(href|src|action|poster|data-url)="([^"]*)"')
 SRCSET = re.compile(r'\bsrcset="([^"]*)"')
 CSS_URL = re.compile(r'url\(\s*["\']?([^"\')]+)["\']?\s*\)')
 
@@ -96,7 +97,7 @@ def rewrite(html):
 
 
 def main(out):
-    queue = ["/it", "/en", "/it/brand"]
+    queue = ["/it", "/en", "/it/brand", "/it/live.json", "/en/live.json"]
     seen, failed, count = set(), [], 0
 
     if os.path.isdir(out):
@@ -118,7 +119,20 @@ def main(out):
             continue
 
         base_path = local_file(url)
-        if kind == "text/html":
+        if kind == "application/json":
+            # live.json (barra ORA/LIVE e toast): gli indirizzi diventano quelli della demo e si scaricano le immagini
+            def convert(value):
+                if isinstance(value, str) and value.startswith(SRC):
+                    queue.append(clean(value))
+                    return public_href(value)
+                if isinstance(value, list):
+                    return [convert(item) for item in value]
+                if isinstance(value, dict):
+                    return {key: convert(item) for key, item in value.items()}
+                return value
+            body = json.dumps(convert(json.loads(body)), ensure_ascii=False).encode("utf-8")
+            target_file = os.path.join(out, urllib.parse.urlsplit(base_path).path.lstrip("/"))
+        elif kind == "text/html":
             html = body.decode("utf-8")
             for link in links(html):
                 target = clean(link)

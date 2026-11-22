@@ -1,0 +1,263 @@
+/* Barra ORA/LIVE nella quickbar e toast delle notizie. I dati arrivano da live.json (vedi assets/js/live.js). */
+
+/* ---- Quickbar: eventi del giorno a sinistra, link rapidi a destra ---- */
+.quickbar .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 var(--space-4);
+}
+.quickbar ul {
+  margin-left: auto;
+}
+.live {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+  max-width: 100%;
+  padding: var(--space-1) 0;
+  font-size: var(--fs-label);
+  line-height: 1.3;
+}
+.live[hidden],
+.live__nav[hidden],
+.toasts[hidden] {
+  display: none;
+}
+.live__dot {
+  flex: none;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background: var(--color-live);
+  animation: live-blink 1.4s ease-in-out infinite;
+}
+@keyframes live-blink {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-live) 45%, transparent);
+  }
+  50% {
+    opacity: 0.25;
+    box-shadow: 0 0 0 0.3rem color-mix(in srgb, var(--color-live) 0%, transparent);
+  }
+}
+.live__label {
+  flex: none;
+  color: var(--color-secondary);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+.live__item {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.live__item a {
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+.live__nav {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: var(--space-1);
+  color: var(--color-text-muted);
+}
+.live__nav button {
+  display: grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  border: 1px solid var(--color-secondary);
+  background: transparent;
+  color: var(--color-secondary);
+  cursor: pointer;
+}
+.live__nav button:hover {
+  background: var(--color-secondary);
+  color: #fff;
+}
+.live__nav .icon {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+@media (max-width: 36em) {
+  .live {
+    flex: 1 1 100%;
+  }
+  .live__item {
+    white-space: normal;
+  }
+}
+
+/* ---- Toast: ultime dalla bacheca, in basso a sinistra ---- */
+.toasts {
+  position: fixed;
+  bottom: var(--space-3);
+  left: var(--space-3);
+  z-index: 40;
+  width: min(calc(100% - 2 * var(--space-3)), 32rem);
+  transition:
+    opacity 0.35s ease,
+    translate 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.toasts:not(.is-open) {
+  opacity: 0;
+  translate: 0 1.5rem;
+  pointer-events: none;
+}
+.toasts__bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2);
+  border: 1px solid var(--color-secondary);
+  background: var(--color-bg);
+  box-shadow: 0 0.75rem 2rem rgb(26 49 93 / 0.25);
+}
+.toasts__label {
+  margin: 0 auto 0 var(--space-1);
+  color: var(--color-text-muted);
+  font-size: var(--fs-label);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.toasts__count {
+  white-space: nowrap;
+}
+@media (max-width: 30em) {
+  .toasts__name {
+    display: none;
+  }
+}
+.toasts__btn {
+  display: inline-grid;
+  place-items: center;
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0 var(--space-2);
+  border: 1px solid var(--color-secondary);
+  background: transparent;
+  color: var(--color-secondary);
+  font: inherit;
+  font-size: var(--fs-small);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.toasts__btn:hover {
+  background: var(--color-secondary);
+  color: #fff;
+}
+.toasts__btn:focus-visible,
+.toast:focus-visible,
+.live a:focus-visible,
+.live__nav button:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+.toasts__btn .icon {
+  width: 1rem;
+  height: 1rem;
+}
+/* tutte le card nella stessa cella: la pila è alta quanto la più alta e quelle dietro sporgono sotto */
+.toasts__stack {
+  display: grid;
+  padding-bottom: 1.75rem;
+}
+.toast {
+  display: flex;
+  grid-area: 1 / 1;
+  min-width: 0;
+  border: 1px solid var(--color-rule);
+  border-top: 4px solid var(--color-secondary);
+  background: var(--color-support);
+  color: inherit;
+  text-decoration: none;
+  transform-origin: 50% 0;
+  --o: 0;
+  transform: translateY(calc(var(--o) * 0.9rem)) scale(calc(1 - var(--o) * 0.05));
+  opacity: calc(1 - var(--o) * 0.35);
+  filter: blur(calc(var(--o) * 1.5px));
+  z-index: calc(10 - var(--o));
+  transition:
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.45s ease,
+    filter 0.45s ease;
+}
+.toast[data-offset="0"] {
+  --o: 0;
+}
+.toast[data-offset="1"] {
+  --o: 1;
+  pointer-events: none;
+}
+.toast[data-offset="2"] {
+  --o: 2;
+  pointer-events: none;
+}
+.toast[data-offset="far"] {
+  --o: 3;
+  opacity: 0;
+  pointer-events: none;
+}
+.toast:hover .toast__title {
+  text-decoration: underline;
+}
+.toast__image {
+  flex: none;
+  width: 6rem;
+  object-fit: cover;
+  background: var(--color-bg);
+}
+.toast__body {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-1);
+  padding: var(--space-3);
+}
+.toast__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-2);
+  color: var(--color-text-muted);
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+.toast__kind {
+  padding: 0 var(--space-2);
+  border: 1px solid currentcolor;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.toast__title {
+  margin: 0;
+  color: var(--color-secondary);
+  font-family: var(--font-display);
+  font-size: var(--fs-h4);
+  font-weight: 600;
+  line-height: 1.2;
+}
+@media (prefers-reduced-motion: reduce) {
+  .live__dot {
+    animation: none;
+  }
+  .toasts,
+  .toast {
+    transition: none;
+  }
+}
