@@ -14,8 +14,8 @@ $toc = [
     'tipografia'   => ['3. Tipografia', ['font-principale' => 'Font principale', 'font-secondario' => 'Font secondario', 'tipografia-web' => 'Utilizzo su web']],
     'colore'       => ['4. Colore', ['palette' => 'Palette', 'colore-utilizzo' => 'Utilizzo', 'accessibilita' => 'Accessibilità']],
     'immagini'     => ['5. Immagini', ['stile' => 'Stile', 'linguaggio' => 'Linguaggio', 'tagli' => 'Tagli e inquadrature', 'soggetti' => 'Soggetti', 'trattamenti' => 'Trattamenti', 'rapporto-marchio' => 'Rapporto con il marchio']],
-    'format'       => ['6. Format', ['concept' => 'Concept', 'composizione' => 'Composizione', 'format-applicazione' => 'Applicazione']],
-    'applicazioni' => ['7. Applicazioni', ['documenti' => 'Documenti', 'cancelleria' => 'Cancelleria', 'sito-web' => 'Sito web', 'poster' => 'Poster', 'brochure' => 'Brochure', 'merchandising' => 'Merchandising', 'newsletter' => 'Newsletter', 'social-media' => 'Social media', 'firma-email' => 'Firma email']],
+    'format'       => ['6. Format', ['concept' => 'Concept', 'composizione' => 'Composizione']],
+    'applicazioni' => ['7. Applicazioni', ['documenti' => 'Documenti', 'cancelleria' => 'Cancelleria', 'sito-web' => 'Sito web', 'poster' => 'Poster', 'brochure' => 'Brochure', 'newsletter' => 'Newsletter', 'social-media' => 'Social media', 'firma-email' => 'Firma email']],
 ];
 $titles = [];
 foreach ($toc as $id => [$title, $subs]) {
@@ -23,7 +23,7 @@ foreach ($toc as $id => [$title, $subs]) {
     $titles += $subs;
 }
 // sezioni su cui si deve ancora lavorare: nell'indice portano il tag WIP
-$wip = ['format', 'format-applicazione', 'applicazioni'];
+$wip = [];
 $h2 = fn (string $id) => '<h2 id="' . $id . '">' . $titles[$id] . '</h2>';
 $h3 = fn (string $id) => '<h3 id="' . $id . '">' . $titles[$id] . '</h3>';
 
@@ -35,6 +35,11 @@ $photo = function (string $name, int $width = 800) {
 $img = function (string $name, string $class = '') use ($page) {
     $file = $page->image("bg-$name.jpg");
     return $file ? '<img' . ($class ? ' class="' . $class . '"' : '') . ' src="' . $file->url() . '" alt="' . $file->alt()->esc() . '" width="' . $file->width() . '" height="' . $file->height() . '" loading="lazy">' : '';
+};
+// foto per i mockup delle applicazioni, ridotte
+$pic = function (string $name, int $width = 900) use ($page) {
+    $file = $page->image("bg-$name.jpg") ?? $page->image("bg-$name.png") ?? $page->image("bg-$name.webp");
+    return $file ? $file->thumb(['width' => $width])->url() : '';
 };
 $photos = ['persone' => $photo('iscriviti.jpg'), 'unilife' => $photo('studi.jpg'), 'laureati' => $photo('laureati.jpg')];
 
@@ -492,38 +497,170 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
           <figcaption><h4>Equilibrio e terzi</h4><p>Dividi il formato in tre parti per lato e metti il soggetto su una linea o su un incrocio: la composizione è più viva di una centrata e simmetrica.</p></figcaption>
         </figure>
       </div>
-
-      <?= $h3('format-applicazione') ?>
-      <div class="bg-grid bg-grid--4">
-        <div class="bg-placeholder bg-placeholder--tall">Esempio da aggiungere</div>
-        <div class="bg-placeholder bg-placeholder--tall">Esempio da aggiungere</div>
-        <div class="bg-placeholder bg-placeholder--tall">Esempio da aggiungere</div>
-        <div class="bg-placeholder bg-placeholder--tall">Esempio da aggiungere</div>
-      </div>
     </section>
 
     <!-- 7. APPLICAZIONI -->
     <section aria-labelledby="applicazioni">
       <?= $h2('applicazioni') ?>
-      <?= $note('nel file Figma le pagine delle applicazioni mostrano solo i mockup, senza testi, tranne la firma email. Le indicazioni qui sotto sono proposte sulla base del manuale di Ateneo e di questo documento.') ?>
-      <div class="bg-grid bg-grid--2">
-        <article class="bg-card" id="documenti"><h3>Documenti</h3><p>Carta intestata e documenti ufficiali: marchio in alto a sinistra, titoli in Inter, testo in Titillium Web, colori Testo e Secondario. L'Accento solo per un elemento di enfasi.</p></article>
-        <article class="bg-card" id="cancelleria"><h3>Cancelleria</h3><p>Biglietti da visita, buste e cartelline: marchio nella versione orizzontale o verticale, fondo bianco o Supporto, nessun colore pieno di Accento.</p></article>
-        <article class="bg-card" id="sito-web"><h3>Sito web</h3><p>Il sito del corso (<a href="<?= url() ?>"><?= parse_url(site()->url(), PHP_URL_HOST) ?></a>) segue la grafica di unipi.it: titoli Inter in blu notte, testo Titillium Web, link e pulsanti in blu reale, sfondi Supporto. L'Accento viola segnala il corso, per esempio nel marchio e nei filetti attivi.</p></article>
-        <article class="bg-card" id="poster"><h3>Poster</h3><p>Fotografia a tutta pagina o fondo Secondario, titolo grande in Inter, marchio in basso o in alto a sinistra con la dimensione minima rispettata. Date e luogo in evidenza, un solo accento di colore.</p></article>
-        <article class="bg-card" id="brochure"><h3>Brochure</h3><p>Copertina con fotografia e marchio; pagine interne con titoli Inter, testo Titillium Web, riquadri Supporto per date, requisiti e contatti.</p></article>
-        <article class="bg-card" id="merchandising"><h3>Merchandising</h3><p>Marchio in bianco su Secondario o su Testo, oppure in nero su fondi chiari, nella versione solo acronimo se lo spazio è poco. Mai l'Accento come colore di fondo.</p></article>
-        <article class="bg-card" id="newsletter"><h3>Newsletter</h3><p>Testata con il marchio, colonna singola larga al massimo 600 px, titoli in Inter (con carattere di riserva sicuro per le email), pulsanti in blu reale, link descrittivi, testo alternativo alle immagini.</p></article>
-        <article class="bg-card" id="social-media">
-          <h3>Social media</h3>
-          <p>Avatar: acronimo IEA su Supporto o Secondario. Per ogni piattaforma si usa il format del corso:</p>
-          <ul>
-            <li><strong>Instagram:</strong> 1080 × 1350 px, verticale.</li>
-            <li><strong>LinkedIn:</strong> 1200 × 627 px, orizzontale.</li>
-            <li><strong>Facebook:</strong> 1200 × 630 px, orizzontale.</li>
-          </ul>
-          <p>Testi nel tono amichevole; testo alternativo alle immagini.</p>
-        </article>
+      <p>Esempi di applicazione del marchio, costruiti con i colori, i font e le fotografie di questo documento e con contenuti reali del sito. Sono modelli da adattare: le misure indicate sono quelle del formato finale.</p>
+
+      <?= $h3('documenti') ?>
+      <p>Carta intestata e documenti ufficiali: marchio di Ateneo e marchio del corso in alto a sinistra, titoli in Inter, testo in Titillium Web, colori Testo e Secondario. L'Accento solo per un elemento di enfasi.</p>
+      <div class="mk-stage">
+        <figure class="mk mk--a4">
+          <div class="mk-a4" role="img" aria-label="Carta intestata A4 con i marchi dell'Università di Pisa e del corso, una lettera di esempio e i contatti in basso">
+            <div class="mk-a4__head"><img class="mk-a4__unipi" src="<?= $logo('marchio_unipi_orizz_pant541.svg') ?>" alt=""><span></span><img class="mk-a4__iea" src="<?= $logo('iea-logo-horizontal.svg') ?>" alt=""></div>
+            <p class="mk-a4__date">Pisa, 19 novembre 2026</p>
+            <p class="mk-a4__to">Alle studentesse e agli studenti<br>del Corso di Laurea Magistrale a ciclo unico<br>in Ingegneria Edile-Architettura</p>
+            <p class="mk-a4__subject"><strong>Oggetto:</strong> esempio di comunicazione ufficiale</p>
+            <p>Gentili studentesse e studenti,</p>
+            <p>questo è un esempio di lettera del corso. Il testo è allineato a sinistra, in Titillium Web, con paragrafi brevi; le sigle si sciolgono alla prima occorrenza, come CFU (crediti formativi universitari).</p>
+            <p>Date, scadenze e requisiti vanno in elenchi, mai sepolti nel testo. Il marchio non si ridisegna e non si sposta dall'angolo in alto a sinistra.</p>
+            <p class="mk-a4__sign">Il Presidente del Corso di Laurea<br><strong>Prof. Arch. Luca Lanini</strong></p>
+            <p class="mk-a4__foot">Dipartimento DESTEC · Largo Lucio Lazzarino, 56122 Pisa · didatticadestec@ing.unipi.it · www.iea.ing.unipi.it</p>
+          </div>
+          <figcaption>Carta intestata · A4, 210 × 297 mm</figcaption>
+        </figure>
+      </div>
+
+      <?= $h3('cancelleria') ?>
+      <p>Biglietti da visita, buste e cartelline: marchio nella versione orizzontale o verticale, fondo bianco o Supporto; il retro può essere in Secondario con il marchio in bianco. Nessun colore pieno di Accento.</p>
+      <div class="mk-stage mk-stage--row">
+        <figure class="mk mk--card">
+          <div class="mk-card" role="img" aria-label="Biglietto da visita, fronte: marchio del corso, nome, ruolo e contatti">
+            <img class="mk-card__logo" src="<?= $logo('iea-logo-stacked-left.svg') ?>" alt="">
+            <div class="mk-card__who"><strong>Nome Cognome</strong><span>Unità didattica DESTEC</span><span>nome.cognome@unipi.it · 050 221 0000</span></div>
+          </div>
+          <figcaption>Biglietto da visita, fronte · 85 × 55 mm</figcaption>
+        </figure>
+        <figure class="mk mk--card">
+          <div class="mk-card mk-card--back" role="img" aria-label="Biglietto da visita, retro: acronimo IEA bianco su blu notte">
+            <img class="mk-white" src="<?= $logo('iea-logo-only.svg') ?>" alt="">
+          </div>
+          <figcaption>Retro</figcaption>
+        </figure>
+        <figure class="mk mk--envelope">
+          <div class="mk-envelope" role="img" aria-label="Busta con i marchi in alto a sinistra e l'indirizzo del destinatario in basso a destra">
+            <div class="mk-envelope__head"><img src="<?= $logo('marchio_unipi_orizz_pant541.svg') ?>" alt=""><span></span><img src="<?= $logo('iea-logo-horizontal.svg') ?>" alt=""></div>
+            <p class="mk-envelope__back">Dipartimento DESTEC · Largo Lucio Lazzarino · 56122 Pisa</p>
+            <p class="mk-envelope__to">Gentile<br>Nome Cognome<br>Via Esempio 1<br>56100 Pisa</p>
+          </div>
+          <figcaption>Busta · DL, 220 × 110 mm</figcaption>
+        </figure>
+      </div>
+
+      <?= $h3('sito-web') ?>
+      <p>Il sito del corso (<a href="<?= url() ?>"><?= parse_url(site()->url(), PHP_URL_HOST) ?></a>) segue la grafica di unipi.it: titoli Inter in blu notte, testo Titillium Web, link e pulsanti in blu reale, sfondi Supporto. L'Accento viola segnala il corso, per esempio nel marchio e nei filetti attivi.</p>
+      <div class="mk-stage">
+        <figure class="mk mk--web">
+          <div class="mk-browser"><div class="mk-browser__bar"><span></span><span></span><span></span><em>iea.ing.unipi.it</em></div><img src="<?= $pic('app-sito', 1440) ?>" alt="Home page del sito del corso su un computer" width="1440" height="900" loading="lazy"></div>
+          <div class="mk-phone"><img src="<?= $pic('app-sito-mobile', 780) ?>" alt="Home page del sito del corso su uno smartphone" width="780" height="1688" loading="lazy"></div>
+          <figcaption>Sito web, su computer e su smartphone</figcaption>
+        </figure>
+      </div>
+
+      <?= $h3('poster') ?>
+      <p>Fotografia a tutta pagina o fondo Secondario, titolo grande in Inter, marchi in bianco in una fascia blu notte in basso, dove si leggono meglio, con la dimensione minima rispettata. Date e luogo in evidenza, un solo accento di colore.</p>
+      <div class="mk-stage">
+        <figure class="mk mk--poster">
+          <div class="mk-poster" role="img" aria-label="Poster della conferenza COSTRUZIONE: fotografia di architettura, titolo grande in bianco, data 22 settembre 2026 e luogo Polo Porta Nuova, marchi in una fascia blu notte in basso">
+            <img class="mk-poster__photo" src="<?= $pic('arch-1') ?>" alt="">
+            <div class="mk-poster__body">
+              <p class="mk-poster__kicker">Conferenza di apertura dell'anno accademico 2026/27</p>
+              <p class="mk-poster__title">COSTRUZIONE</p>
+              <p class="mk-poster__when"><span></span>22 settembre 2026, ore 12:30<br>Polo Porta Nuova, aula PN9, Pisa</p>
+            </div>
+            <div class="mk-poster__head"><img class="mk-white" src="<?= $logo('marchio_unipi_orizz_pant541.svg') ?>" alt=""><span></span><img class="mk-white" src="<?= $logo('iea-logo-horizontal.svg') ?>" alt=""></div>
+          </div>
+          <figcaption>Poster · A3, 297 × 420 mm</figcaption>
+        </figure>
+      </div>
+
+      <?= $h3('brochure') ?>
+      <p>Pieghevole a tre ante su A4 orizzontale. In copertina il marchio del corso in bianco su Secondario, una fotografia e il marchio di Ateneo; all'interno una domanda per anta, con titoli in Inter, testo in Titillium Web e fasce Secondario per alternare il ritmo. I contatti e l'indirizzo del sito vanno sempre sul retro.</p>
+      <div class="mk-stage">
+        <figure class="mk mk--fold">
+          <img class="mk-fold" src="<?= $pic('pieghevole-1', 1600) ?>" alt="Pieghevole a tre ante, fronte: E dopo? con gli sbocchi professionali, Piano di studi con i contatti e copertina con il marchio IEA, il nome del corso e una fotografia di architettura" width="1988" height="1406" loading="lazy">
+          <figcaption>Pieghevole, fronte · A4 orizzontale, 297 × 210 mm, tre ante</figcaption>
+        </figure>
+        <figure class="mk mk--fold">
+          <img class="mk-fold" src="<?= $pic('pieghevole-2', 1600) ?>" alt="Pieghevole a tre ante, interno: Cos'è IEA?, Come accedo? e Cosa studierò?" width="1988" height="1406" loading="lazy">
+          <figcaption>Pieghevole, interno</figcaption>
+        </figure>
+      </div>
+
+      <?= $h3('newsletter') ?>
+      <p>Testata con il marchio, colonna singola larga al massimo 600 px, titoli in Inter (con un carattere di riserva sicuro per le email), pulsanti in blu reale, link descrittivi, testo alternativo alle immagini.</p>
+      <div class="mk-stage">
+        <figure class="mk mk--mail">
+          <div class="mk-mail" role="img" aria-label="Newsletter: testata con il marchio, fotografia, titolo, pulsante blu e due notizie della bacheca">
+            <div class="mk-mail__head"><img src="<?= $logo('iea-logo-horizontal.svg') ?>" alt=""><span>Novembre 2026</span></div>
+            <img class="mk-mail__photo" src="<?= $pic('ling-unicita') ?>" alt="">
+            <div class="mk-mail__body">
+              <p class="mk-mail__title">Le notizie del mese</p>
+              <p>Un riepilogo di avvisi, eventi e opportunità pubblicati in bacheca. Le date sono sempre in evidenza e ogni notizia porta alla pagina completa sul sito.</p>
+              <span class="mk-mail__btn">Vai alla bacheca</span>
+              <div class="mk-mail__item"><small>Bandi e opportunità · 7 novembre 2026</small><strong>ATI Project Integrated Design Challenge 2026</strong></div>
+              <div class="mk-mail__item"><small>Eventi · 25 settembre 2026</small><strong>BRIGHT-NIGHT 2026, la Notte europea delle Ricercatrici e dei Ricercatori</strong></div>
+            </div>
+            <div class="mk-mail__foot">Corso di Laurea Magistrale in Ingegneria Edile-Architettura · Università di Pisa<br>Ricevi questa email perché sei iscritta o iscritto alla newsletter. Cancella l'iscrizione.</div>
+          </div>
+          <figcaption>Newsletter · colonna di 600 px</figcaption>
+        </figure>
+      </div>
+
+      <?= $h3('social-media') ?>
+      <p>Avatar: acronimo IEA in bianco su Secondario, o a colori su Supporto. Post nel format del corso, testi nel tono amichevole, testo alternativo alle immagini. Formati: Instagram 1080 × 1350 px, reel e storie 1080 × 1920 px, LinkedIn 1200 × 627 px, Facebook 1200 × 630 px.</p>
+      <div class="mk-stage mk-stage--row mk-stage--center">
+        <figure class="mk mk--avatar">
+          <div class="mk-avatar" role="img" aria-label="Avatar: acronimo IEA bianco su cerchio blu notte"><img class="mk-white" src="<?= $logo('iea-logo-only.svg') ?>" alt=""></div>
+          <figcaption>Avatar su Secondario</figcaption>
+        </figure>
+        <figure class="mk mk--avatar">
+          <div class="mk-avatar mk-avatar--light" role="img" aria-label="Avatar: acronimo IEA viola su cerchio grigio chiaro"><img src="<?= $logo('iea-logo-only.svg') ?>" alt=""></div>
+          <figcaption>Avatar su Supporto</figcaption>
+        </figure>
+      </div>
+      <div class="mk-stage mk-stage--row">
+        <figure class="mk mk--ig">
+          <div class="mk-ig" role="img" aria-label="Post Instagram dell'evento BRIGHT-NIGHT 2026: fotografia di studenti, sfumatura blu notte e titolo bianco">
+            <img class="mk-ig__photo" src="<?= $pic('uni-1') ?>" alt="">
+            <img class="mk-white mk-ig__logo" src="<?= $logo('iea-logo-only.svg') ?>" alt="">
+            <div class="mk-ig__text"><span class="mk-ig__tag">Evento</span><p>BRIGHT-NIGHT 2026</p><small>25 settembre · Pisa, Firenze, Lucca, Siena</small></div>
+          </div>
+          <figcaption>Post Instagram, evento · 1080 × 1350</figcaption>
+        </figure>
+        <figure class="mk mk--ig">
+          <div class="mk-ig mk-ig--type" role="img" aria-label="Post Instagram tipografico su blu notte: 5 anni, 300 CFU, ingegnere e architetto">
+            <p>5 anni.<br>300 CFU.<br>Ingegnere <em>+</em> architetto.</p>
+            <img class="mk-white mk-ig__logo mk-ig__logo--bottom" src="<?= $logo('iea-logo-horizontal.svg') ?>" alt="">
+          </div>
+          <figcaption>Post Instagram, tipografico · 1080 × 1350</figcaption>
+        </figure>
+        <figure class="mk mk--reel">
+          <div class="mk-reel" data-reel role="img" aria-label="Reel di 12 secondi in tre scene: fotografia con la domanda Vuoi progettare il futuro?, i numeri del corso su blu notte, il marchio con l'indirizzo del sito">
+            <div class="mk-reel__scene mk-reel__scene--1"><img src="<?= $pic('ling-inclusivita') ?>" alt=""><p>Vuoi progettare il futuro?</p></div>
+            <div class="mk-reel__scene mk-reel__scene--2"><p>5 anni<br>300 CFU<br>Laurea abilitante</p></div>
+            <div class="mk-reel__scene mk-reel__scene--3"><img class="mk-white" src="<?= $logo('iea-logo-stacked.svg') ?>" alt=""><p>iea.ing.unipi.it</p></div>
+          </div>
+          <figcaption>Reel · 1080 × 1920, 12 secondi <button type="button" class="mk-reel__toggle" data-reel-toggle aria-pressed="false">Pausa</button></figcaption>
+        </figure>
+      </div>
+      <div class="mk-stage mk-stage--row">
+        <figure class="mk mk--li">
+          <div class="mk-li" role="img" aria-label="Post LinkedIn: fotografia di architettura a sinistra e, a destra, titolo ATI Project Integrated Design Challenge 2026 con la data">
+            <img class="mk-li__photo" src="<?= $pic('arch-3') ?>" alt="">
+            <div class="mk-li__text"><span class="mk-ig__tag mk-ig__tag--dark">Bandi e opportunità</span><p>ATI Project Integrated Design Challenge 2026</p><small>Contest multidisciplinare · 7 novembre 2026</small><img src="<?= $logo('iea-logo-horizontal.svg') ?>" alt=""></div>
+          </div>
+          <figcaption>Post LinkedIn · 1200 × 627</figcaption>
+        </figure>
+        <figure class="mk mk--li">
+          <div class="mk-li mk-li--fb" role="img" aria-label="Post Facebook su blu notte: le lezioni del 2026/27 iniziano il 21 settembre">
+            <div class="mk-li__text"><span class="mk-ig__tag">Avviso</span><p>Le lezioni del 2026/27 iniziano il 21 settembre</p><small>Orari per anno su iea.ing.unipi.it</small><img class="mk-white" src="<?= $logo('iea-logo-horizontal.svg') ?>" alt=""></div>
+            <img class="mk-li__photo" src="<?= $pic('nat-3') ?>" alt="">
+          </div>
+          <figcaption>Post Facebook · 1200 × 630</figcaption>
+        </figure>
       </div>
 
       <?= $h3('firma-email') ?>
@@ -546,6 +683,14 @@ $note = fn (string $text) => '<p class="bg-note">[DA VERIFICARE: ' . $text . ']<
 
   </div>
   <script>
+    // reel dimostrativo: si ferma e riparte; con "riduci animazioni" parte fermo
+    document.querySelectorAll('[data-reel-toggle]').forEach((button) => {
+      const reel = button.closest('figure').querySelector('[data-reel]');
+      const set = (paused) => { reel.toggleAttribute('data-paused', paused); button.setAttribute('aria-pressed', String(paused)); button.textContent = paused ? 'Riproduci' : 'Pausa'; };
+      set(matchMedia('(prefers-reduced-motion: reduce)').matches);
+      button.addEventListener('click', () => set(!reel.hasAttribute('data-paused')));
+    });
+
     // evidenzia nell'indice la sezione che si sta leggendo: l'ultima il cui titolo ha superato il quarto alto della finestra
     (() => {
       const links = [...document.querySelectorAll('.bg-nav a')];

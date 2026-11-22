@@ -1,0 +1,5 @@
+Alt: Home page del sito del corso vista su smartphone
+
+----
+
+Template: immagine
