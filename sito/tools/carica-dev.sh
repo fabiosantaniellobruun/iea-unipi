@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # Carica il sito su dev.iea.ing.unipi.it. Da lanciare dalla rete dell'Ateneo (o con la VPN).
 #
+#   tools/carica-dev.sh pulisci     cancella dal server i file di controllo
+#   tools/carica-dev.sh log         scarica i log degli ultimi 10 giorni (sola lettura)
+#   tools/carica-dev.sh elenco      elenca le cartelle sul server (nessuna scrittura)
 #   tools/carica-dev.sh controllo   i tre file di controllo di PHP e .htaccess (da cancellare dopo)
 #   tools/carica-dev.sh primo       primo caricamento: tutto, contenuti e account del pannello compresi
 #   tools/carica-dev.sh aggiorna    aggiornamenti: codice, grafica e librerie; MAI content/ e account
@@ -26,6 +29,46 @@ PASSWORD="$(security find-generic-password -a "$FTP_USER" -s iea-dev-ftp -w)" ||
 
 DRY=""; [ "$EXTRA" = "--dry-run" ] && DRY="--dry-run"
 VERIFICA="yes"; [ "${VERIFICA_CERTIFICATO:-yes}" = "no" ] && VERIFICA="no"
+
+if [ "$MODO" = "pulisci" ]; then
+  lftp -f /dev/stdin <<LFTP
+set ftp:ssl-allow yes
+set ftp:ssl-force no
+set ssl:verify-certificate $([ "${VERIFICA_CERTIFICATO:-yes}" = "no" ] && echo no || echo yes)
+open -u $FTP_USER,$PASSWORD $FTP_HOST
+rm -f ${REMOTE_DIR}/controllo-server.php ${REMOTE_DIR}/prova-rewrite.php ${REMOTE_DIR}/version.php
+bye
+LFTP
+  exit 0
+fi
+
+if [ "$MODO" = "log" ]; then
+  # scarica i log del server (sola lettura) in una cartella temporanea
+  DEST="${LOG_DIR:-$(mktemp -d)}"
+  lftp -f /dev/stdin <<LFTP
+set ftp:ssl-allow yes
+set ftp:ssl-force no
+set ssl:verify-certificate $([ "${VERIFICA_CERTIFICATO:-yes}" = "no" ] && echo no || echo yes)
+open -u $FTP_USER,$PASSWORD $FTP_HOST
+mirror --include-glob=*.log* --newer-than=now-10days /log "$DEST"
+bye
+LFTP
+  echo "Log in $DEST"
+  exit 0
+fi
+
+if [ "$MODO" = "elenco" ]; then
+  lftp -f /dev/stdin <<LFTP
+set ftp:ssl-allow yes
+set ftp:ssl-force no
+set ssl:verify-certificate $([ "${VERIFICA_CERTIFICATO:-yes}" = "no" ] && echo no || echo yes)
+set net:max-retries 2
+open -u $FTP_USER,$PASSWORD $FTP_HOST
+cls -l ${REMOTE_DIR}
+bye
+LFTP
+  exit 0
+fi
 
 # Copia pulita da caricare: i filtri con "/" iniziale valgono solo nella cartella principale
 # (dentro kirby/ e vendor/ servono i loro composer.json e README).

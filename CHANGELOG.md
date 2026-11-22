@@ -5,6 +5,8 @@ Il piano e lo stato delle fasi sono in [docs/05-piano-sito-kirby.md](docs/05-pia
 
 ## 22 novembre 2026
 - **Brand guidelines, sezione Applicazioni**: mockup di carta intestata, biglietti, cancelleria, sito web (desktop e mobile), poster, brochure (dal PDF di stampa, in WebP), newsletter, post social e reel, firma email. Rimossi merchandising, note provvisorie e tag WIP.
+- **Primo caricamento su dev.iea.ing.unipi.it** (cartella `/web`, FTPS con certificato autofirmato: `VERIFICA_CERTIFICATO=no`). Il sito non risponde ancora: il virtual host è spento dal 17 novembre, chiesto al reparto.
+- `carica-dev.sh`: nuovi modi `elenco` (cartelle sul server), `pulisci` (cancella i file di controllo e `version.php`) e `log` (scarica i log, sola lettura).
 
 ## 17 novembre 2026 (sera)
 - **Barra ORA/LIVE** in alto a sinistra (il giorno di un evento con data, con frecce se sono più di uno) e **toast** delle ultime dalla bacheca in basso a sinistra. I dati vengono da `/it/live.json` (`site/plugins/iea/live.php`, `assets/js/live.js`): si aggiornano dal pannello senza deploy. In sviluppo `?today=AAAA-MM-GG` simula un giorno.
